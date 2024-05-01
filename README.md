@@ -13,4 +13,9 @@ To run this notebook, you'll need the following Python packages:
 - pandas
 - seaborn
 - pickle
-- networkx
+- networkx=2.5
+
+You will also need to import and load the corresponding gz file attached in the repository. Here's how to do it (need networkx version 2.5):
+
+fname = 'db_mli_pc_231209_v2.gz'
+G = nx.read_gpickle(fname)
