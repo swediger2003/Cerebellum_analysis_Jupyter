@@ -43,6 +43,6 @@ Creates a violin plot visualizing the connections from different types of neuron
 Prints all connections between a list of neurons and a specified target neuron.
 
 Usage
-Load the neural network data using nx.read_gpickle().
-Explore the provided functions to analyze and visualize connections between neurons.
-Customize the notebook for specific analysis needs.
+Load the neural network data using nx.read_gpickle()./
+Explore the provided functions to analyze and visualize connections between neurons./
+Customize the notebook for specific analysis needs./
