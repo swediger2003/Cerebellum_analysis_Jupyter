@@ -40,9 +40,9 @@ Writes connection data between neurons to an Excel file.
 Creates a violin plot visualizing the connections from different types of neurons to a target neuron.
 
 7. check_all_connects(neurons, connect)\
-Prints all connections between a list of neurons and a specified target neuron.\
+Prints all connections between a list of neurons and a specified target neuron.
 
 Usage
 Load the neural network data using nx.read_gpickle().\
 Explore the provided functions to analyze and visualize connections between neurons.\
-Customize the notebook for specific analysis needs.\
+Customize the notebook for specific analysis needs.
