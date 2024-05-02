@@ -1,4 +1,7 @@
 # Cerebellum_analysis_jupyter
+
+Cole Gaynor and Sean Ediger
+
 Analysis of circuits in the Cerebellar Cortex while working at Harvard Med\
 Files:
 ### Synapse_automation_MLIs_PCs:
