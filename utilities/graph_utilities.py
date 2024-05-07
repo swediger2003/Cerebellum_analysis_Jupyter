@@ -1,7 +1,12 @@
 import networkx as nx
+from em_utilities import pc_to_cf
+# from em_utilities import mli_type_dict
 
 default_graph_name = 'verified_graph.gz'
 default_graph = nx.read_gml(default_graph_name)
+
+verified_graph_name = 'verified_graph.gz'
+G = nx.read_gml(verified_graph_name)
 
 #returns the amount of edges from from_node to to_node in a directed graph G
 def degree_between(from_node, to_node, G = default_graph):
@@ -33,7 +38,8 @@ def monosynaptic_mli1_to_pc_edges(pc, G = default_graph):
 
 # Given a list of pc, generate its list of disynaptic MLI2s and MLI1s from its climbing fiber and return a list of edges that connect those MLI2s to those MLI1s.
 def climbing_fiber_mli2_to_mli1_edges(pc, G = default_graph):
-    pass
+    cf = pc_to_cf(pc)
+    
 
 def successors_by_type(neuron, neuron_type, G = default_graph):
     result = []
