@@ -7,6 +7,20 @@ import gspread
 # https://docs.python.org/3/library/csv.html
 import csv
 
+from gspread_credentials import credentials
+
+# define service account to open documents with. 
+service_account = gspread.service_account_from_dict(credentials)
+
+# defines document objects, used to import sheets
+reconstruction_doc = service_account.open('EM_RECONSTRUCTIONS_CG_SE')
+cf_synapse_doc = service_account.open('Manual Check CF Synapses')
+neighbor_pathway_doc = service_account.open('Neighboring PC Pathways')
+
+# gets commonly used sheets from the documents defined above
+collected_data = cf_synapse_doc.get('Collected Data') # contains all synapse data for manually verified synapses from EM. 
+
+# checks the default graph. 
 if __name__ == '__main__':
     DEFAULT_GRAPH_NAME = 'verified_graph.gz'
     with open(DEFAULT_GRAPH_NAME, mode='r') as default_graph_file:
