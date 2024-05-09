@@ -49,3 +49,55 @@ Usage
 Load the neural network data using nx.read_gpickle().\
 Explore the provided functions to analyze and visualize connections between neurons.\
 Customize the notebook for specific analysis needs.
+
+
+# Synapse Automation Notebook
+
+This Jupyter notebook provides automation scripts for analyzing and visualizing connections between MLI2s (Mossy Fiber Activated Interneurons) and MLI1s (MLIs that receive input from MLI2s) in various Purkinje cell (PC) microcircuits.
+
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Matplotlib
+- NetworkX
+
+Ensure the required dependencies are installed before running the notebook.
+
+## Overview
+This notebook automates the analysis and visualization of connections between MLI2s and MLI1s in different PC microcircuits. It provides functions to extract connection data, generate heatmaps, and create Sankey plots for visualization.
+
+## Usage
+1. Run the notebook cells sequentially.
+2. Modify parameters such as the PC microcircuit and file paths as needed.
+3. Execute functions to automate the analysis and visualization of MLI2-MLI1 connections.
+
+## Functions
+- **check_all_connects_lists(neurons, connects)**
+  - Prints all connections between each neuron in a list of neurons and a certain other neuron.
+  - Also prints the number of connections between the two.
+
+- **automate_lists_mli2_mli1(name_neuron, possible_connections, xl_file_path, pc, graph=G)**
+  - Opens an Excel file and writes all the desired data from connections.
+  - Extracts connections from MLI2s to MLI1s in a specific PC microcircuit.
+  - Writes the connection data to the Excel file.
+
+- **visualize_mli2_mli1(mli2_list, mli1_list, pc)**
+  - Visualizes MLI2 to MLI1 connections for a specific PC microcircuit using a heatmap.
+
+- **mli2_to_mli1_from_pc(pc, pc_mli2_list, xl_file_path)**
+  - Extracts MLI2 to MLI1 connections from a given PC microcircuit and writes the data to an Excel file.
+
+- **visualize_mli2_mli1_all(mli2_list, pc)**
+  - Visualizes all MLI1s connecting to a specific PC microcircuit and the MLI2s that connect to those MLI1s.
+
+- **generate_data(pc)**
+  - Generates data required for generating a Sankey plot.
+
+- **print_all_connects_circuit(mli2_list, mli1_list, pc)**
+  - Prints the number of connections in a circuit from MLI2s to MLI1s and all MLI2-MLI1 pairs.
+
+Feel free to adjust and utilize these functions to suit your specific analysis needs.
+
+
+
+
