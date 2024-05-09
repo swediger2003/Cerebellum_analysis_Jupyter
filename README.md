@@ -125,8 +125,8 @@ This Jupyter Notebook contains code snippets and functions for analyzing Granule
 
 #### Dependencies
 Ensure you have the following Python packages installed:
-- numpy
-- openpyxl
+- gspread
+- math
 - matplotlib
 - pandas
 - seaborn
