@@ -51,15 +51,8 @@ Explore the provided functions to analyze and visualize connections between neur
 Customize the notebook for specific analysis needs.
 
 
-# Synapse Automation Notebook
-
-This Jupyter notebook provides automation scripts for analyzing and visualizing connections between MLI2s (Mossy Fiber Activated Interneurons) and MLI1s (MLIs that receive input from MLI2s) in various Purkinje cell (PC) microcircuits.
-
-## Requirements
-- Python 3.x
-- Jupyter Notebook
-- Matplotlib
-- NetworkX
+# mli1_mli2_connections
+This Jupyter notebook provides automation scripts for analyzing and visualizing connections between MLI2s and MLI1s  in various Purkinje cell (PC) microcircuits.
 
 Ensure the required dependencies are installed before running the notebook.
 
@@ -70,6 +63,7 @@ This notebook automates the analysis and visualization of connections between ML
 1. Run the notebook cells sequentially.
 2. Modify parameters such as the PC microcircuit and file paths as needed.
 3. Execute functions to automate the analysis and visualization of MLI2-MLI1 connections.
+4. Contains Climbing Fiber Connections (in lists) with that CF's respective PC. Example: mli2_pc23 are all CF to MLI2 connections and that CF connects to PC_23 (as all cf to pc connections are one-to-one)
 
 ## Functions
 - **check_all_connects_lists(neurons, connects)**
