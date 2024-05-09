@@ -90,34 +90,30 @@ This notebook automates the analysis and visualization of connections between ML
 - **print_all_connects_circuit(mli2_list, mli1_list, pc)**
   - Prints the number of connections in a circuit from MLI2s to MLI1s and all MLI2-MLI1 pairs.
  
-  - 
-### check_all_connects_lists(neurons, connects)
+- **nodes(graph=G)**
+   - **Description**: Prints all nodes in the graph along with their attributes.
 
-Prints all connections between each neuron in a list of neurons and a certain other neuron. Also prints the number of connections between the two.
+- **connections(name_neuron, possible_connection, graph=G)**
+   - **Description**: Prints connections between a specified neuron and a possible connection.
 
-### automate_lists_mli2_mli1(name_neuron, possible_connections, xl_file_path, pc, graph=G)
+- **numConnections(name_neuron, possible_connection, graph=G)**
+   - **Description**: Prints the number of connections between a neuron and a target neuron.
 
-Opens an Excel file and writes all the desired data from connections. Extracts connections from MLI2s to MLI1s in a specific PC microcircuit. Writes the connection data to the Excel file.
+- **all_connections_to(neuron, filter_list=False, sub='', graph=G)**
+   - **Description**: Returns all connections to a specified neuron, optionally filtering by cell type.
 
-### visualize_mli2_mli1(mli2_list, mli1_list, pc)
+- **automate_connections_id(name_neuron, possible_connection, xl_file_path, graph=G, col_number=1)**
+   - **Description**: Writes connection data between neurons to an Excel file.
 
-Visualizes MLI2 to MLI1 connections for a specific PC microcircuit using a heatmap.
+- **put_num_connections_df_violin(neurons, possible_connection, col1, col2)**
+   - **Description**: Creates a violin plot visualizing the connections from different types of neurons to a target neuron.
 
-### mli2_to_mli1_from_pc(pc, pc_mli2_list, xl_file_path)
+- **check_all_connects(neurons, connect)**
+   - **Description**: Prints all connections between a list of neurons and a specified target neuron.
 
-Extracts MLI2 to MLI1 connections from a given PC microcircuit and writes the data to an Excel file.
 
-### visualize_mli2_mli1_all(mli2_list, pc)
-
-Visualizes all MLI1s connecting to a specific PC microcircuit and the MLI2s that connect to those MLI1s.
-
-### generate_data(pc)
-
-Generates data required for generating a Sankey plot.
-
-### print_all_connects_circuit(mli2_list, mli1_list, pc)
-
-Prints the number of connections in a circuit from MLI2s to MLI1s and all MLI2-MLI1 pairs.
+- **print_all_connects_circuit(mli2_list, mli1_list, pc**
+    - **Description**: Prints the number of connections in a circuit from MLI2s to MLI1s and all MLI2-MLI1 pairs.
 
 
 Feel free to adjust and utilize these functions to suit your specific analysis needs.
