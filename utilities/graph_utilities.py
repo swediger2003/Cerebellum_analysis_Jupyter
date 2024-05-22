@@ -2,10 +2,14 @@ import networkx as nx
 from em_utilities import pc_to_cf
 # from em_utilities import mli_type_dict
 
-default_graph_name = 'verified_graph.gz'
+default_graph_name = 'graph_files\\autogen_graph.gz'
+print('AAAAAAAAAAAAAAAA')
+with open(default_graph_name, 'r') as default_graph_file:
+    for char in default_graph_file:
+        print(char)
 default_graph = nx.read_gml(default_graph_name)
 
-verified_graph_name = 'verified_graph.gz'
+verified_graph_name = 'graph_files\\autogen_graph.gz'
 G = nx.read_gml(verified_graph_name)
 
 #returns the amount of edges from from_node to to_node in a directed graph G
@@ -29,17 +33,22 @@ def all_edges_between_sets(pre_syn_set, post_syn_set, G = default_graph, data = 
     return result    
 
 # Given a pc, generate its list of disynaptic MLI1s from its climbing fiber and return a list of edges that connect those MLI1s to the PC. 
-def disynaptic_mli1_to_pc_edges(pc, G = default_graph):
-    pass
+def disynaptic_mli1_to_pc_edges(pc, G = default_graph, data = True):
+    mli1s = get_disynaptic_mli1s(pc, G = G)
+    return all_edges_between_sets(mli1s, [pc], G = G, data = data)
 
 # Given a pc, generate its list of monosynaptic MLI1s from its climbing fiber and return a list of edges that connect those MLI1s to the PC. 
-def monosynaptic_mli1_to_pc_edges(pc, G = default_graph):
-    pass
+def monosynaptic_mli1_to_pc_edges(pc, G = default_graph, data = True):
+    mli1s = get_monosynaptic_mli1s(pc, G = G)
+    return all_edges_between_sets(mli1s, [pc], G = G, data = data)
+
 
 # Given a list of pc, generate its list of disynaptic MLI2s and MLI1s from its climbing fiber and return a list of edges that connect those MLI2s to those MLI1s.
-def climbing_fiber_mli2_to_mli1_edges(pc, G = default_graph):
+def climbing_fiber_mli2_to_mli1_edges(pc, G = default_graph, data = True):
     cf = pc_to_cf(pc)
-    
+    mli2s = get_cf_mli2s
+    mli1s = successors_from_list_by_type(mli2s, 'MLI1', G = G)
+    return all_edges_between_sets(mli2s, mli1s, G = G, data = data)
 
 def successors_by_type(neuron, neuron_type, G = default_graph):
     result = []
@@ -63,6 +72,7 @@ def successors_from_list_by_type(neuron_list, neuron_type, G = default_graph):
                 result.append(successor)
     return result
 
+# all nodes that are predecessors of any node in the given list and are also of the given neuron type
 def predecessors_from_list_by_type(neuron_list, neuron_type, G = default_graph):
     result = []
     for neuron in neuron_list:
@@ -78,6 +88,19 @@ def get_disynaptic_mli1s(pc, G = default_graph):
     disynaptic_mli1s = [neuron for neuron in nx.dfs_tree(G, source = cf, depth_limit = 2) if neuron in predecessors]
     return disynaptic_mli1s
 
+# list of MLI1s that receive contacts directly from a PC's associated CF
+def get_monosynaptic_mli1s(pc, G = default_graph):
+    cf = pc_to_cf(pc)
+    mli1s = successors_by_type(cf, G = G, cell_type = 'MLI1')
+    return mli1s
+
+# list of MLI2s that receive contacts from a PC's associated CF
+def get_cf_mli2s(pc, G = default_graph):
+    cf = pc_to_cf(pc)
+    mli2s = successors_by_type(cf, G = G, cell_type = 'MLI2')
+    return mli2s
+
+# all out edges of all neurons in a list
 def out_edges_from_list(list, G = default_graph, data = True):
     result = []
     passed_coords = []
@@ -89,6 +112,7 @@ def out_edges_from_list(list, G = default_graph, data = True):
                 result.append(edge)
     return result
 
+# all neurons that are successors of any node in the given list
 def successors_from_list(list, G = default_graph):
     result = []
     for neuron in list:
@@ -96,23 +120,3 @@ def successors_from_list(list, G = default_graph):
             if successor not in result:
                 result.append(successor)
     return result
-
-# must be given a table that contains no duplicate edges. its location should have already been converted to a tuple. 
-def construct_graph_from_table(table, filename):
-    new_graph = nx.MultiDiGraph()
-    data = table
-    for row in data:
-        if row[3] == 'TRUE':
-            coord = row[2]
-            new_graph.add_edge(row[0], row[1], location = coord)
-    for cell in new_graph.nodes():
-        if cell in mli_type_dict.keys():
-            new_graph.nodes[cell]['cell_type'] = mli_type_dict[cell]
-        elif cell[:2] == 'cf':
-            new_graph.nodes[cell]['cell_type'] = 'cf'
-        else:
-            try:
-                new_graph.nodes[cell]['cell_type'] = cell_type(cell, G = default_graph)
-            except KeyError:
-                new_graph.nodes[cell]['cell_type'] = ''
-    nx.write_gml(new_graph, filename)
