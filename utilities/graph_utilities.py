@@ -1,15 +1,13 @@
 import networkx as nx
-from em_utilities import pc_to_cf
+from utilities.em_utilities import pc_to_cf
 # from em_utilities import mli_type_dict
 
 default_graph_name = 'graph_files\\autogen_graph.gz'
-print('AAAAAAAAAAAAAAAA')
 with open(default_graph_name, 'r') as default_graph_file:
-    for char in default_graph_file:
-        print(char)
+    pass
 default_graph = nx.read_gml(default_graph_name)
 
-verified_graph_name = 'graph_files\\autogen_graph.gz'
+verified_graph_name = 'graph_files\\verified_graph.gz'
 G = nx.read_gml(verified_graph_name)
 
 #returns the amount of edges from from_node to to_node in a directed graph G
