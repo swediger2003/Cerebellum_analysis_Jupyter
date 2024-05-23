@@ -7,7 +7,7 @@ import gspread
 # https://docs.python.org/3/library/csv.html
 import csv
 
-from gspread_credentials import credentials
+from utilities.gspread_credentials import credentials
 
 # define service account to open documents with. 
 service_account = gspread.service_account_from_dict(credentials)
@@ -123,6 +123,9 @@ def row_to_edge(row):
     result[2]['coord'] = string_to_tuple(row[2])
     if len(row) > 2: 
         for item in row[3:]:
+            # do not consider adding an empty string as a tag or attribute. 
+            if item == '':
+                continue
             if ':' in item:
                 key, value = item.split(':')
                 # Don't allow for overwriting attributes
