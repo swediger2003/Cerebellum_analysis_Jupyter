@@ -118,3 +118,11 @@ def successors_from_list(list, G = default_graph):
             if successor not in result:
                 result.append(successor)
     return result
+
+# generate a subgraph consisting of all edges that are tagged with the given tag. 
+def subgraph_by_edge_type(G, edge_tag):
+    to_keep = []
+    for edge in G.edges(data = True):
+        if edge_tag in edge[2]['tags']:
+            to_keep.append(edge)
+    return nx.subgraph(G, to_keep)

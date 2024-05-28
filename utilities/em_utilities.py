@@ -1,10 +1,11 @@
 import numpy as np
+import networkx as nx
+import utilities.graph_utilities as graph
 
 pc_to_cf_dict = {
     'pc_2': 'cf_13', 
     'pc_3': 'cf_19', 
     'pc_9': 'cf_1', 
-    'pc_10': 'PC_10 CF PLACEHOLDER', # should have no use, as the CF for pc_10 is not being used for any analysis currently. 
     'pc_16': 'cf_3', 
     'pc_22': 'cf_6', 
     'pc_23': 'cf_18', 
@@ -131,3 +132,6 @@ pcl_points = [[36591.30859, 99053.46094, 500],
 
 def distance_from_pcl(point):
     return distance_from_planes(point, pcl_points)
+
+def ephatptic_subgraph(G):
+    return graph.subgraph_by_edge_type(G, 'ephaptic')
