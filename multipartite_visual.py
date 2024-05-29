@@ -158,7 +158,7 @@ def draw_disinhibition_graph(pc, G = G, include_non_predecessor_mli1s = True, in
     highlight_dict = dict([(node, 'white') for node in G.nodes()])
     if use_ephaptic:
         for mli1 in mli1s:
-            if any([('ephaptic' in edge[2]['tags']) for edge in G.out_edges(mli1, data = True)]):
+            if any([is_ephaptic(edge) for edge in G.out_edges(mli1, data = True)]):
                 # give it a red outline
                 highlight_dict[mli1] = 'red'
         highlights = [value for value in highlight_dict.values()]

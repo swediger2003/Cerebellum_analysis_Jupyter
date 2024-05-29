@@ -196,3 +196,9 @@ def climbing_fiber_mli2_to_mli1_edges(pc, G, data = True):
     mli2s = get_cf_mli2s
     mli1s = successors_from_list_by_type(mli2s, 'MLI1', G = G)
     return all_edges_between_sets(mli2s, mli1s, G = G, data = data)
+
+def has_tag(edge, tag):
+    return tag in edge[2]['tags'] or tag in edge[2].keys()
+
+def is_ephaptic(edge):
+    return has_tag(edge, 'ephaptic')
