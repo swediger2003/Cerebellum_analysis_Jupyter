@@ -1,6 +1,12 @@
+# https://numpy.org/doc/stable/
 import numpy as np
+
+# https://networkx.org/documentation/stable/index.html
 import networkx as nx
-import utilities.graph_utilities as graph
+
+from utilities.graph_utilities import *
+
+from .defaults import default_G as G
 
 pc_to_cf_dict = {
     'pc_2': 'cf_13', 
@@ -52,6 +58,9 @@ def project(a, b):
     scale_factor = np.dot(a, b) / norm_square
     projection = b * scale_factor
     return projection
+
+def cell_type(neuron, G):
+    return G.nodes[neuron]['cell_type']
 
 # given a point and a list of 2 points that form a plane, compute the distance from the point to the plane. 
 # since only two points are given, one of the points is projected down to z=0 and used as the origin from which the plane also passes through. 
@@ -134,4 +143,56 @@ def distance_from_pcl(point):
     return distance_from_planes(point, pcl_points)
 
 def ephatptic_subgraph(G):
-    return graph.subgraph_by_edge_type(G, 'ephaptic')
+    return subgraph_by_edge_type(G, 'ephaptic')
+
+pc_to_neighbor_dict = {
+    'pc_2': 'pc_1', 
+    'pc_9': 'pc_16', 
+    'pc_16': 'pc_9', 
+    'pc_22': 'pc_23', 
+    'pc_23': 'pc_22', 
+    'pc_26': 'pc_25', 
+    'pc_32': 'pc_28',
+    'pc_34': 'pc_35', 
+    'pc_35': 'pc_34', 
+    'pc_50': 'pc_3'
+}
+
+def pc_to_neighbor(pc):
+    return pc_to_neighbor_dict[pc]
+
+#returns a LIST of mli1 id's that corresponds to all MLI1s that are synapsed onto by a climbing fiber MLI2
+def get_disynaptic_mli1s(pc, G):
+    cf = pc_to_cf(pc)
+    predecessors = [mli1 for mli1 in G.predecessors(pc) if cell_type(mli1, G = G) == 'MLI1']
+    disynaptic_mli1s = [neuron for neuron in nx.dfs_tree(G, source = cf, depth_limit = 2) if neuron in predecessors]
+    return disynaptic_mli1s
+
+# list of MLI1s that receive contacts directly from a PC's associated CF
+def get_monosynaptic_mli1s(pc, G):
+    cf = pc_to_cf(pc)
+    mli1s = successors_by_type(cf, G = G, neuron_type = 'MLI1')
+    return mli1s
+
+# list of MLI2s that receive contacts from a PC's associated CF
+def get_cf_mli2s(pc, G):
+    cf = pc_to_cf(pc)
+    mli2s = successors_by_type(cf, G = G, neuron_type = 'MLI2')
+    return mli2s
+
+# Given a pc, generate its list of disynaptic MLI1s from its climbing fiber and return a list of edges that connect those MLI1s to the PC. 
+def disynaptic_mli1_to_pc_edges(pc, G, data = True):
+    mli1s = get_disynaptic_mli1s(pc, G = G)
+    return all_edges_between_sets(mli1s, [pc], G = G, data = data)
+
+# Given a pc, generate its list of monosynaptic MLI1s from its climbing fiber and return a list of edges that connect those MLI1s to the PC. 
+def monosynaptic_mli1_to_pc_edges(pc, G, data = True):
+    mli1s = get_monosynaptic_mli1s(pc, G = G)
+    return all_edges_between_sets(mli1s, [pc], G = G, data = data)
+
+# Given a list of pc, generate its list of disynaptic MLI2s and MLI1s from its climbing fiber and return a list of edges that connect those MLI2s to those MLI1s.
+def climbing_fiber_mli2_to_mli1_edges(pc, G, data = True):
+    cf = pc_to_cf(pc)
+    mli2s = get_cf_mli2s
+    mli1s = successors_from_list_by_type(mli2s, 'MLI1', G = G)
+    return all_edges_between_sets(mli2s, mli1s, G = G, data = data)

@@ -9,6 +9,8 @@ import csv
 
 from utilities.gspread_credentials import credentials
 
+from defaults import default_G as G
+
 # define service account to open documents with. 
 service_account = gspread.service_account_from_dict(credentials)
 
