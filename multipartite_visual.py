@@ -152,13 +152,11 @@ def draw_disinhibition_graph(pc, G = G, include_non_predecessor_mli1s = True, in
         else:
             alpha_list.append(0.8)    
     
-    # print(f'{pc} MLI1s: {mli1s}')
-
     # if signified, check to highlight MLI1s that make an ephaptic connection with a red outline. 
-    highlight_dict = dict([(node, 'white') for node in G.nodes()])
+    highlight_dict = dict([(node, cell_colors[node]) for node in G_copy.nodes()])
     if use_ephaptic:
         for mli1 in mli1s:
-            if any([is_ephaptic(edge) for edge in G.out_edges(mli1, data = True)]):
+            if any([is_ephaptic(edge) for edge in G_copy.out_edges(mli1, data = True)]):
                 # give it a red outline
                 highlight_dict[mli1] = 'red'
         highlights = [value for value in highlight_dict.values()]
