@@ -158,16 +158,22 @@ def draw_disinhibition_graph(pc, G = G, include_non_predecessor_mli1s = True, in
         for mli1 in mli1s:
             if any([is_ephaptic(edge) for edge in G_copy.out_edges(mli1, data = True)]):
                 # give it a red outline
-                highlight_dict[mli1] = 'red'
-        highlights = [value for value in highlight_dict.values()]
+                highlight_dict[mli1] = 'black'
     # Note: networkx has a parameter to a subfunction of draw called 'edgecolors'. For some reason this is how the border of nodes is given. Don't get confused by this. 
+
+    for node in mli1s:
+        out_degree = G.out_degree(node)
+        if G.out_degree(node) == 0:
+            cell_colors[node] = 'white'
+            pass
 
     #changes dict information into list format, using same order as graph nodes for consistency
     size_list = [sizes[neuron] for neuron in G_copy.nodes]
     cell_colors = [cell_colors[neuron] for neuron in G_copy.nodes]
+    highlights = [highlight_dict[node] for node in G_copy.nodes]
     
     plt.text(1, 1, f'Max Size: {str(max_deg)} connections', fontsize = 8, ha = 'right', va = 'top', transform = plt.gca().transAxes)
-    nx.draw(G = G_copy, pos = multipartite_pos, ax = ax, node_color = cell_colors, node_size = size_list, edge_color = 'white', alpha = alpha_list, edgecolors=highlights)
+    nx.draw(G = G_copy, pos = multipartite_pos, ax = ax, node_color = cell_colors, node_size = size_list, edge_color = 'white', alpha = alpha_list, edgecolors=highlights, linewidths=1.5)
     title = f"{pc} CF Disinhibition to {target_pc}"
     if include_cf_mli1_edges:
         title += ' With CF-MLI1'

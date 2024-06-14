@@ -9,7 +9,7 @@ import csv
 
 from utilities.gspread_credentials import credentials
 
-from defaults import default_G as G
+from utilities.defaults import default_G as G
 
 # define service account to open documents with. 
 service_account = gspread.service_account_from_dict(credentials)
@@ -22,6 +22,20 @@ neighbor_pathway_doc = service_account.open('Neighboring PC CF Pathways')
 # gets commonly used sheets from the documents defined above
 collected_data = cf_synapse_doc.worksheet('Collected Data') # contains all synapse data for manually verified synapses from EM. 
 node_attributes = cf_synapse_doc.worksheet('Node Attributes') # contains rows that are a node name followed by a list of attributes or tags. 
+
+def find_in_table(search_term, table):
+    row_num, col_num = -1, -1
+    for i, row in enumerate(table):
+        for j, element in enumerate(row):
+            if element == search_term:
+                row_num, col_num = i, j
+    return (row_num, col_num)
+
+def find_row_in_table(search_term, table):
+    return find_in_table(search_term, table)[0]
+
+def find_column_in_table(search_term, table):
+    return find_in_table(search_term, table)[1]
 
 # writes given graph to file in GML format. 
 def write_graph(G, filename):
@@ -149,12 +163,16 @@ def string_to_tuple(string):
     result = [float(item) for item in strings]
     return result
 
+# gets data from the current storage location and saves it to a graph format. 
 def save_current_graph_to_file(filename):
     edge_table = collected_data.get_all_values()
     node_table = node_attributes.get_all_values()
 
     new_graph = new_graph_from_edge_table(edge_table)
     update_graph_nodes_from_table(new_graph, node_table)
+
+    incomplete_edges = []
+    incomplete_nodes = []
 
     # check to make sure that there are no nodes missing critical attributes, and give an alert if there are. 
     critical_node_attributes = ['cell_type']
@@ -163,7 +181,8 @@ def save_current_graph_to_file(filename):
             try:
                 new_graph.nodes[node][attr]
             except KeyError:
-                raise UserWarning(f'Node {node} has no attribute {attr}.') 
+                incomplete_nodes.append((node, attr))
+                # raise UserWarning(f'Node {node} has no attribute {attr}.') 
             
     critical_edge_attributes = ['coord']
     for edge in new_graph.edges(data=True):
@@ -171,6 +190,31 @@ def save_current_graph_to_file(filename):
             try:
                 edge[2][attr]
             except KeyError:
-                raise UserWarning(f'Edge from {edge[0]} to {edge[1]} has no attributes {attr}.')
+                incomplete_edges.append((edge, attr))
+                # raise UserWarning(f'Edge from {edge[0]} to {edge[1]} has no attributes {attr}.')
+
+    if incomplete_nodes != []:
+        if len(incomplete_nodes) == 1:
+            node, attr = incomplete_nodes[0]
+            if node in G.nodes():
+                # find in table
+                sheet_row_num = find_row_in_table(node, node_table) + 1
+                raise UserWarning(f'The following node is missing an attribute at row {sheet_row_num}: {node}')
+            else:
+                raise UserWarning(f'Node {node} has no attribute {attr}.')
+        else:
+            # TODO: add functionality to grab the line numbers of nodes, or add them. 
+            
+            raise UserWarning(f'The following nodes are missing attributes: {incomplete_nodes}')
+
+    if incomplete_edges != []:
+        if len(incomplete_edges) == 1:
+            pre, post, attr = incomplete_edges[0]
+            raise UserWarning(f'Edge from {pre} to {post} has no attribute {attr}.')
+        else:
+            # TODO: add functionality to grab the line numbers of edges. 
+            raise UserWarning(f'The following edges are missing attributes: {incomplete_edges}')
+        
+    
         
     write_graph(new_graph, filename)
