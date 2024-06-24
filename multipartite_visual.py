@@ -301,4 +301,4 @@ def draw_inhibition_graph(pc, G = G, target_pc = None, save = False, squish = Fa
 
 if __name__ == '__main__':
     for pc in pc_list:
-        draw_disinhibition_graph(pc, G, target_pc=pc_to_neighbor(pc), use_ephaptic=True, save = True)
+        draw_disinhibition_graph(pc, G, target_pc=pc, use_ephaptic=True, save = True)

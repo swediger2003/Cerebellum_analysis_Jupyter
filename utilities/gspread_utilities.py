@@ -218,3 +218,102 @@ def save_current_graph_to_file(filename):
     
         
     write_graph(new_graph, filename)
+
+# turns a 2-d table into a 1-d array. 
+def flatten(list):
+    values = []
+    for list in list:
+        for item in list:
+            values.append(item)
+    return values
+
+# True if value is a string with all values being a 0-9 digit value. 
+def is_numeric(string):
+    digits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
+    return all([char in digits for char in string])
+
+# True if value is a float with no spaces or any of that funny business. 
+def is_float(string):
+    return all([is_numeric(word) for word in string.split('.')])
+
+def col_to_annotations(sheet_object):
+    values = sheet_object.get_all_values()
+
+    # flatten a table into a list
+    values = flatten(values)
+    
+    # filter for items that are float values
+    values = [value.strip(',') for value in values if is_float(value)]
+
+    # condense the list into a list of 3-tuples in the same order
+    i = 0
+    tuples = []
+    tuple = ()
+    for item in values:
+        if i % 3 == 0:
+            tuples.append(tuple)
+            tuple = ()
+        tuple.append(item)
+        i += 1
+
+    return tuples
+
+def concatenate_tables(*tables):
+    final_table = []
+    for table in tables:
+        final_table += (table)
+    return final_table
+
+def decimal_to_base_n(integer, mod):
+    list = []
+    exp = 0
+    while integer > 0:
+        remainder = integer % (mod ** exp)
+        list.append(remainder)
+        integer = integer - remainder
+        exp += 1
+    list = reversed(list)
+    return list
+
+# turns a pair of integers (coordinate) into a STRING like A1 or C9. 
+# Google Sheets is effectively base 26, so just convert a number to base 26. 
+def coord_to_gdocs_coord(coord):
+    x, y = coord
+    x = decimal_to_base_n(x, 26)
+    char_list = [chr(item + 65) for item in x]
+    x = ''
+    for char in char_list:
+        x += char
+    return x + y
+
+# turns a pair of integer coordinates into a STRING like A1:C9. 
+def coord_pair_to_gdocs_coord_pair(coord1, coord2):
+    coord1 = coord_to_gdocs_coord(coord1)
+    coord2 = coord_to_gdocs_coord(coord2)
+
+    return coord1 + ':' + coord2
+
+def move_annotations_to_graph_edges():
+    DOCUMENT_OBJECT = cf_synapse_doc
+    ANNOTATION_SHEET_NAME = "Synapse Annotation Inputs"
+    ANNOTATION_SHEET_OBJECT = DOCUMENT_OBJECT.worksheet(ANNOTATION_SHEET_NAME)
+    
+    annotation_column = ANNOTATION_SHEET_OBJECT.get_all_values()
+    annotated_coord_table = col_to_annotations(annotation_column)
+    new_width = len(annotated_coord_table[0])
+    new_height = len(annotated_coord_table)
+    
+    # the amount of synapses already logged
+    existing_rows = len(collected_data.get_all_values)
+
+    # we could just concatenate the existing stuff with the new stuff and rewrite, but i am kind of nervous about losing all of that. 
+
+    # add the coord table just below existing ones. 
+    new_start_y = existing_rows + 1
+    new_end_y = new_start_y + new_height
+    new_start_x = 0
+    new_end_x = new_start_x + new_width
+
+    gdoc_coord = coord_pair_to_gdocs_coord_pair((new_start_x, new_start_y), (new_end_x, new_end_y))
+
+    return collected_data.update(annotated_coord_table, gdoc_coord)
