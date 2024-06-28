@@ -131,12 +131,15 @@ Ensure you have the following Python packages installed:
 - pandas
 - seaborn
 - pickle
+- math
+- gspread
 - networkx==2.5
 
 #### Usage
 1. Load the neural network data using `nx.read_gpickle()`. (not Super important as this database isn't completely accurate)
 2. Explore the provided functions to analyze and visualize connections between neurons.
 3. Customize the notebook for specific analysis needs.
+4. For this to work, all other notebooks must be downloaded
 
 #### Functions Overview
 1. `nodes(graph=G)`: Prints all nodes in the graph along with their attributes.
