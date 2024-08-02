@@ -11,6 +11,9 @@ from utilities.gspread_credentials import credentials
 
 from utilities.defaults import default_G as G
 
+from math import log as ln
+from math import floor
+
 # define service account to open documents with. 
 service_account = gspread.service_account_from_dict(credentials)
 
@@ -89,22 +92,21 @@ def update_graph_edges_from_table(G, table):
 def update_graph_nodes_from_table(G, table):
     for row in table:
         neuron = row[0]
-        if neuron[-1] == ' ':
-            raise UserWarning(f'{neuron} has a trailing space. Fix it!')
         if neuron not in G.nodes():
-            continue
-        else:
-            has_tags = 'tags' in G.nodes[neuron].keys()
-            for item in row[1:]:
-                if ':' in item:
-                    key, value = item.split(':')
-                    G.nodes[neuron][key] = value
-                # for a value with no key, classify it as a tag, which goes into a list of tags
-                else: 
-                    if has_tags:
-                        G.nodes[neuron]['tags'].append(item)
-                    else:
-                        G.nodes[neuron]['tags'] = [item]
+            G.add_node(neuron)
+            print(len(G.nodes))
+        has_tags = 'tags' in G.nodes[neuron].keys()
+        for item in row[1:]:
+            if ':' in item:
+                key, value = item.split(':')
+                G.nodes[neuron][key] = value
+            # for a value with no key, classify it as a tag, which goes into a list of tags
+            else: 
+                if has_tags:
+                    G.nodes[neuron]['tags'].append(item)
+                else:
+                    G.nodes[neuron]['tags'] = [item]
+                    has_tags = True
 
     return G
 
@@ -163,26 +165,89 @@ def string_to_tuple(string):
     result = [float(item) for item in strings]
     return result
 
-# gets data from the current storage location and saves it to a graph format. 
-def save_current_graph_to_file(filename):
-    edge_table = collected_data.get_all_values()
-    node_table = node_attributes.get_all_values()
+def node_to_row(node_name, G = G):
+    row = [node_name]
+    data = G.nodes(data=True)[node_name]
+    for key, val in data.items():
+        # if we stumble onto the tags list, add all tags
+        if type(val) is list:
+            for item in val:
+                row.append(item)
+        # if we are not on the tags list and instead on a named attribute, we add that attribute. 
+        else:
+            row.append(f'{key}:{val}')
+    return row
+
+def guess_cell_type(cell_name):
+    # go through a variety of cell types and see if the cell name contains markers used as shorthand for the cell. 
+    # for example, a cell that contains the letters "pc" is likely a purkinje cell. 
+    type_markers = {
+        'pc' : 'pc', 
+        'grc' : 'grc', 
+        'pf' : 'grc', 
+        'mli' : 'interneuron', 
+        'interneuron' : 'interneuron', 
+        'pli' : 'pli', 
+        'pcl' : 'interneuron', 
+        'fragment': 'fragment'
+    }
+
+    for marker, guessed_type in type_markers.items():
+        if marker in cell_name:
+            return guessed_type
+    return 'unknown'
+
+def remove_trailing_spaces_from_table(table):
+    new_table = []
+    for row in table:
+        new_row = []
+        for item in row:
+            assert(type(item) == str)
+            new_row.append(item.strip())
+        new_table.append(new_row)
+    return new_table
+
+
+#given a table containing data for edges and a table containing data for nodes, validate that the graph fulfills all necessary conditions for future assumptions. 
+# -- all cells must have a cell type. 
+def validate_graph_table(edge_table, node_table):
+
+    edge_table = remove_trailing_spaces_from_table(edge_table)
+    node_table = remove_trailing_spaces_from_table(node_table)
 
     new_graph = new_graph_from_edge_table(edge_table)
     update_graph_nodes_from_table(new_graph, node_table)
 
+    nodes = [{
+                'name': row[0], 
+                'row': i
+            } 
+            for i, row in enumerate(node_table)]
+
+
+    duplicate_node, index = find_duplicates([node['name'] for node in nodes])
+    if duplicate_node != None:
+        raise UserWarning(f'Data sheet contains duplicate of node {duplicate_node} at row {index + 1}.')
+    
     incomplete_edges = []
     incomplete_nodes = []
 
-    # check to make sure that there are no nodes missing critical attributes, and give an alert if there are. 
+    # iterate over every node and make sure that it has all necessary attributes. If it does not, mark its location and problem. 
     critical_node_attributes = ['cell_type']
     for node in new_graph.nodes:
         for attr in critical_node_attributes:
             try:
                 new_graph.nodes[node][attr]
             except KeyError:
-                incomplete_nodes.append((node, attr))
-                # raise UserWarning(f'Node {node} has no attribute {attr}.') 
+                row = find_row_in_table(node, node_table)
+                if row < 0:
+                    node_table.append([node])
+                    row = len(node_table) - 1
+                incomplete_nodes.append({
+                    'name': node, 
+                    'row' : row, 
+                    'attr': attr
+                })
             
     critical_edge_attributes = ['coord']
     for edge in new_graph.edges(data=True):
@@ -190,34 +255,74 @@ def save_current_graph_to_file(filename):
             try:
                 edge[2][attr]
             except KeyError:
-                incomplete_edges.append((edge, attr))
-                # raise UserWarning(f'Edge from {edge[0]} to {edge[1]} has no attributes {attr}.')
+                incomplete_edges.append({
+                    'pre' : edge[0], 
+                    'post': edge[1], 
+                    'row' : find_row_in_table(edge['coord'], edge_table), 
+                    'attr': attr
+                    })
 
     if incomplete_nodes != []:
-        if len(incomplete_nodes) == 1:
-            node, attr = incomplete_nodes[0]
-            if node in G.nodes():
-                # find in table
-                sheet_row_num = find_row_in_table(node, node_table) + 1
-                raise UserWarning(f'The following node is missing an attribute at row {sheet_row_num}: {node}')
+        auto = False
+        for problem in incomplete_nodes:
+            if not auto:
+                response = input(
+                    f'Node {problem["name"]} is missing attribute {problem["attr"]} at row {problem["row"] + 1}.\n Input "auto" to automatically attempt to assign values, type "skip" to skip to next issue, or type value to assign.\n')
+                match response:
+                    case 'auto':
+                        auto = True
+                        guessed_type = guess_cell_type(problem['name'])
+                        problem['input'] = guessed_type
+                        print(f'{problem["name"]}:{guessed_type}\n')
+                    case 'quit':
+                        break
+                    case 'quit':
+                        break
+                    case 'skip':
+                        continue
+                    case _:
+                        # assign value to attribute. 
+                        problem['input'] = response
             else:
-                raise UserWarning(f'Node {node} has no attribute {attr}.')
-        else:
-            # TODO: add functionality to grab the line numbers of nodes, or add them. 
-            
-            raise UserWarning(f'The following nodes are missing attributes: {incomplete_nodes}')
+                guessed_type = guess_cell_type(problem['name'])
+                problem['input'] = guessed_type
+                print(f'{problem["name"]}:{guessed_type}\n')
+            # now go and edit the thing. 
+            new_graph.nodes[problem['name']][problem['attr']] = problem['input']
+            node_table[problem['row']] = node_to_row(problem['name'], G=new_graph)
 
     if incomplete_edges != []:
-        if len(incomplete_edges) == 1:
-            pre, post, attr = incomplete_edges[0]
-            raise UserWarning(f'Edge from {pre} to {post} has no attribute {attr}.')
-        else:
-            # TODO: add functionality to grab the line numbers of edges. 
-            raise UserWarning(f'The following edges are missing attributes: {incomplete_edges}')
-        
+        for problem in incomplete_edges:
+            print(f'Edge from {problem["pre"] } to {problem["post"]} is missing attribute {problem["attr"]} at row {problem["row"]}.')
+        raise UserWarning('Cannot save graph with incomplete edges.')
     
-        
+    overwrite_sheet = input('Input "yes" to overwrite existing sheet data with validated data.')
+    if overwrite_sheet == 'yes':
+        write_graph_to_sheet(edge_table, node_table)
+
+    return new_graph
+
+def write_graph_to_sheet(edge_table, node_table):
+    collected_data.update(edge_table, 'A:Z')
+    node_attributes.update(node_table, 'A:Z')
+
+# gets data from the current storage location and saves it to a graph format. 
+def save_current_graph_to_file(filename):
+    edge_table = collected_data.get_all_values()
+    node_table = node_attributes.get_all_values()
+
+    new_graph = validate_graph_table(edge_table, node_table)
+
     write_graph(new_graph, filename)
+
+# searches through a list for any duplicate entries. If one exists, it 
+def find_duplicates(list: list):
+    seen_objects = []
+    for i, item in enumerate(list):
+        if item in seen_objects:
+            return item, i
+    return None, -1
+
 
 # turns a 2-d table into a 1-d array. 
 def flatten(list):
@@ -227,9 +332,15 @@ def flatten(list):
             values.append(item)
     return values
 
+def row_to_col(row):
+    col = []
+    for item in row:
+        col.append([item])
+    return col
+
 # True if value is a string with all values being a 0-9 digit value. 
 def is_numeric(string):
-    digits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
+    digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     return all([char in digits for char in string])
 
 # True if value is a float with no spaces or any of that funny business. 
@@ -242,21 +353,24 @@ def col_to_annotations(sheet_object):
     # flatten a table into a list
     values = flatten(values)
     
+    values = [value.strip(',') for value in values]
     # filter for items that are float values
-    values = [value.strip(',') for value in values if is_float(value)]
+    values = [value for value in values if is_float(value)]
 
     # condense the list into a list of 3-tuples in the same order
     i = 0
     tuples = []
-    tuple = ()
+    string = ''
     for item in values:
-        if i % 3 == 0:
-            tuples.append(tuple)
-            tuple = ()
-        tuple.append(item)
+        string += str(item)
         i += 1
-
-    return tuples
+        if i % 3 == 0:
+            tuples.append(string)
+            string = ''
+        else: 
+            string += ','
+    
+    return row_to_col(tuples)
 
 def concatenate_tables(*tables):
     final_table = []
@@ -265,26 +379,26 @@ def concatenate_tables(*tables):
     return final_table
 
 def decimal_to_base_n(integer, mod):
-    list = []
-    exp = 0
-    while integer > 0:
-        remainder = integer % (mod ** exp)
-        list.append(remainder)
-        integer = integer - remainder
-        exp += 1
-    list = reversed(list)
-    return list
+    result = []
+    digits = floor((ln(integer) / ln(mod)))
+    exp = digits
+    while exp >= 0:
+        next_digit, integer = divmod(integer, mod ** exp)
+        result.append(next_digit)
+        exp -= 1
+    return result
 
 # turns a pair of integers (coordinate) into a STRING like A1 or C9. 
 # Google Sheets is effectively base 26, so just convert a number to base 26. 
 def coord_to_gdocs_coord(coord):
     x, y = coord
+    x += 1
     x = decimal_to_base_n(x, 26)
-    char_list = [chr(item + 65) for item in x]
+    char_list = [chr(item + 64) for item in x]
     x = ''
     for char in char_list:
         x += char
-    return x + y
+    return x + str(y)
 
 # turns a pair of integer coordinates into a STRING like A1:C9. 
 def coord_pair_to_gdocs_coord_pair(coord1, coord2):
@@ -298,22 +412,25 @@ def move_annotations_to_graph_edges():
     ANNOTATION_SHEET_NAME = "Synapse Annotation Inputs"
     ANNOTATION_SHEET_OBJECT = DOCUMENT_OBJECT.worksheet(ANNOTATION_SHEET_NAME)
     
-    annotation_column = ANNOTATION_SHEET_OBJECT.get_all_values()
-    annotated_coord_table = col_to_annotations(annotation_column)
+    annotated_coord_table = col_to_annotations(ANNOTATION_SHEET_OBJECT)
     new_width = len(annotated_coord_table[0])
     new_height = len(annotated_coord_table)
     
     # the amount of synapses already logged
-    existing_rows = len(collected_data.get_all_values)
+    existing_rows = len(collected_data.get_all_values())
 
     # we could just concatenate the existing stuff with the new stuff and rewrite, but i am kind of nervous about losing all of that. 
 
     # add the coord table just below existing ones. 
     new_start_y = existing_rows + 1
-    new_end_y = new_start_y + new_height
+    new_end_y = new_start_y + new_height - 1
     new_start_x = 0
     new_end_x = new_start_x + new_width
 
     gdoc_coord = coord_pair_to_gdocs_coord_pair((new_start_x, new_start_y), (new_end_x, new_end_y))
 
     return collected_data.update(annotated_coord_table, gdoc_coord)
+
+# just a second name for the function above. 
+def transfer_annotations_to_graph():
+    move_annotations_to_graph_edges()
