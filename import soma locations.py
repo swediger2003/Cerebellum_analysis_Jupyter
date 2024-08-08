@@ -22,8 +22,13 @@ for row in soma_table:
 
 # for each cell coord pair, assign a 'coord' attribute to that cell. 
 for key, val in location_dict.items():
+    if key not in G.nodes:
+        G.add_node(key)
     G.nodes[key]['soma_coord'] = val
 
+
+# sadly, scrap this whole idea. when writing *anything* to a sheet, first read the sheet and iterate over the sheet instead to make edits. 
+# this preserves existing edges in the sheet that are not in the graph object, and maintains the order of the sheet. :\
 # (ask and then) write the new graph to sheet. 
 if input('write new graph to spreadsheet? (yes/no)') == 'yes':
-    write_graph_to_sheet()
+    write_graph_to_sheet(G)

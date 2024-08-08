@@ -165,12 +165,30 @@ def string_to_tuple(string):
     result = [float(item) for item in strings]
     return result
 
-def node_to_row(node_name, G = G):
+def edge_to_row(edge):
+    # pre, post, coord, attributes, tags
+    row = []
+    row += edge[0], edge[1], str(edge[2]['coord']).strip("[]")
+    for key, value in edge[2].items():
+        if key == 'coord':
+            # coord has already been added, so skip it
+            continue
+        if key == 'tags':
+            # add all tags to the row
+            for item in value:
+                row.append(item)
+            pass
+        else:
+            row.append(f'{key}:{value}')
+    return row
+
+def node_to_row(node):
+    node_name, data = node
     row = [node_name]
-    data = G.nodes(data=True)[node_name]
     for key, val in data.items():
+        val = str(val).strip('[]')
         # if we stumble onto the tags list, add all tags
-        if type(val) is list:
+        if key == 'tags':
             for item in val:
                 row.append(item)
         # if we are not on the tags list and instead on a named attribute, we add that attribute. 
@@ -207,6 +225,8 @@ def remove_trailing_spaces_from_table(table):
         new_table.append(new_row)
     return new_table
 
+CRITICAL_NODE_ATTRIBUTES = ['cell_type']
+CRITICAL_EDGE_ATTRIBUTES = ['coord']
 
 #given a table containing data for edges and a table containing data for nodes, validate that the graph fulfills all necessary conditions for future assumptions. 
 # -- all cells must have a cell type. 
@@ -233,7 +253,7 @@ def validate_graph_table(edge_table, node_table):
     incomplete_nodes = []
 
     # iterate over every node and make sure that it has all necessary attributes. If it does not, mark its location and problem. 
-    critical_node_attributes = ['cell_type']
+    critical_node_attributes = CRITICAL_NODE_ATTRIBUTES
     for node in new_graph.nodes:
         for attr in critical_node_attributes:
             try:
@@ -249,7 +269,7 @@ def validate_graph_table(edge_table, node_table):
                     'attr': attr
                 })
             
-    critical_edge_attributes = ['coord']
+    critical_edge_attributes = CRITICAL_EDGE_ATTRIBUTES
     for edge in new_graph.edges(data=True):
         for attr in critical_edge_attributes:
             try:
@@ -293,18 +313,33 @@ def validate_graph_table(edge_table, node_table):
 
     if incomplete_edges != []:
         for problem in incomplete_edges:
-            print(f'Edge from {problem["pre"] } to {problem["post"]} is missing attribute {problem["attr"]} at row {problem["row"]}.')
+            print(f'Edge from {problem["pre"]} to {problem["post"]} is missing attribute {problem["attr"]} at row {problem["row"]}.')
         raise UserWarning('Cannot save graph with incomplete edges.')
     
     overwrite_sheet = input('Input "yes" to overwrite existing sheet data with validated data.')
     if overwrite_sheet == 'yes':
-        write_graph_to_sheet(edge_table, node_table)
+        write_graph_tables_to_sheet(edge_table, node_table)
 
     return new_graph
 
-def write_graph_to_sheet(edge_table, node_table):
+def write_graph_tables_to_sheet(edge_table, node_table):
     collected_data.update(edge_table, 'A:Z')
     node_attributes.update(node_table, 'A:Z')
+
+def write_graph_to_sheet(G):
+    # turn graph into sheets, then write those sheets using the above function. 
+    edge_table = []
+    node_table = []
+    # for edge in graph, 
+    #   make a row in the edge table. 
+    for edge in G.edges(data = True):
+        edge_table.append(edge_to_row(edge))
+    # for node in graph, 
+    #   make a row in the node table
+    for node in G.nodes(data = True):
+        node_table.append(node_to_row(node))
+
+    write_graph_tables_to_sheet(edge_table, node_table)
 
 # gets data from the current storage location and saves it to a graph format. 
 def save_current_graph_to_file(filename):
