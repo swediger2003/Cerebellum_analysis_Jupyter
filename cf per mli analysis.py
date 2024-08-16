@@ -11,13 +11,13 @@ mli2s = [cell for cell in G.nodes if cell_type(cell, G = G) == 'MLI2']
 mli1s = [cell for cell in G.nodes if cell_type(cell, G = G) == 'MLI1']
 
 # randomly select 20 of each type of MLI to use. 
-sample_size = 20
+SAMPLE_SIZE = 20
 
-mli2s = random.sample(mli2s, sample_size)
-mli1s = random.sample(mli1s, sample_size)
+mli2s = random.sample(mli2s, SAMPLE_SIZE)
+mli1s = random.sample(mli1s, SAMPLE_SIZE)
 
-print(mli1s)
-print(mli2s)
+# print(mli1s)
+# print(mli2s)
 
 reverse = nx.reverse_view(G)
 

@@ -94,7 +94,6 @@ def update_graph_nodes_from_table(G, table):
         neuron = row[0]
         if neuron not in G.nodes():
             G.add_node(neuron)
-            print(len(G.nodes))
         has_tags = 'tags' in G.nodes[neuron].keys()
         for item in row[1:]:
             if ':' in item:
@@ -322,9 +321,78 @@ def validate_graph_table(edge_table, node_table):
 
     return new_graph
 
-def write_graph_tables_to_sheet(edge_table, node_table):
-    collected_data.update(edge_table, 'A:Z')
-    node_attributes.update(node_table, 'A:Z')
+def write_graph_tables_to_sheet(edge_table: list[list[str]], node_table: list[list[str]], edge_sheet = collected_data, node_sheet = node_attributes) -> list[list[str]]:
+    old_edges = edge_sheet.get_all_values()
+    old_nodes = node_sheet.get_all_values()
+    # want to merge the 2 tables. add everything from the new one, then add anything uncaught from the old one. 
+
+    edge_table = merge_edge_tables(old_edges, edge_table)
+    node_table = merge_node_tables(old_nodes, node_table)
+
+    edge_sheet.update(edge_table, 'A:Z')
+    node_sheet.update(node_table, 'A:Z')
+
+def merge_edge_tables(old_table: list[list[str]], new_table: list[list[str]]) -> list[list[str]]:
+    for row in new_table:
+        # look for a row that already has the coord of row. 
+        for i, existing_row in enumerate(old_table):
+            if row[2] == existing_row[2]: #same coordinate, so modify the existing row. 
+                # go cell by cell after 2 and modify any existing attributes that have a new value, add any attributes that are not currently present, 
+                # and add any tags that are not present. 
+                old_table[i] = merge_edge_rows(existing_row, row)
+                break # don't keep looking for more edges at the same coordinate. 
+        # after searching every existing row, add the row as a new row. 
+    else:
+        old_table.append(row)
+
+    return old_table
+
+def merge_node_tables(old_table, new_table):
+    for row in new_table:
+        # look for a row that already has the coord of row. 
+        for i, existing_row in enumerate(old_table):
+            if row[0] == existing_row[0]: #same coordinate, so modify the existing row. 
+                # go cell by cell after 2 and modify any existing attributes that have a new value, add any attributes that are not currently present, 
+                # and add any tags that are not present. 
+                old_table[i] = merge_node_rows(existing_row, row)
+                break # don't keep looking for more edges at the same coordinate. 
+    # after searching every existing row and not finding one, add the row as a new row. 
+    else:
+        old_table.append(row)
+        
+    return old_table
+
+# given a row and a 'key:value' string, return a row that either has its old key:value edited or has a new key:value added, if none existed. 
+def merge_edge_rows(original_row: list[str], modified_row: list[str]) -> list[str]:
+    for cell in modified_row[3:]:
+        change_row_with_attribute(original_row, cell)
+    return original_row
+
+def merge_node_rows(original_row: list[str], modified_row: list[str]) -> list[str]:
+    for cell in modified_row[1:]:
+        change_row_with_attribute(original_row, cell)
+    return original_row
+
+# given a list of strings and a string, change the list to have a value matching the string. 
+# this either changes the post-colon value of a cell or adds a new one. 
+def change_row_with_attribute(row: list[str], attr: str) -> list[str]:
+    # if the attribute is a key val and not a tag, 
+    if ':' in attr:
+        key, val = attr.split(':')
+        # find where the existing attribute is for row
+        for i, cell in enumerate(row):
+            if ':' in cell and key == cell.split(':')[0]:
+                row[i] = attr # change the value to match given attribute. 
+                break
+        else: # if no existing attribute is found for the row, 
+            row.append(attr) # add attribute in at the end. 
+    
+    else: # this means that the attribute is a tag, 
+        if attr not in row: # so if it doesn't exist already, 
+            row.append(attr) # add it in. 
+
+    return row
+    
 
 def write_graph_to_sheet(G):
     # turn graph into sheets, then write those sheets using the above function. 
