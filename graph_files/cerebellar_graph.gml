@@ -5,4286 +5,3639 @@ graph [
     id 0
     label "interneuron_227"
     cell_type "MLI1"
-    soma_coord "72542.17188, 85667.66406, 403.3581238"
+    soma_coord 72542.17188
+    soma_coord 85667.66406
+    soma_coord 403.3581238
   ]
   node [
     id 1
     label "pc_2"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 2
     label "interneuron_181"
     cell_type "MLI1"
-    soma_coord "85472.60938, 81234.77344, 596.5"
+    soma_coord 85472.60938
+    soma_coord 81234.77344
+    soma_coord 596.5
   ]
   node [
     id 3
     label "interneuron_60"
     cell_type "MLI1"
-    soma_coord "129306.7656, 43555.76563, 498.3201294"
+    soma_coord 129306.7656
+    soma_coord 43555.76563
+    soma_coord 498.3201294
   ]
   node [
     id 4
     label "interneuron_355"
     cell_type "MLI1"
-    soma_coord "86199.39063, 76687.33594, 552.5"
+    soma_coord 86199.39063
+    soma_coord 76687.33594
+    soma_coord 552.5
   ]
   node [
     id 5
     label "interneuron_110"
     cell_type "MLI1"
-    soma_coord "71521.70313, 58629.89063, 179.5"
+    soma_coord 71521.70313
+    soma_coord 58629.89063
+    soma_coord 179.5
   ]
   node [
     id 6
     label "interneuron_174"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 7
     label "interneuron_193"
     cell_type "MLI1"
-    soma_coord "96102.19531, 63888.95703, 592.5"
+    soma_coord 96102.19531
+    soma_coord 63888.95703
+    soma_coord 592.5
   ]
   node [
     id 8
     label "interneuron_201"
     cell_type "MLI1"
-    soma_coord "87695.71094, 70238.71875, 433.500061"
+    soma_coord 87695.71094
+    soma_coord 70238.71875
+    soma_coord 433.500061
   ]
   node [
     id 9
     label "interneuron_204"
     cell_type "MLI1"
-    soma_coord "92125.75, 65987.65625, 986.499939"
+    soma_coord 92125.75
+    soma_coord 65987.65625
+    soma_coord 986.499939
   ]
   node [
     id 10
     label "interneuron_315"
     cell_type "MLI1"
-    soma_coord "63819.05859, 94941.50781, 72.38380432"
+    soma_coord 63819.05859
+    soma_coord 94941.50781
+    soma_coord 72.38380432
   ]
   node [
     id 11
     label "interneuron_27"
     cell_type "MLI1"
-    soma_coord "76811.17969, 69365.125, 143.5"
+    soma_coord 76811.17969
+    soma_coord 69365.125
+    soma_coord 143.5
   ]
   node [
     id 12
     label "interneuron_226"
     cell_type "MLI1"
-    soma_coord "75304.02344, 91825.01563, 540.9726563"
+    soma_coord 75304.02344
+    soma_coord 91825.01563
+    soma_coord 540.9726563
   ]
   node [
     id 13
     label "interneuron_337"
     cell_type "MLI1"
-    soma_coord "55347.85938, 67154.14063, 465.499939"
+    soma_coord 55347.85938
+    soma_coord 67154.14063
+    soma_coord 465.499939
   ]
   node [
     id 14
     label "interneuron_311"
     cell_type "MLI1"
-    soma_coord "64425.76563, 88409.32031, 732.5"
+    soma_coord 64425.76563
+    soma_coord 88409.32031
+    soma_coord 732.5
   ]
   node [
     id 15
     label "interneuron_221"
     cell_type "MLI1"
-    soma_coord "76644.80469, 65341.55469, 602.4998169"
+    soma_coord 76644.80469
+    soma_coord 65341.55469
+    soma_coord 602.4998169
   ]
   node [
     id 16
     label "interneuron_225"
     cell_type "MLI1"
-    soma_coord "78130.375, 88141.63281, 788.5"
+    soma_coord 78130.375
+    soma_coord 88141.63281
+    soma_coord 788.5
   ]
   node [
     id 17
     label "interneuron_100"
     cell_type "MLI1"
-    soma_coord "109970.5703, 59910.12109, 391.5"
+    soma_coord 109970.5703
+    soma_coord 59910.12109
+    soma_coord 391.5
   ]
   node [
     id 18
     label "interneuron_109"
     cell_type "MLI1"
-    soma_coord "80486.92188, 87226.36719, 104.2456894"
+    soma_coord 80486.92188
+    soma_coord 87226.36719
+    soma_coord 104.2456894
   ]
   node [
     id 19
     label "interneuron_215"
     cell_type "MLI1"
-    soma_coord "85041.0625, 63506.87891, 511.500061"
+    soma_coord 85041.0625
+    soma_coord 63506.87891
+    soma_coord 511.500061
   ]
   node [
     id 20
     label "interneuron_180"
     cell_type "MLI1"
-    soma_coord "83039.05469, 92826.6875, 373.500061"
+    soma_coord 83039.05469
+    soma_coord 92826.6875
+    soma_coord 373.500061
   ]
   node [
     id 21
     label "pcl_16"
     cell_type "MLI1"
-    soma_coord "82500.97656, 94919.10938, 441.5"
+    soma_coord 82500.97656
+    soma_coord 94919.10938
+    soma_coord 441.5
   ]
   node [
     id 22
     label "interneuron_216"
     cell_type "MLI2"
-    soma_coord "80456.72656, 67746.5, 293.5"
+    soma_coord 80456.72656
+    soma_coord 67746.5
+    soma_coord 293.5
   ]
   node [
     id 23
     label "interneuron_117"
     cell_type "MLI1"
-    soma_coord "115101.75, 68795.6875, 962.5"
+    soma_coord 115101.75
+    soma_coord 68795.6875
+    soma_coord 962.5
   ]
   node [
     id 24
     label "interneuron_120"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 25
     label "interneuron_122"
     cell_type "MLI1"
-    soma_coord "115327.1016, 92597.875, 783.499939"
+    soma_coord 115327.1016
+    soma_coord 92597.875
+    soma_coord 783.499939
   ]
   node [
     id 26
     label "interneuron_188"
     cell_type "MLI1"
-    soma_coord "102432.7344, 74015.9375, 521.6843262"
+    soma_coord 102432.7344
+    soma_coord 74015.9375
+    soma_coord 521.6843262
   ]
   node [
     id 27
     label "interneuron_189"
     cell_type "MLI1"
-    soma_coord "103479.7109, 72824.10156, 219.5"
+    soma_coord 103479.7109
+    soma_coord 72824.10156
+    soma_coord 219.5
   ]
   node [
     id 28
     label "interneuron_207"
     cell_type "MLI1"
-    soma_coord "90104.9375, 90097.64844, 1104.5"
+    soma_coord 90104.9375
+    soma_coord 90097.64844
+    soma_coord 1104.5
   ]
   node [
     id 29
     label "interneuron_351"
     cell_type "MLI1"
-    soma_coord "53646.76563, 93582.89844, 149.5"
+    soma_coord 53646.76563
+    soma_coord 93582.89844
+    soma_coord 149.5
   ]
   node [
     id 30
     label "interneuron_343"
     cell_type "MLI1"
-    soma_coord "49029.43359, 81739.86719, 139.5"
+    soma_coord 49029.43359
+    soma_coord 81739.86719
+    soma_coord 139.5
   ]
   node [
     id 31
     label "interneuron_329"
     cell_type "MLI1"
-    soma_coord "56771.79688, 68006.47656, 243.4198456"
+    soma_coord 56771.79688
+    soma_coord 68006.47656
+    soma_coord 243.4198456
   ]
   node [
     id 32
     label "interneuron_318"
     cell_type "MLI1"
-    soma_coord "58440.52734, 92405.57813, 112.4999924"
+    soma_coord 58440.52734
+    soma_coord 92405.57813
+    soma_coord 112.4999924
   ]
   node [
     id 33
     label "interneuron_350"
     cell_type "MLI1"
-    soma_coord "52976.81641, 93138.71875, 439.5"
+    soma_coord 52976.81641
+    soma_coord 93138.71875
+    soma_coord 439.5
   ]
   node [
     id 34
     label "interneuron_312"
     cell_type "MLI1"
-    soma_coord "70080.5625, 72144.00781, 560.4998169"
+    soma_coord 70080.5625
+    soma_coord 72144.00781
+    soma_coord 560.4998169
   ]
   node [
     id 35
     label "interneuron_344"
     cell_type "MLI1"
-    soma_coord "49829.21875, 80610.22656, 449.4999695"
+    soma_coord 49829.21875
+    soma_coord 80610.22656
+    soma_coord 449.4999695
   ]
   node [
     id 36
     label "interneuron_88"
     cell_type "MLI1"
-    soma_coord "133074.5781, 78137.9375, 652.5115967"
+    soma_coord 133074.5781
+    soma_coord 78137.9375
+    soma_coord 652.5115967
   ]
   node [
     id 37
     label "interneuron_304"
     cell_type "MLI1"
-    soma_coord "78066.48438, 74664.64063, 953.4423828"
+    soma_coord 78066.48438
+    soma_coord 74664.64063
+    soma_coord 953.4423828
   ]
   node [
     id 38
     label "interneuron_320"
     cell_type "MLI1"
-    soma_coord "58963.65234, 80214.64063, 526.5"
+    soma_coord 58963.65234
+    soma_coord 80214.64063
+    soma_coord 526.5
   ]
   node [
     id 39
     label "interneuron_223"
     cell_type "MLI1"
-    soma_coord "72432.14063, 88583.99219, 1086.5"
+    soma_coord 72432.14063
+    soma_coord 88583.99219
+    soma_coord 1086.5
   ]
   node [
     id 40
     label "interneuron_326"
     cell_type "MLI2"
-    soma_coord "62148.375, 61291.42578, 281.1486206"
+    soma_coord 62148.375
+    soma_coord 61291.42578
+    soma_coord 281.1486206
   ]
   node [
     id 41
     label "interneuron_341"
     cell_type "MLI1"
-    soma_coord "53227.92188, 51960.77344, 188.5"
+    soma_coord 53227.92188
+    soma_coord 51960.77344
+    soma_coord 188.5
   ]
   node [
     id 42
     label "interneuron_338"
     cell_type "MLI1"
-    soma_coord "53997.56641, 64331.17969, 534.5"
+    soma_coord 53997.56641
+    soma_coord 64331.17969
+    soma_coord 534.5
   ]
   node [
     id 43
     label "interneuron_319"
     cell_type "MLI2"
-    soma_coord "59762.42188, 75984.45313, 209.5218658"
+    soma_coord 59762.42188
+    soma_coord 75984.45313
+    soma_coord 209.5218658
   ]
   node [
     id 44
     label "interneuron_342"
     cell_type "MLI1"
-    soma_coord "48325.9375, 88318.125, 82.9397583"
+    soma_coord 48325.9375
+    soma_coord 88318.125
+    soma_coord 82.9397583
   ]
   node [
     id 45
     label "pc_9"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 46
     label "interneuron_104"
     cell_type "MLI1"
-    soma_coord "102488.8203, 62760.89453, 179.5"
+    soma_coord 102488.8203
+    soma_coord 62760.89453
+    soma_coord 179.5
   ]
   node [
     id 47
     label "interneuron_105"
     cell_type "MLI1"
-    soma_coord "88760.25, 51421.21875, 629.7138062"
+    soma_coord 88760.25
+    soma_coord 51421.21875
+    soma_coord 629.7138062
   ]
   node [
     id 48
     label "interneuron_116"
     cell_type "MLI1"
-    soma_coord "118088.4453, 59727.125, 545.3109131"
+    soma_coord 118088.4453
+    soma_coord 59727.125
+    soma_coord 545.3109131
   ]
   node [
     id 49
     label "interneuron_119"
     cell_type "MLI1"
-    soma_coord "112683.0469, 71230.40625, 665.5601807"
+    soma_coord 112683.0469
+    soma_coord 71230.40625
+    soma_coord 665.5601807
   ]
   node [
     id 50
     label "interneuron_133"
     cell_type "MLI1"
-    soma_coord "123237.2266, 57023.03125, 585.7662354"
+    soma_coord 123237.2266
+    soma_coord 57023.03125
+    soma_coord 585.7662354
   ]
   node [
     id 51
     label "interneuron_177"
     cell_type "MLI1"
-    soma_coord "109015.9219, 69851.27344, 683.9733887"
+    soma_coord 109015.9219
+    soma_coord 69851.27344
+    soma_coord 683.9733887
   ]
   node [
     id 52
     label "interneuron_184"
     cell_type "MLI1"
-    soma_coord "102399.5469, 49908.28125, 333.5000305"
+    soma_coord 102399.5469
+    soma_coord 49908.28125
+    soma_coord 333.5000305
   ]
   node [
     id 53
     label "interneuron_185"
     cell_type "MLI1"
-    soma_coord "104795.7813, 54222.48047, 524.4998779"
+    soma_coord 104795.7813
+    soma_coord 54222.48047
+    soma_coord 524.4998779
   ]
   node [
     id 54
     label "interneuron_200"
     cell_type "MLI1"
-    soma_coord "92417.625, 47549.74219, 554.500061"
+    soma_coord 92417.625
+    soma_coord 47549.74219
+    soma_coord 554.500061
   ]
   node [
     id 55
     label "interneuron_232"
     cell_type "MLI1"
-    soma_coord "93225.01563, 93842.20313, 564.5"
+    soma_coord 93225.01563
+    soma_coord 93842.20313
+    soma_coord 564.5
   ]
   node [
     id 56
     label "interneuron_172"
     cell_type "MLI1"
-    soma_coord "105361.5547, 89060.84375, 473.4999084"
+    soma_coord 105361.5547
+    soma_coord 89060.84375
+    soma_coord 473.4999084
   ]
   node [
     id 57
     label "interneuron_8"
     cell_type "MLI1"
-    soma_coord "92137.48438, 91601.24219, 168.5"
+    soma_coord 92137.48438
+    soma_coord 91601.24219
+    soma_coord 168.5
   ]
   node [
     id 58
     label "interneuron_98"
     cell_type "MLI1"
-    soma_coord "114038.6953, 70007.70313, 125.5000076"
+    soma_coord 114038.6953
+    soma_coord 70007.70313
+    soma_coord 125.5000076
   ]
   node [
     id 59
     label "interneuron_99"
     cell_type "MLI2"
-    soma_coord "108379.1172, 60798.40234, 103.8856583"
+    soma_coord 108379.1172
+    soma_coord 60798.40234
+    soma_coord 103.8856583
   ]
   node [
     id 60
     label "interneuron_108"
     cell_type "MLI1"
-    soma_coord "92694.57813, 82641.07813, 254.4642792"
-    tags "_networkx_list_start"
-    tags ""
+    soma_coord 92694.57813
+    soma_coord 82641.07813
+    soma_coord 254.4642792
   ]
   node [
     id 61
     label "interneuron_131"
     cell_type "MLI2"
-    soma_coord "121236.3516, 63894.42969, 446.4999695"
+    soma_coord 121236.3516
+    soma_coord 63894.42969
+    soma_coord 446.4999695
   ]
   node [
     id 62
     label "pc_16"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 63
     label "interneuron_91"
     cell_type "MLI1"
-    soma_coord "137921.0781, 84009.3125, 656.6112671"
+    soma_coord 137921.0781
+    soma_coord 84009.3125
+    soma_coord 656.6112671
   ]
   node [
     id 64
     label "interneuron_58"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 65
     label "interneuron_66"
     cell_type "MLI1"
-    soma_coord "128876.6719, 91672.25, 608.5"
+    soma_coord 128876.6719
+    soma_coord 91672.25
+    soma_coord 608.5
   ]
   node [
     id 66
     label "interneuron_59"
     cell_type "MLI1"
-    soma_coord "139592.0938, 69311.32813, 692.500061"
+    soma_coord 139592.0938
+    soma_coord 69311.32813
+    soma_coord 692.500061
   ]
   node [
     id 67
     label "interneuron_94"
     cell_type "MLI1"
-    soma_coord "143526.3594, 75735.625, 591.1129761"
+    soma_coord 143526.3594
+    soma_coord 75735.625
+    soma_coord 591.1129761
   ]
   node [
     id 68
     label "interneuron_178"
     cell_type "MLI2"
-    soma_coord "103292.125, 63208.41016, 636.0602417"
+    soma_coord 103292.125
+    soma_coord 63208.41016
+    soma_coord 636.0602417
   ]
   node [
     id 69
     label "interneuron_252"
     cell_type "MLI1"
-    soma_coord "153163.1563, 64624.52734, 794.5"
+    soma_coord 153163.1563
+    soma_coord 64624.52734
+    soma_coord 794.5
   ]
   node [
     id 70
     label "interneuron_149"
     cell_type "MLI1"
-    soma_coord "87159.49219, 55039.43359, 170.4999847"
+    soma_coord 87159.49219
+    soma_coord 55039.43359
+    soma_coord 170.4999847
   ]
   node [
     id 71
     label "interneuron_157"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 72
     label "interneuron_166"
     cell_type "MLI1"
-    soma_coord "153447.625, 87278.32813, 511.5000305"
+    soma_coord 153447.625
+    soma_coord 87278.32813
+    soma_coord 511.5000305
   ]
   node [
     id 73
     label "interneuron_241"
     cell_type "MLI1"
-    soma_coord "111797.2656, 47186.96875, 385.500061"
+    soma_coord 111797.2656
+    soma_coord 47186.96875
+    soma_coord 385.500061
   ]
   node [
     id 74
     label "interneuron_115"
     cell_type "MLI1"
-    soma_coord "112643.1875, 55922.48828, 1043.568726"
+    soma_coord 112643.1875
+    soma_coord 55922.48828
+    soma_coord 1043.568726
   ]
   node [
     id 75
     label "interneuron_191"
     cell_type "MLI2"
-    soma_coord "99052.40625, 81982.14844, 1039.5"
+    soma_coord 99052.40625
+    soma_coord 81982.14844
+    soma_coord 1039.5
   ]
   node [
     id 76
     label "interneuron_190"
     cell_type "MLI1"
-    soma_coord "96507.25, 78503.04688, 1081.5"
+    soma_coord 96507.25
+    soma_coord 78503.04688
+    soma_coord 1081.5
   ]
   node [
     id 77
     label "interneuron_6"
     cell_type "MLI1"
-    soma_coord "111361.2813, 92310.70313, 404.4055786"
+    soma_coord 111361.2813
+    soma_coord 92310.70313
+    soma_coord 404.4055786
   ]
   node [
     id 78
     label "interneuron_80"
     cell_type "MLI1"
-    soma_coord "114980.3672, 93478.24219, 150.7953339"
+    soma_coord 114980.3672
+    soma_coord 93478.24219
+    soma_coord 150.7953339
   ]
   node [
     id 79
     label "interneuron_349"
     cell_type "MLI1"
-    soma_coord "55628.77734, 94163.27344, 749.2206421"
+    soma_coord 55628.77734
+    soma_coord 94163.27344
+    soma_coord 749.2206421
   ]
   node [
     id 80
     label "interneuron_316"
     cell_type "MLI1"
-    soma_coord "67005.53906, 91287.44531, 841.0391846"
+    soma_coord 67005.53906
+    soma_coord 91287.44531
+    soma_coord 841.0391846
   ]
   node [
     id 81
     label "interneuron_173"
     cell_type "MLI2"
-    soma_coord "103263.3125, 78924.66406, 702.5"
+    soma_coord 103263.3125
+    soma_coord 78924.66406
+    soma_coord 702.5
   ]
   node [
     id 82
     label "interneuron_140"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 83
     label "interneuron_142"
     cell_type "MLI1"
-    soma_coord "142250.3594, 77596.79688, 1005.500305"
+    soma_coord 142250.3594
+    soma_coord 77596.79688
+    soma_coord 1005.500305
   ]
   node [
     id 84
     label "interneuron_162"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 85
     label "interneuron_67"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 86
     label "interneuron_89"
     cell_type "MLI1"
-    soma_coord "135418.7188, 76159.17188, 370.5000305"
+    soma_coord 135418.7188
+    soma_coord 76159.17188
+    soma_coord 370.5000305
   ]
   node [
     id 87
     label "interneuron_233"
     cell_type "MLI1"
-    soma_coord "148914.1875, 84258.15625, 1037.5"
+    soma_coord 148914.1875
+    soma_coord 84258.15625
+    soma_coord 1037.5
   ]
   node [
     id 88
     label "interneuron_237"
     cell_type "MLI1"
-    soma_coord "166290.3906, 83390.73438, 882.2312622"
+    soma_coord 166290.3906
+    soma_coord 83390.73438
+    soma_coord 882.2312622
   ]
   node [
     id 89
     label "interneuron_179"
     cell_type "MLI2"
-    soma_coord "103617.2813, 56193.87891, 472.5"
+    soma_coord 103617.2813
+    soma_coord 56193.87891
+    soma_coord 472.5
   ]
   node [
     id 90
     label "interneuron_134"
     cell_type "MLI2"
-    soma_coord "121294.9766, 55257.72656, 451.5000305"
+    soma_coord 121294.9766
+    soma_coord 55257.72656
+    soma_coord 451.5000305
   ]
   node [
     id 91
     label "interneuron_170"
     cell_type "MLI1"
-    soma_coord "151080.8125, 71021.85938, 108.6054077"
+    soma_coord 151080.8125
+    soma_coord 71021.85938
+    soma_coord 108.6054077
   ]
   node [
     id 92
     label "interneuron_159"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 93
     label "interneuron_54"
     cell_type "MLI1"
-    soma_coord "140673.7813, 58624.83984, 414.4873962"
+    soma_coord 140673.7813
+    soma_coord 58624.83984
+    soma_coord 414.4873962
   ]
   node [
     id 94
     label "pc_22"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 95
     label "interneuron_274"
     cell_type "MLI1"
-    soma_coord "174864.8125, 70973.69531, 596.500061"
+    soma_coord 174864.8125
+    soma_coord 70973.69531
+    soma_coord 596.500061
   ]
   node [
     id 96
     label "interneuron_256"
     cell_type "MLI2"
-    soma_coord "162590.8906, 75234.875, 339.5"
+    soma_coord 162590.8906
+    soma_coord 75234.875
+    soma_coord 339.5
   ]
   node [
     id 97
     label "interneuron_144"
     cell_type "MLI1"
-    soma_coord "141259.0469, 84569.46094, 337.5"
+    soma_coord 141259.0469
+    soma_coord 84569.46094
+    soma_coord 337.5
   ]
   node [
     id 98
     label "interneuron_164"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 99
     label "interneuron_165"
     cell_type "MLI1"
-    soma_coord "152563.0, 78004.51563, 639.0977173"
+    soma_coord 152563.0
+    soma_coord 78004.51563
+    soma_coord 639.0977173
   ]
   node [
     id 100
     label "interneuron_167"
     cell_type "MLI1"
-    soma_coord "153567.2813, 76917.03906, 353.5"
+    soma_coord 153567.2813
+    soma_coord 76917.03906
+    soma_coord 353.5
   ]
   node [
     id 101
     label "interneuron_168"
     cell_type "MLI1"
-    soma_coord "156267.75, 85215.19531, 345.351593"
+    soma_coord 156267.75
+    soma_coord 85215.19531
+    soma_coord 345.351593
   ]
   node [
     id 102
     label "interneuron_169"
     cell_type "MLI1"
-    soma_coord "154774.1406, 70585.49219, 244.4999847"
+    soma_coord 154774.1406
+    soma_coord 70585.49219
+    soma_coord 244.4999847
   ]
   node [
     id 103
     label "interneuron_279"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 104
     label "interneuron_253"
     cell_type "MLI2"
-    soma_coord "151377.0, 75316.0, 959.0"
+    soma_coord 151377.0
+    soma_coord 75316.0
+    soma_coord 959.0
   ]
   node [
     id 105
     label "interneuron_161"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 106
     label "interneuron_87"
     cell_type "MLI2"
-    soma_coord "132202.7031, 76797.90625, 911.500061"
+    soma_coord 132202.7031
+    soma_coord 76797.90625
+    soma_coord 911.500061
   ]
   node [
     id 107
     label "interneuron_258"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 108
     label "interneuron_40"
     cell_type "MLI1"
-    soma_coord "157964.125, 58430.71484, 957.500061"
+    soma_coord 157964.125
+    soma_coord 58430.71484
+    soma_coord 957.500061
   ]
   node [
     id 109
     label "interneuron_156"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 110
     label "interneuron_263"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 111
     label "interneuron_55"
     cell_type "MLI1"
-    soma_coord "131551.125, 61662.55469, 76.92075348"
+    soma_coord 131551.125
+    soma_coord 61662.55469
+    soma_coord 76.92075348
   ]
   node [
     id 112
     label "interneuron_56"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 113
     label "interneuron_250"
     cell_type "MLI1"
-    soma_coord "154449.2344, 52357.38672, 437.5"
+    soma_coord 154449.2344
+    soma_coord 52357.38672
+    soma_coord 437.5
   ]
   node [
     id 114
     label "interneuron_254"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 115
     label "interneuron_260"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 116
     label "interneuron_28"
     cell_type "MLI1"
-    soma_coord "135130.0313, 59010.77734, 1015.5"
+    soma_coord 135130.0313
+    soma_coord 59010.77734
+    soma_coord 1015.5
   ]
   node [
     id 117
     label "interneuron_299"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 118
     label "interneuron_97"
     cell_type "MLI2"
-    soma_coord "116093.6641, 75259.08594, 198.5"
+    soma_coord 116093.6641
+    soma_coord 75259.08594
+    soma_coord 198.5
   ]
   node [
     id 119
     label "pc_23"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 120
     label "interneuron_246"
     cell_type "MLI2"
-    soma_coord "155942.7656, 49743.38281, 160.5000153"
+    soma_coord 155942.7656
+    soma_coord 49743.38281
+    soma_coord 160.5000153
   ]
   node [
     id 121
     label "interneuron_36"
     cell_type "MLI2"
-    soma_coord "148672.3125, 42116.99609, 191.7603455"
+    soma_coord 148672.3125
+    soma_coord 42116.99609
+    soma_coord 191.7603455
   ]
   node [
     id 122
     label "interneuron_150"
     cell_type "MLI1"
-    soma_coord "140997.2188, 43785.61328, 772.4998779"
+    soma_coord 140997.2188
+    soma_coord 43785.61328
+    soma_coord 772.4998779
   ]
   node [
     id 123
     label "interneuron_155"
     cell_type "MLI1"
-    soma_coord "148391.2031, 55063.47266, 940.5"
+    soma_coord 148391.2031
+    soma_coord 55063.47266
+    soma_coord 940.5
   ]
   node [
     id 124
     label "interneuron_34"
     cell_type "MLI1"
-    soma_coord "144460.2969, 53232.67969, 577.5517578"
+    soma_coord 144460.2969
+    soma_coord 53232.67969
+    soma_coord 577.5517578
   ]
   node [
     id 125
     label "pc_32"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 126
     label "interneuron_194"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 127
     label "interneuron_198"
     cell_type "MLI1"
-    soma_coord "94206.5625, 49658.52734, 916.5"
+    soma_coord 94206.5625
+    soma_coord 49658.52734
+    soma_coord 916.5
   ]
   node [
     id 128
     label "interneuron_345"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 129
     label "interneuron_205"
     cell_type "MLI2"
-    soma_coord "92063.05469, 63493.10938, 1008.499878"
+    soma_coord 92063.05469
+    soma_coord 63493.10938
+    soma_coord 1008.499878
   ]
   node [
     id 130
     label "interneuron_222"
     cell_type "MLI1"
-    soma_coord "70501.72656, 64733.08203, 708.3000488"
+    soma_coord 70501.72656
+    soma_coord 64733.08203
+    soma_coord 708.3000488
   ]
   node [
     id 131
     label "interneuron_307"
     cell_type "MLI1"
-    soma_coord "64679.72266, 67634.34375, 987.4998169"
+    soma_coord 64679.72266
+    soma_coord 67634.34375
+    soma_coord 987.4998169
   ]
   node [
     id 132
     label "interneuron_218"
     cell_type "MLI2"
-    soma_coord "78703.47656, 80926.75781, 1048.5"
+    soma_coord 78703.47656
+    soma_coord 80926.75781
+    soma_coord 1048.5
   ]
   node [
     id 133
     label "interneuron_310"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 134
     label "pc_34"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 135
     label "pc_35"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 136
     label "interneuron_43"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 137
     label "pc_50"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 138
     label "interneuron_160"
     cell_type "MLI1"
-    soma_coord "146172.9688, 80851.66406, 146.5"
+    soma_coord 146172.9688
+    soma_coord 80851.66406
+    soma_coord 146.5
   ]
   node [
     id 139
     label "interneuron_235"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 140
     label "pc_26"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 141
     label "interneuron_112"
     cell_type "MLI1"
-    soma_coord "92949.32813, 52464.79297, 447.4250183"
+    soma_coord 92949.32813
+    soma_coord 52464.79297
+    soma_coord 447.4250183
   ]
   node [
     id 142
     label "interneuron_313"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 143
     label "interneuron_317"
     cell_type "MLI2"
-    soma_coord "60825.08984, 88891.03906, 666.6868286"
+    soma_coord 60825.08984
+    soma_coord 88891.03906
+    soma_coord 666.6868286
   ]
   node [
     id 144
     label "interneuron_68"
     cell_type "MLI2"
-    soma_coord "84592.16406, 51574.50391, 576.5001221"
+    soma_coord 84592.16406
+    soma_coord 51574.50391
+    soma_coord 576.5001221
   ]
   node [
     id 145
     label "interneuron_220"
     cell_type "MLI1"
-    soma_coord "73226.36719, 51906.80469, 370.046936"
+    soma_coord 73226.36719
+    soma_coord 51906.80469
+    soma_coord 370.046936
   ]
   node [
     id 146
     label "interneuron_22"
     cell_type "MLI2"
-    soma_coord "98138.08594, 59813.80078, 160.5"
+    soma_coord 98138.08594
+    soma_coord 59813.80078
+    soma_coord 160.5
   ]
   node [
     id 147
     label "interneuron_153"
     cell_type "MLI2"
-    soma_coord "144714.2969, 44870.30469, 890.5"
+    soma_coord 144714.2969
+    soma_coord 44870.30469
+    soma_coord 890.5
   ]
   node [
     id 148
     label "interneuron_186"
     cell_type "MLI2"
-    soma_coord "106209.9844, 51426.85547, 977.500061"
+    soma_coord 106209.9844
+    soma_coord 51426.85547
+    soma_coord 977.500061
   ]
   node [
     id 149
     label "interneuron_32"
     cell_type "MLI2"
-    soma_coord "143612.0625, 44913.01172, 570.5001221"
+    soma_coord 143612.0625
+    soma_coord 44913.01172
+    soma_coord 570.5001221
   ]
   node [
     id 150
     label "interneuron_33"
     cell_type "MLI2"
-    soma_coord "141997.3281, 52567.80859, 691.5"
+    soma_coord 141997.3281
+    soma_coord 52567.80859
+    soma_coord 691.5
   ]
   node [
     id 151
     label "interneuron_85"
     cell_type "MLI2"
-    soma_coord "96128.83594, 85580.77344, 747.0531616"
+    soma_coord 96128.83594
+    soma_coord 85580.77344
+    soma_coord 747.0531616
   ]
   node [
     id 152
     label "interneuron_199"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 153
     label "interneuron_195"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 154
     label "interneuron_61"
     cell_type "MLI2"
-    soma_coord "129023.6641, 44484.80859, 783.500061"
+    soma_coord 129023.6641
+    soma_coord 44484.80859
+    soma_coord 783.500061
   ]
   node [
     id 155
     label "interneuron_273"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 156
     label "pc_1"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 157
     label "interneuron_212"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 158
     label "interneuron_298"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 159
     label "interneuron_314"
     cell_type "MLI1"
-    soma_coord "64211.33984, 81291.59375, 112.5000076"
+    soma_coord 64211.33984
+    soma_coord 81291.59375
+    soma_coord 112.5000076
   ]
   node [
     id 160
     label "pc_25"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 161
     label "pc_3"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 162
     label "interneuron_65"
     cell_type "MLI1"
-    soma_coord "129992.7422, 86933.76563, 213.5"
+    soma_coord 129992.7422
+    soma_coord 86933.76563
+    soma_coord 213.5
   ]
   node [
     id 163
     label "interneuron_244"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 164
     label "interneuron_30"
     cell_type "MLI2"
-    soma_coord "136221.8125, 37152.87109, 620.5"
+    soma_coord 136221.8125
+    soma_coord 37152.87109
+    soma_coord 620.5
   ]
   node [
     id 165
     label "pc_28"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 166
     label "interneuron_269"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 167
     label "interneuron_286"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 168
     label "interneuron_296"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 169
     label "interneuron_302"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 170
     label "interneuron_37"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 171
     label "interneuron_276"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 172
     label "interneuron_280"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 173
     label "interneuron_239"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 174
     label "interneuron_301"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 175
     label "interneuron_284"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 176
     label "interneuron_295"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 177
     label "interneuron_297"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 178
     label "interneuron_257"
     cell_type "MLI1"
-    soma_coord "166702.1563, 75789.6875, 241.4999847"
+    soma_coord 166702.1563
+    soma_coord 75789.6875
+    soma_coord 241.4999847
   ]
   node [
     id 179
     label "interneuron_38"
     cell_type "MLI2"
-    soma_coord "168677.3125, 55814.25781, 485.5"
+    soma_coord 168677.3125
+    soma_coord 55814.25781
+    soma_coord 485.5
   ]
   node [
     id 180
     label "interneuron_264"
     cell_type "MLI1"
-    soma_coord "165658.0469, 55035.9375, 464.5000305"
+    soma_coord 165658.0469
+    soma_coord 55035.9375
+    soma_coord 464.5000305
   ]
   node [
     id 181
     label "interneuron_259"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 182
     label "interneuron_45"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 183
     label "interneuron_290"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 184
     label "interneuron_265"
     cell_type "MLI2"
-    soma_coord "160180.4375, 54066.375, 401.4999695"
+    soma_coord 160180.4375
+    soma_coord 54066.375
+    soma_coord 401.4999695
   ]
   node [
     id 185
     label "interneuron_238"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 186
     label "interneuron_275"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 187
     label "cf_1"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 188
     label "interneuron_95"
     cell_type "MLI2"
-    soma_coord "123214.0391, 71837.73438, 471.5000305"
+    soma_coord 123214.0391
+    soma_coord 71837.73438
+    soma_coord 471.5000305
   ]
   node [
     id 189
     label "cf_2"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 190
     label "cf_21"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 191
     label "interneuron_52"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 192
     label "cf_17"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 193
     label "cf_18"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 194
     label "cf_3"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 195
     label "interneuron_126"
     cell_type "MLI1"
-    soma_coord "122591.2656, 77792.28906, 720.500061"
+    soma_coord 122591.2656
+    soma_coord 77792.28906
+    soma_coord 720.500061
   ]
   node [
     id 196
     label "cf_6"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 197
     label "cf_25"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 198
     label "interneuron_202"
     cell_type "MLI1"
-    soma_coord "88377.74219, 61822.91016, 716.4747314"
+    soma_coord 88377.74219
+    soma_coord 61822.91016
+    soma_coord 716.4747314
   ]
   node [
     id 199
     label "cf_23"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 200
     label "interneuron_331"
     cell_type "MLI2"
-    soma_coord "70685.96875, 65721.25781, 296.4999084"
+    soma_coord 70685.96875
+    soma_coord 65721.25781
+    soma_coord 296.4999084
   ]
   node [
     id 201
     label "interneuron_51"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 202
     label "interneuron_214"
     cell_type "MLI1"
-    soma_coord "80717.75, 74650.60156, 636.3588257"
+    soma_coord 80717.75
+    soma_coord 74650.60156
+    soma_coord 636.3588257
   ]
   node [
     id 203
     label "cf_13"
     cell_type "cf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 204
     label "interneuron_327"
     cell_type "MLI2"
-    soma_coord "57707.66016, 51399.16406, 128.5792847"
+    soma_coord 57707.66016
+    soma_coord 51399.16406
+    soma_coord 128.5792847
   ]
   node [
     id 205
     label "interneuron_209"
     cell_type "MLI1"
-    soma_coord "88197.00781, 86021.22656, 483.4999695"
+    soma_coord 88197.00781
+    soma_coord 86021.22656
+    soma_coord 483.4999695
   ]
   node [
     id 206
     label "grc_3357"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 207
     label "pc_10"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 208
     label "grc_1249"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 209
     label "gcl_13"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 210
     label "purkinje_1"
     cell_type "pc"
-    tags ""
-    tags ""
   ]
   node [
     id 211
     label "pc_21"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 212
     label "pc_0"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 213
     label "pc_15"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 214
     label "pc_20"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 215
     label "pc_19"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 216
     label "grc_988"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 217
     label "gcl_16"
     cell_type "unknown"
-    tags ""
-    tags ""
   ]
   node [
     id 218
     label "pcl_dendrite_13"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 219
     label "interneuron_111"
     cell_type "PLI"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 220
     label "pcl_dendrite_1"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 221
     label "pc_4"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 222
     label "pc_dendrite_fragment_9"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 223
     label "grc_737"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 224
     label "purkinje_0"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 225
     label "interneuron_456"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 226
     label "gcl_dendrite_0"
     cell_type "unknown"
-    tags ""
-    tags ""
-    tags ""
   ]
   node [
     id 227
     label "grc_1271"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 228
     label "fragment_19"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 229
     label "grc_977"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 230
     label "interneuron_175"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 231
     label "interneuron_129"
     cell_type "MLI1"
-    soma_coord "124549.0, 86754.92188, 597.1017456"
+    soma_coord 124549.0
+    soma_coord 86754.92188
+    soma_coord 597.1017456
   ]
   node [
     id 232
     label "interneuron_128"
     cell_type "MLI1"
-    soma_coord "123898.3828, 84067.48438, 767.499939"
+    soma_coord 123898.3828
+    soma_coord 84067.48438
+    soma_coord 767.499939
   ]
   node [
     id 233
     label "interneuron_125"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 234
     label "interneuron_123"
     cell_type "MLI1"
-    soma_coord "117730.5, 84320.75781, 834.5"
+    soma_coord 117730.5
+    soma_coord 84320.75781
+    soma_coord 834.5
   ]
   node [
     id 235
     label "grc_342"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 236
     label "gcl_9"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 237
     label "pcl_17"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 238
     label "fragment_18"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 239
     label "fragment_21"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 240
     label "pc_57"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 241
     label "grc_433"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 242
     label "gcl_14"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 243
     label "pcl_9"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 244
     label "fragment_22"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 245
     label "pc_31"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 246
     label "interneuron_106"
     cell_type "MLI1"
-    soma_coord "98237.04688, 75598.30469, 291.2906799"
+    soma_coord 98237.04688
+    soma_coord 75598.30469
+    soma_coord 291.2906799
   ]
   node [
     id 247
     label "grc_684"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 248
     label "pc_18"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 249
     label "interneuron_217"
     cell_type "MLI1"
-    soma_coord "85371.32031, 90504.17969, 694.5"
+    soma_coord 85371.32031
+    soma_coord 90504.17969
+    soma_coord 694.5
   ]
   node [
     id 250
     label "interneuron_203"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 251
     label "pc_17"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 252
     label "interneuron_208"
     cell_type "MLI1"
-    soma_coord "89202.66406, 86647.66406, 857.500061"
+    soma_coord 89202.66406
+    soma_coord 86647.66406
+    soma_coord 857.500061
   ]
   node [
     id 253
     label "interneuron_231"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 254
     label "fragment_23"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 255
     label "grc_1191"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 256
     label "gcl_3"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 257
     label "grc_343"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 258
     label "grc_678"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 259
     label "grc_1041"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 260
     label "gcl_18"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 261
     label "grc_2308"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 262
     label "fragment_26"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 263
     label "pc_dendrite_11"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 264
     label "pli_130"
     cell_type "pli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 265
     label "fragment_27"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 266
     label "pc_dendrite_fragment_12"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 267
     label "grc_115"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 268
     label "interneuron_229"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 269
     label "fragment_28"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 270
     label "fragment_29"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 271
     label "grc_4"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 272
     label "gcl_42"
     cell_type "unknown"
-    tags ""
-    tags ""
   ]
   node [
     id 273
     label "fragment_31"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 274
     label "grc_1035"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 275
     label "fragment_32"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 276
     label "fragment_33"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 277
     label "fragment_34"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 278
     label "pc_dendrite_fragment_13"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 279
     label "interneuron_127"
     cell_type "MLI1"
-    soma_coord "122468.1563, 79462.21875, 882.500061"
+    soma_coord 122468.1563
+    soma_coord 79462.21875
+    soma_coord 882.500061
   ]
   node [
     id 280
     label "fragment_35"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 281
     label "fragment_36"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 282
     label "pc_51"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 283
     label "grc_218"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 284
     label "gcl_0"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 285
     label "pc_7"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 286
     label "pc_5"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 287
     label "pc_dendrite_fragment_4"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 288
     label "grc_1102"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 289
     label "grc_4554"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 290
     label "grc_1052"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 291
     label "pcl_4"
     cell_type "cc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 292
     label "grc_573"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 293
     label "fragment_37"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 294
     label "pc_163"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 295
     label "pc_30"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 296
     label "unknown_fragment"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 297
     label "pc_54"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 298
     label "grc_38"
     cell_type "rgc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 299
     label "fragment_38"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 300
     label "fragment_39"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 301
     label "gcl_dendrite_1"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 302
     label "interneuron_455"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 303
     label "grc_39"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 304
     label "pc_dendrite_fragment_14"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 305
     label "pc_dendrite_fragment_6"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 306
     label "grc_339"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 307
     label "grc_419"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 308
     label "grc_345"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 309
     label "grc_605"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 310
     label "grc_452"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 311
     label "fragment_40"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 312
     label "incomplete_0"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 313
     label "fragment_41"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 314
     label "interneuron_96"
     cell_type "MLI1"
-    soma_coord "123594.3438, 77428.36719, 517.3307495"
+    soma_coord 123594.3438
+    soma_coord 77428.36719
+    soma_coord 517.3307495
   ]
   node [
     id 315
     label "grc_0"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 316
     label "interneuron_147"
     cell_type "MLI1"
-    soma_coord "91435.54688, 69098.39844, 112.1750183"
+    soma_coord 91435.54688
+    soma_coord 69098.39844
+    soma_coord 112.1750183
   ]
   node [
     id 317
     label "grc_1182"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 318
     label "grc_293"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 319
     label "fragment_42"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 320
     label "grc_410"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 321
     label "grc_411"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 322
     label "interneuron_84"
     cell_type "cc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 323
     label "grc_416"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 324
     label "fragment_43"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 325
     label "interneuron_124"
     cell_type "MLI1"
-    soma_coord "110838.1875, 89710.72656, 1081.009644"
+    soma_coord 110838.1875
+    soma_coord 89710.72656
+    soma_coord 1081.009644
   ]
   node [
     id 326
     label "interneuron_118"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 327
     label "interneuron_2391"
     cell_type "unknown_interneuron"
-    tags ""
-    tags ""
   ]
   node [
     id 328
     label "fragment_44"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 329
     label "grc_417"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 330
     label "grc_527"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 331
     label "grc_423"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 332
     label "fragment_45"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 333
     label "pc_118"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 334
     label "grc_425"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 335
     label "fragment_46"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 336
     label "fragment_47"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 337
     label "fragment_48"
     cell_type "uknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 338
     label "pc_86"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 339
     label "pc_49"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 340
     label "pc_116"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 341
     label "pc_48"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 342
     label "pc_126"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 343
     label "pc_27"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 344
     label "pc_dendrite_0"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 345
     label "pc_43"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 346
     label "pc_44"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 347
     label "interneuron_130"
     cell_type "MLI1"
-    soma_coord "121200.25, 90565.66406, 171.5"
+    soma_coord 121200.25
+    soma_coord 90565.66406
+    soma_coord 171.5
   ]
   node [
     id 348
     label "fragment_17"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 349
     label "gcl_38"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 350
     label "pc_53"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 351
     label "fragment_49"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 352
     label "grc_1002"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 353
     label "pc_24"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 354
     label "fragment_50"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 355
     label "pc_46"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 356
     label "fragment_51"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 357
     label "pc_dendrite_fragment_15"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 358
     label "fragment_52"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 359
     label "pc_63"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 360
     label "interneuron_21"
     cell_type "MLI1"
-    soma_coord "103847.4688, 86467.07031, 254.5"
+    soma_coord 103847.4688
+    soma_coord 86467.07031
+    soma_coord 254.5
   ]
   node [
     id 361
     label "mli_672"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 362
     label "pc_52"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 363
     label "interneuron_206"
     cell_type "interneuron"
-    tags ""
-    tags ""
   ]
   node [
     id 364
     label "pc_42"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 365
     label "pc_40"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 366
     label "fragment_327"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 367
     label "pf_4506"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 368
     label "pc_157"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 369
     label "pc_132"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 370
     label "pf_4507"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 371
     label "pc_162"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 372
     label "pf_4508"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 373
     label "pf_4509"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 374
     label "interneuron_359"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 375
     label "interneuron_360"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 376
     label "pf_4510"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 377
     label "interneuron_321"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 378
     label "interneuron_346"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 379
     label "pc_29"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 380
     label "pf_4511"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 381
     label "pf_4512"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 382
     label "interneuron_332"
     cell_type "MLI2"
-    soma_coord "68992.41406, 60932.22266, 679.793335"
+    soma_coord 68992.41406
+    soma_coord 60932.22266
+    soma_coord 679.793335
   ]
   node [
     id 383
     label "pf_4513"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 384
     label "interneuron_322"
     cell_type "MLI1"
-    soma_coord "59625.42969, 73211.51563, 1030.5"
+    soma_coord 59625.42969
+    soma_coord 73211.51563
+    soma_coord 1030.5
   ]
   node [
     id 385
     label "interneuron_324"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 386
     label "pf_4514"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 387
     label "pf_4515"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 388
     label "pf_4516"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 389
     label "pf_4517"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 390
     label "pf_4518"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 391
     label "pc_77"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 392
     label "pf_4519"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 393
     label "pf_4520"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 394
     label "pf_4521"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 395
     label "pf_4522"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 396
     label "pf_4523"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 397
     label "pf_4524"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 398
     label "interneuron_151"
     cell_type "MLI1"
-    soma_coord "145929.8281, 52251.91016, 258.5"
+    soma_coord 145929.8281
+    soma_coord 52251.91016
+    soma_coord 258.5
   ]
   node [
     id 399
     label "pc_114"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 400
     label "pf_4525"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 401
     label "pf_4526"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 402
     label "pc_dendrite_8"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 403
     label "pf_4527"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 404
     label "pf_4528"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 405
     label "pc_103"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 406
     label "pc_33"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 407
     label "pf_4529"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 408
     label "pf_4530"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 409
     label "pc_101"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 410
     label "pf_4531"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 411
     label "interneuron_288"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 412
     label "pc_58"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 413
     label "pf_4532"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 414
     label "pf_4533"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 415
     label "pf_4534"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 416
     label "pf_4535"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 417
     label "pf_4536"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 418
     label "interneuron_137"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 419
     label "pc_117"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 420
     label "pf_4537"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 421
     label "pc_115"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 422
     label "pf_4538"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 423
     label "pf_4539"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 424
     label "pc_dendrite_fragment_7"
     cell_type "pc_dendrite"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 425
     label "pf_4540"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 426
     label "interneuron_114"
     cell_type "MLI1"
-    soma_coord "121440.7266, 48761.58984, 258.5"
+    soma_coord 121440.7266
+    soma_coord 48761.58984
+    soma_coord 258.5
   ]
   node [
     id 427
     label "pf_3759"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 428
     label "pf_4542"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 429
     label "interneuron_64"
     cell_type "MLI1"
-    soma_coord "131062.5938, 77561.78125, 241.5"
+    soma_coord 131062.5938
+    soma_coord 77561.78125
+    soma_coord 241.5
   ]
   node [
     id 430
     label "pf_4543"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 431
     label "pf_4544"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 432
     label "pf_4545"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 433
     label "pf_4546"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 434
     label "pf_4547"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 435
     label "interneuron_291"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 436
     label "pf_4548"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 437
     label "pc_14"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 438
     label "pf_4549"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 439
     label "pf_4550"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 440
     label "pf_4551"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 441
     label "pc_dendrite_7"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 442
     label "pf_4541"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 443
     label "pf_4558"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 444
     label "pf_4562"
     cell_type "pf"
-    tags ""
-    tags ""
   ]
   node [
     id 445
     label "pf_4563"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 446
     label "pf_4564"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 447
     label "pf_4565"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 448
     label "pf_4566"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 449
     label "pf_4552"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 450
     label "interneuron_102"
     cell_type "MLI1"
-    soma_coord "110011.2109, 79709.10938, 124.8612061"
+    soma_coord 110011.2109
+    soma_coord 79709.10938
+    soma_coord 124.8612061
   ]
   node [
     id 451
     label "interneuron_171"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 452
     label "pf_4553"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 453
     label "pf_4554"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 454
     label "pc_37"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 455
     label "pc_12"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 456
     label "pf_4555"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 457
     label "pf_4556"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 458
     label "dendrite_fragmants_0"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 459
     label "interneuron_262"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 460
     label "pf_4557"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 461
     label "pc_104"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 462
     label "PF_4558"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 463
     label "pf_4559"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 464
     label "pf_4560"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 465
     label "pc_87"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 466
     label "pf_4561"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 467
     label "pf_4570"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 468
     label "pf_4567"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 469
     label "pf_4568"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 470
     label "pc_100"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 471
     label "interneuron_287"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 472
     label "pf_4571"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 473
     label "unknown"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 474
     label "pc_137"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 475
     label "pf_4572"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 476
     label "pf_4573"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 477
     label "pf_4574"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 478
     label "pc_38"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 479
     label "pf_4575"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 480
     label "pf_4576"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 481
     label "interneuron_255"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 482
     label "pf_4577"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 483
     label "pf_4578"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 484
     label "pf_4579"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 485
     label "interneuron_251"
     cell_type "MLI1"
-    soma_coord "157194.3281, 65941.91406, 612.109314"
+    soma_coord 157194.3281
+    soma_coord 65941.91406
+    soma_coord 612.109314
   ]
   node [
     id 486
     label "pf_4580"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 487
     label "pf_4581"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 488
     label "interneuron_267"
     cell_type "unclear_mli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 489
     label "pf_4582"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 490
     label "pf_4583"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 491
     label "pf_4584"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 492
     label "pf_4585"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 493
     label "pf_4586"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 494
     label "pf_4587"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 495
     label "pf_4588"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 496
     label "pf_4589"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 497
     label "pf_4590"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 498
     label "pf_4591"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 499
     label "pf_4592"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 500
     label "pf_4593"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 501
     label "pf_4594"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 502
     label "pf_4595"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 503
     label "pf_4596"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 504
     label "pf_4597"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 505
     label "pf_4598"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 506
     label "fragment_55"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 507
     label "pf_4599"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 508
     label "pf_4600"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 509
     label "pf_4601"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 510
     label "pf_4602"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 511
     label "pf_4603"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 512
     label "pf_4684"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 513
     label "pf_4685"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 514
     label "pcfragment"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 515
     label "pf_4686"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 516
     label "pf_4687"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 517
     label "pf_4688"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 518
     label "pf_4689"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 519
     label "pf_4690"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 520
     label "pf_4691"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 521
     label "pf_4692"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 522
     label "pf_4693"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 523
     label "pf_4694"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 524
     label "interneuron_146"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 525
     label "pf_4695"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 526
     label "pf_4696"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 527
     label "pf_4697"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 528
     label "pf_4698"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 529
     label "fragment_53"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 530
     label "pf_4699"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 531
     label "pf_4670"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 532
     label "pc_62"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 533
     label "pf_4671"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 534
     label "pc_dendrite_fragment_17"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 535
     label "grc_426"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 536
     label "unknown_interneuron"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 537
     label "pc_dendrite_fragment_1"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 538
     label "grc_430"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 539
     label "grc_432"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 540
     label "grc_438"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 541
     label "grc_439"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 542
     label "grc_440"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 543
     label "grc_441"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 544
     label "grc_442"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 545
     label "grc_454"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 546
     label "not reconstructed"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 547
     label "grc_1003"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 548
     label "interneuron_0"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 549
     label "interneuron_5"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 550
     label "interneuron_230"
     cell_type "MLI2"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 551
     label "pcl_8"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 552
     label "pcl_234"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 553
     label "interneuron_81"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 554
     label "pcl_223"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 555
     label "pc_300_axon"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 556
     label "grc_4393"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 557
     label "mli1_3000"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 558
     label "pc_301"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 559
     label "unsaved"
     cell_type "unknown"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 560
     label "mli_3002"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 561
     label "fragment_328"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 562
     label "pc_159"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 563
     label "fragment_1"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 564
     label "interneuron_228"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 565
     label "mli_3291"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 566
     label "fragment_2"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 567
     label "fragment_3"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 568
     label "fragment_4"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 569
     label "fragment_5"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 570
     label "pc_6"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 571
     label "pcl_dendrite_14"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 572
     label "pc_13"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 573
     label "pcl_24"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 574
     label "pli_483"
     cell_type "pli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 575
     label "pcl_14"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 576
     label "fragment_12"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 577
     label "fragment_13"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 578
     label "fragment_14"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 579
     label "fragment_15"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 580
     label "pcl_fragment"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 581
     label "pli_722"
     cell_type "pli"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 582
     label "pcl_28"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 583
     label "pcl_fragment_2"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 584
     label "fragment_318"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 585
     label "interneuron_90"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 586
     label "fragment_319"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 587
     label "fragment_320"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 588
     label "fragment_321"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 589
     label "fragment_322"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 590
     label "fragment_323"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 591
     label "interneuron_41"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 592
     label "pcl_23"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 593
     label "fragment_234"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 594
     label "interneuron_143"
     cell_type "interneuron"
-    soma_coord "97333.00781, 42013.94141, 258.5"
+    soma_coord 97333.00781
+    soma_coord 42013.94141
+    soma_coord 258.5
   ]
   node [
     id 595
     label "pc_154"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 596
     label "pc_dendrite_fragment_18"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 597
     label "interneuron_361"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 598
     label "pc_179"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 599
     label "pc_155"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 600
     label "fragment_235"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 601
     label "fragment_236"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 602
     label "pc_dendrite_fragment_19"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 603
     label "interneuron_362"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 604
     label "interneuron_402"
     cell_type "interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 605
     label "pc_156"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 606
     label "fragment_237"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 607
     label "fragment_239"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 608
     label "fragment_324"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 609
     label "pc_dendrite_fragment_20"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 610
     label "fragment_325"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 611
     label "fragment_326"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 612
     label "pf_4783"
     cell_type "pf"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 613
     label "pc_dendrite_fragment_21"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 614
     label "interneuron_50"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 615
     label "fragment_329"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 616
     label "pc_92"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 617
     label "fragment_330"
     cell_type "fragment"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 618
     label "ml_grc_0"
     cell_type "ectopic grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 619
     label "ml_grc_2"
     cell_type "ectopic grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 620
     label "interneuron_93"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 621
     label "pc_dendrite_fragment_8"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 622
     label "interneuron_136"
     cell_type "unknown_interneuron"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 623
     label "ml_grc_5"
     cell_type "ectopic grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 624
     label "ml_grc_12"
     cell_type "ectopic grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 625
     label "ml_grc_16"
     cell_type "ectopic grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 626
     label "ml_grc_17"
     cell_type "ectopic grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 627
     label "ml_grc_9"
     cell_type "ectopic grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 628
     label "mli_192"
     cell_type "MLI1"
-    soma_coord "38909.89453, 93624.71094, 246.6708221"
+    soma_coord 38909.89453
+    soma_coord 93624.71094
+    soma_coord 246.6708221
   ]
   node [
     id 629
     label "interneuron_152"
     cell_type "MLI1"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 630
     label "interneuron_211"
     cell_type "MLI1"
-    soma_coord "81472.55469, 45819.52344, 882.499939"
+    soma_coord 81472.55469
+    soma_coord 45819.52344
+    soma_coord 882.499939
   ]
   node [
     id 631
     label "unknown_pc"
     cell_type "pc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 632
     label "grc_4449"
     cell_type "grc"
-    tags "_networkx_list_start"
-    tags ""
   ]
   node [
     id 633
     label "interneuron_340"
     cell_type "unknown_interneuron"
-    soma_coord "48425.94922, 54824.14063, 353.500061"
+    soma_coord 48425.94922
+    soma_coord 54824.14063
+    soma_coord 353.500061
   ]
   edge [
     source 0
@@ -96511,6 +95864,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
+    tags "false"
     coord 110800.0
     coord 72064.0
     coord 929.0
@@ -97085,6 +96439,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
+    tags "incomplete"
     coord 47739.0
     coord 82667.0
     coord 617.0
@@ -102167,6 +101522,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
+    tags "incomplete"
     coord 138592.0
     coord 61499.0
     coord 643.0
@@ -105941,6 +105297,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
+    tags "false"
     coord 92465.0
     coord 91915.0
     coord 1000.0

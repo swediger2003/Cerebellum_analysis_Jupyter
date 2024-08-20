@@ -79,6 +79,11 @@ def update_graph_edges_from_table(G, table):
     for row_number, row in enumerate(table):
         pre, post, attributes = row_to_edge(row)
         coord = attributes['coord']
+        # go over every attribute. if it is a string that should likely be a float or list instead of string, make it a float or list. 
+        for key, value in attributes.items():
+            if type(value) == str:
+                value = destringify(value)
+                attributes[key] = value
         # if the coordinate of this edge has need been given to any other edge in the graph:
         # also check to make sure that all edges have the tag 'true' before adding them. 
         if all([edge[2]['coord'] != coord for edge in G.edges(data = True)]) and 'true' in attributes['tags']:
@@ -88,19 +93,48 @@ def update_graph_edges_from_table(G, table):
             raise UserWarning(f'Two edges have the same coordinate: {coord} is repeated for the second time at row {row_number + 1}')
     return G
 
+# turns a string that likely should not be a string into whatever type it should likely be. for example, 
+# turns a string with numbers and decimal points separated by commas, possibly surrounded by brackets, into a list
+# turns a string with numbers and decimal points into a float
+# turns a string with only numbers into an int
+# leaves a string that it doesn't have any idea what to do with alone and returns it identically
+def destringify(string: str):
+    if is_numeric_string(string):
+        string = int(string)
+        return string
+    if is_float_string(string):
+        string = float(string)
+        return string
+    if is_list_string(string):
+        string = string_to_list(string)
+        return string
+    return string
+
+# turns a string representation of a tuple into a tuple of floats. 
+def string_to_list(string: str):
+    # remove beginning and ending parens
+    string = string.strip('()[]')
+    # split values by comma
+    strings = string.split(',')
+    # turn string representations of floats into floats
+    result = [float(item) for item in strings]
+    return result
+
 # given a table, where each row contains a node name and a list of key:value pairs, update the attribute
 def update_graph_nodes_from_table(G, table):
     for row in table:
         neuron = row[0]
         if neuron not in G.nodes():
             G.add_node(neuron)
-        has_tags = 'tags' in G.nodes[neuron].keys()
+        has_tags = 'tags' in G.nodes(data = True)[neuron].keys()
         for item in row[1:]:
             if ':' in item:
                 key, value = item.split(':')
+                value = destringify(value)
                 G.nodes[neuron][key] = value
             # for a value with no key, classify it as a tag, which goes into a list of tags
-            else: 
+            else:
+                item = destringify(item)
                 if has_tags:
                     G.nodes[neuron]['tags'].append(item)
                 else:
@@ -137,7 +171,7 @@ def row_to_edge(row):
             row[i] = item.lower()
     result[0] = row[0]
     result[1] = row[1]
-    result[2]['coord'] = string_to_tuple(row[2])
+    result[2]['coord'] = string_to_list(row[2])
     if len(row) > 2: 
         for item in row[3:]:
             # do not consider adding an empty string as a tag or attribute. 
@@ -154,15 +188,7 @@ def row_to_edge(row):
                 result[2]['tags'].append(item)
     return result
     
-# turns a string representation of a tuple into a tuple of floats. 
-def string_to_tuple(string):
-    # remove beginning and ending parens
-    string = string.strip('()')
-    # split values by comma
-    strings = string.split(',')
-    # turn string representations of floats into floats
-    result = [float(item) for item in strings]
-    return result
+
 
 def edge_to_row(edge):
     # pre, post, coord, attributes, tags
@@ -220,6 +246,8 @@ def remove_trailing_spaces_from_table(table):
         new_row = []
         for item in row:
             assert(type(item) == str)
+            if item == '': # do not add empty strings. 
+                continue
             new_row.append(item.strip())
         new_table.append(new_row)
     return new_table
@@ -340,10 +368,10 @@ def merge_edge_tables(old_table: list[list[str]], new_table: list[list[str]]) ->
                 # go cell by cell after 2 and modify any existing attributes that have a new value, add any attributes that are not currently present, 
                 # and add any tags that are not present. 
                 old_table[i] = merge_edge_rows(existing_row, row)
-                break # don't keep looking for more edges at the same coordinate. 
+                break # don't keep looking for more edges at the same coordinate.
         # after searching every existing row, add the row as a new row. 
-    else:
-        old_table.append(row)
+        else:
+            old_table.append(row)
 
     return old_table
 
@@ -356,9 +384,9 @@ def merge_node_tables(old_table, new_table):
                 # and add any tags that are not present. 
                 old_table[i] = merge_node_rows(existing_row, row)
                 break # don't keep looking for more edges at the same coordinate. 
-    # after searching every existing row and not finding one, add the row as a new row. 
-    else:
-        old_table.append(row)
+        # after searching every existing row and not finding one, add the row as a new row. 
+        else:
+            old_table.append(row)
         
     return old_table
 
@@ -442,13 +470,20 @@ def row_to_col(row):
     return col
 
 # True if value is a string with all values being a 0-9 digit value. 
-def is_numeric(string):
+def is_numeric_string(string: str):
+    string == string.strip(' ')
     digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    return all([char in digits for char in string])
+    return len(string) > 0 and all([char in digits for char in string])
 
 # True if value is a float with no spaces or any of that funny business. 
-def is_float(string):
-    return all([is_numeric(word) for word in string.split('.')])
+def is_float_string(string: str):
+    string == string.strip('()[] ')
+    return len(string) > 0 and all([is_numeric_string(char) or char in ['.', ' '] for char in string])
+
+# True if value is a list of floats separated by commas. 
+def is_list_string(string: str):
+    string = string.strip('()[]')
+    return ',' in string and all([is_float_string(item) for item in string.split(',')])
 
 def col_to_annotations(sheet_object):
     values = sheet_object.get_all_values()
@@ -458,7 +493,7 @@ def col_to_annotations(sheet_object):
     
     values = [value.strip(',') for value in values]
     # filter for items that are float values
-    values = [value for value in values if is_float(value)]
+    values = [value for value in values if is_float_string(value)]
 
     # condense the list into a list of 3-tuples in the same order
     i = 0
