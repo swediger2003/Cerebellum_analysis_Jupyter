@@ -108,16 +108,31 @@ def destringify(string: str):
     if is_list_string(string):
         string = string_to_list(string)
         return string
+    if is_boolean_string(string):
+        return string_to_bool(string)
     return string
 
+def is_boolean_string(string: str) -> bool:
+    string = string.lower()
+    return string in ['true', 'false']
+
+def string_to_bool(string: str) -> bool:
+    lower_string = string.lower()
+    if lower_string == 'true':
+        return True
+    if lower_string == 'false':
+        return False
+    else:
+        raise UserWarning(f'{string} is not a boolean value.')
+
 # turns a string representation of a tuple into a tuple of floats. 
-def string_to_list(string: str):
+def string_to_list(string: str) -> list:
     # remove beginning and ending parens
     string = string.strip('()[]')
     # split values by comma
     strings = string.split(',')
     # turn string representations of floats into floats
-    result = [float(item) for item in strings]
+    result = [destringify(item) for item in strings]
     return result
 
 # given a table, where each row contains a node name and a list of key:value pairs, update the attribute

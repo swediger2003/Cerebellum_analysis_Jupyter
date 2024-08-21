@@ -50,6 +50,9 @@ graph [
     id 6
     label "interneuron_174"
     cell_type "MLI1"
+    soma_coord 102210.8359375
+    soma_coord 87277.5859375
+    soma_coord 895.5736694335938
   ]
   node [
     id 7
@@ -191,6 +194,9 @@ graph [
     id 24
     label "interneuron_120"
     cell_type "MLI1"
+    soma_coord 115380.6875
+    soma_coord 81290.6328125
+    soma_coord 503.1221618652344
   ]
   node [
     id 25
@@ -473,9 +479,9 @@ graph [
     id 60
     label "interneuron_108"
     cell_type "MLI1"
-    soma_coord 92694.57813
-    soma_coord 82641.07813
-    soma_coord 254.4642792
+    soma_coord 92537.453125
+    soma_coord 82573.765625
+    soma_coord 321.9669189453125
   ]
   node [
     id 61
@@ -502,6 +508,9 @@ graph [
     id 64
     label "interneuron_58"
     cell_type "MLI1"
+    soma_coord 139001.65625
+    soma_coord 68249.34375
+    soma_coord 541.6959228515625
   ]
   node [
     id 65
@@ -555,6 +564,9 @@ graph [
     id 71
     label "interneuron_157"
     cell_type "MLI1"
+    soma_coord 148690.609375
+    soma_coord 69911
+    soma_coord 357.4658508300781
   ]
   node [
     id 72
@@ -640,6 +652,9 @@ graph [
     id 82
     label "interneuron_140"
     cell_type "MLI1"
+    tags "no_axon"
+    tags "out_of_bounds"
+    tags "incomplete"
   ]
   node [
     id 83
@@ -653,11 +668,17 @@ graph [
     id 84
     label "interneuron_162"
     cell_type "MLI1"
+    soma_coord 148720.21875
+    soma_coord 80162.484375
+    soma_coord 773.5
   ]
   node [
     id 85
     label "interneuron_67"
     cell_type "MLI1"
+    soma_coord 136743.546875
+    soma_coord 91027.7734375
+    soma_coord 821.627197265625
   ]
   node [
     id 86
@@ -711,6 +732,11 @@ graph [
     id 92
     label "interneuron_159"
     cell_type "MLI1"
+    soma_coord 146960.8125
+    soma_coord 88634.4609375
+    soma_coord 153.01536560058594
+    tags "out_of_bounds"
+    tags "imcomplete"
   ]
   node [
     id 93
@@ -753,6 +779,9 @@ graph [
     id 98
     label "interneuron_164"
     cell_type "MLI1"
+    soma_coord 156967.5
+    soma_coord 86181.8515625
+    soma_coord 1037.969482421875
   ]
   node [
     id 99
@@ -790,6 +819,9 @@ graph [
     id 103
     label "interneuron_279"
     cell_type "MLI1"
+    soma_coord 176507.109375
+    soma_coord 80050.2734375
+    soma_coord 637.6342163085938
   ]
   node [
     id 104
@@ -803,6 +835,9 @@ graph [
     id 105
     label "interneuron_161"
     cell_type "MLI1"
+    soma_coord 147301.1875
+    soma_coord 81132.0703125
+    soma_coord 627.6671752929688
   ]
   node [
     id 106
@@ -816,6 +851,9 @@ graph [
     id 107
     label "interneuron_258"
     cell_type "MLI1"
+    soma_coord 164935.375
+    soma_coord 68470.5234375
+    soma_coord 434.7014465332031
   ]
   node [
     id 108
@@ -829,11 +867,17 @@ graph [
     id 109
     label "interneuron_156"
     cell_type "MLI2"
+    soma_coord 150373.09375
+    soma_coord 66465.5
+    soma_coord 425.5000915527344
   ]
   node [
     id 110
     label "interneuron_263"
     cell_type "MLI1"
+    soma_coord 159197.96875
+    soma_coord 54263.01171875
+    soma_coord 572.9177856445312
   ]
   node [
     id 111
@@ -847,6 +891,9 @@ graph [
     id 112
     label "interneuron_56"
     cell_type "MLI2"
+    soma_coord 138356.15625
+    soma_coord 66136.0859375
+    soma_coord 627.5001831054688
   ]
   node [
     id 113
@@ -860,11 +907,17 @@ graph [
     id 114
     label "interneuron_254"
     cell_type "MLI1"
+    soma_coord 158333.453125
+    soma_coord 69538.34375
+    soma_coord 558.2852172851562
   ]
   node [
     id 115
     label "interneuron_260"
     cell_type "MLI1"
+    soma_coord 164273.28125
+    soma_coord 68462.1328125
+    soma_coord 804.3211669921875
   ]
   node [
     id 116
@@ -878,6 +931,9 @@ graph [
     id 117
     label "interneuron_299"
     cell_type "MLI1"
+    soma_coord 185874.953125
+    soma_coord 70659.3203125
+    soma_coord 422.9681396484375
   ]
   node [
     id 118
@@ -941,6 +997,9 @@ graph [
     id 126
     label "interneuron_194"
     cell_type "MLI1"
+    soma_coord 94531.71875
+    soma_coord 57107.26953125
+    soma_coord 1104.214111328125
   ]
   node [
     id 127
@@ -954,6 +1013,9 @@ graph [
     id 128
     label "interneuron_345"
     cell_type "MLI1"
+    soma_coord 50984.32421875
+    soma_coord 87117.2265625
+    soma_coord 726.1697387695312
   ]
   node [
     id 129
@@ -991,6 +1053,9 @@ graph [
     id 133
     label "interneuron_310"
     cell_type "MLI1"
+    soma_coord 64034.98828125
+    soma_coord 74199.5859375
+    soma_coord 873.9476318359375
   ]
   node [
     id 134
@@ -1006,6 +1071,9 @@ graph [
     id 136
     label "interneuron_43"
     cell_type "MLI1"
+    soma_coord 173043.59375
+    soma_coord 45867.55078125
+    soma_coord 222.509521484375
   ]
   node [
     id 137
@@ -1024,6 +1092,9 @@ graph [
     id 139
     label "interneuron_235"
     cell_type "MLI1"
+    soma_coord 165312.296875
+    soma_coord 83214.390625
+    soma_coord 233.79940795898438
   ]
   node [
     id 140
@@ -1042,6 +1113,9 @@ graph [
     id 142
     label "interneuron_313"
     cell_type "MLI1"
+    soma_coord 64767.08203125
+    soma_coord 90180.4375
+    soma_coord 592.6162719726562
   ]
   node [
     id 143
@@ -1119,11 +1193,20 @@ graph [
     id 152
     label "interneuron_199"
     cell_type "MLI2"
+    soma_coord 88802.453125
+    soma_coord 53965.8515625
+    soma_coord 938.2938232421875
   ]
   node [
     id 153
     label "interneuron_195"
     cell_type "MLI1"
+    soma_coord 98320.5
+    soma_coord 47280.1015625
+    soma_coord 1168.5001220703125
+    tags "out_of_bounds"
+    tags "no_dendrite"
+    tags "incomplete"
   ]
   node [
     id 154
@@ -1137,6 +1220,9 @@ graph [
     id 155
     label "interneuron_273"
     cell_type "MLI2"
+    soma_coord 171284.25
+    soma_coord 61848.92578125
+    soma_coord 821.5020751953125
   ]
   node [
     id 156
@@ -1147,11 +1233,19 @@ graph [
     id 157
     label "interneuron_212"
     cell_type "MLI1"
+    soma_coord 80459.359375
+    soma_coord 57061.3046875
+    soma_coord 1141.2154541015625
+    tags "incomplete"
+    tags "out_of_bounds"
   ]
   node [
     id 158
     label "interneuron_298"
     cell_type "MLI1"
+    soma_coord 186797.15625
+    soma_coord 66903.7578125
+    soma_coord 347.52374267578125
   ]
   node [
     id 159
@@ -1183,6 +1277,9 @@ graph [
     id 163
     label "interneuron_244"
     cell_type "MLI2"
+    soma_coord 151857.484375
+    soma_coord 51493.1015625
+    soma_coord 789.7537231445312
   ]
   node [
     id 164
@@ -1201,11 +1298,19 @@ graph [
     id 166
     label "interneuron_269"
     cell_type "MLI2"
+    soma_coord 171488
+    soma_coord 58505.359375
+    soma_coord 95.2838134765625
   ]
   node [
     id 167
     label "interneuron_286"
     cell_type "MLI1"
+    soma_coord 175721.921875
+    soma_coord 70455
+    soma_coord 218.60104370117188
+    tags "out_of_bounds"
+    tags "incomplete"
   ]
   node [
     id 168
@@ -1221,6 +1326,9 @@ graph [
     id 170
     label "interneuron_37"
     cell_type "MLI1"
+    soma_coord 167292.109375
+    soma_coord 49316.625
+    soma_coord 171.57164001464844
   ]
   node [
     id 171
@@ -1231,6 +1339,9 @@ graph [
     id 172
     label "interneuron_280"
     cell_type "MLI1"
+    soma_coord 180379.28125
+    soma_coord 81975.2265625
+    soma_coord 339.5000305175781
   ]
   node [
     id 173
@@ -1246,16 +1357,25 @@ graph [
     id 175
     label "interneuron_284"
     cell_type "MLI2"
+    soma_coord 180643.171875
+    soma_coord 60910.3203125
+    soma_coord 626.5877685546875
   ]
   node [
     id 176
     label "interneuron_295"
     cell_type "MLI1"
+    soma_coord 185536.125
+    soma_coord 55733.453125
+    soma_coord 468.2878112792969
   ]
   node [
     id 177
     label "interneuron_297"
     cell_type "MLI1"
+    soma_coord 183832.203125
+    soma_coord 78192.625
+    soma_coord 301.9060363769531
   ]
   node [
     id 178
@@ -1285,11 +1405,17 @@ graph [
     id 181
     label "interneuron_259"
     cell_type "MLI1"
+    soma_coord 162662.203125
+    soma_coord 75227.625
+    soma_coord 689.3701171875
   ]
   node [
     id 182
     label "interneuron_45"
     cell_type "MLI1"
+    soma_coord 176876.140625
+    soma_coord 40835.734375
+    soma_coord 272.8481140136719
   ]
   node [
     id 183
@@ -1341,6 +1467,9 @@ graph [
     id 191
     label "interneuron_52"
     cell_type "MLI2"
+    soma_coord 161245.15625
+    soma_coord 66444.2421875
+    soma_coord 526.9193725585938
   ]
   node [
     id 192
@@ -1400,6 +1529,9 @@ graph [
     id 201
     label "interneuron_51"
     cell_type "MLI2"
+    soma_coord 87500.15625
+    soma_coord 49816.29296875
+    soma_coord 184.5738067626953
   ]
   node [
     id 202
@@ -2330,6 +2462,9 @@ graph [
     id 378
     label "interneuron_346"
     cell_type "MLI2"
+    soma_coord 50461.171875
+    soma_coord 84215.515625
+    soma_coord 797.7522583007812
   ]
   node [
     id 379
@@ -2713,6 +2848,11 @@ graph [
     id 451
     label "interneuron_171"
     cell_type "MLI1"
+    soma_coord 102732.71875
+    soma_coord 88654.9140625
+    soma_coord 83.57025146484375
+    tags "out_of_bounds"
+    tags "incomplete"
   ]
   node [
     id 452
@@ -3081,6 +3221,11 @@ graph [
     id 524
     label "interneuron_146"
     cell_type "MLI1"
+    soma_coord 84837.21875
+    soma_coord 82359.015625
+    soma_coord 117.8284683227539
+    tags "out_of_bounds"
+    tags "incomplete"
   ]
   node [
     id 525
@@ -3211,6 +3356,9 @@ graph [
     id 550
     label "interneuron_230"
     cell_type "MLI2"
+    soma_coord 140028.75
+    soma_coord 92765.6953125
+    soma_coord 1112.94580078125
   ]
   node [
     id 551
@@ -3553,12 +3701,12 @@ graph [
   node [
     id 618
     label "ml_grc_0"
-    cell_type "ectopic grc"
+    cell_type "ectopic_grc"
   ]
   node [
     id 619
     label "ml_grc_2"
-    cell_type "ectopic grc"
+    cell_type "ectopic_grc"
   ]
   node [
     id 620
@@ -3578,27 +3726,27 @@ graph [
   node [
     id 623
     label "ml_grc_5"
-    cell_type "ectopic grc"
+    cell_type "ectopic_grc"
   ]
   node [
     id 624
     label "ml_grc_12"
-    cell_type "ectopic grc"
+    cell_type "ectopic_grc"
   ]
   node [
     id 625
     label "ml_grc_16"
-    cell_type "ectopic grc"
+    cell_type "ectopic_grc"
   ]
   node [
     id 626
     label "ml_grc_17"
-    cell_type "ectopic grc"
+    cell_type "ectopic_grc"
   ]
   node [
     id 627
     label "ml_grc_9"
-    cell_type "ectopic grc"
+    cell_type "ectopic_grc"
   ]
   node [
     id 628
@@ -3612,6 +3760,9 @@ graph [
     id 629
     label "interneuron_152"
     cell_type "MLI1"
+    soma_coord 150599.359375
+    soma_coord 38108.41796875
+    soma_coord 374.7327880859375
   ]
   node [
     id 630
@@ -34185,7 +34336,7 @@ graph [
     key 0
     tags "true"
     tags "pc_collateral"
-    coord 149363.0
+    coord 149363
     coord 81479.5703125
     coord 1150.5
   ]
@@ -54995,7 +55146,7 @@ graph [
     key 23
     tags "true"
     tags "ephaptic"
-    coord 156788.0
+    coord 156788
     coord 92079.75
     coord 692.3843994140625
   ]
@@ -79565,7 +79716,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 176659.0
+    coord 176659
     coord 56931.328125
     coord 174.4999542236328
   ]
@@ -79775,7 +79926,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 185035.0
+    coord 185035
     coord 64359.8984375
     coord 441.5000305
   ]
@@ -79895,7 +80046,7 @@ graph [
     key 14
     tags "_networkx_list_start"
     tags "true"
-    coord 160758.0
+    coord 160758
     coord 55215.41796875
     coord 203.5000153
   ]
@@ -80395,7 +80546,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 168551.0
+    coord 168551
     coord 52105.0703125
     coord 446.5000305
   ]
@@ -80575,7 +80726,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 154418.0
+    coord 154418
     coord 57901.328125
     coord 581.500061
   ]
@@ -80735,7 +80886,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 152377.0
+    coord 152377
     coord 61041.55859375
     coord 584.500061
   ]
@@ -81135,7 +81286,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 146311.0
+    coord 146311
     coord 62305.46484375
     coord 439.5
   ]
@@ -81375,7 +81526,7 @@ graph [
     key 5
     tags "_networkx_list_start"
     tags "true"
-    coord 127504.0
+    coord 127504
     coord 69712.0703125
     coord 631.500061
   ]
@@ -81715,7 +81866,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 175453.0
+    coord 175453
     coord 70612.7734375
     coord 542.5
   ]
@@ -81935,7 +82086,7 @@ graph [
     key 8
     tags "_networkx_list_start"
     tags "true"
-    coord 163784.0
+    coord 163784
     coord 63671.54296875
     coord 405.50006103515625
   ]
@@ -82226,7 +82377,7 @@ graph [
     tags "_networkx_list_start"
     tags "true"
     coord 182622.453125
-    coord 45433.0
+    coord 45433
     coord 367.49993896484375
   ]
   edge [
@@ -82665,7 +82816,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 172327.0
+    coord 172327
     coord 76531.2265625
     coord 287.4998779296875
   ]
@@ -83335,7 +83486,7 @@ graph [
     key 0
     tags "true"
     tags "spillover"
-    coord 170889.0
+    coord 170889
     coord 64269.0
     coord 231.0
   ]
@@ -83635,7 +83786,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 139228.0
+    coord 139228
     coord 55907.5703125
     coord 158.5
   ]
@@ -83725,7 +83876,7 @@ graph [
     key 3
     tags "true"
     tags "spillover"
-    coord 103557.0
+    coord 103557
     coord 67921.1015625
     coord 713.5
   ]
@@ -84185,7 +84336,7 @@ graph [
     key 0
     tags "true"
     tags "spillover"
-    coord 91274.0
+    coord 91274
     coord 85416.0
     coord 1008.0
   ]
@@ -84195,7 +84346,7 @@ graph [
     key 1
     tags "true"
     tags "spillover"
-    coord 89415.0
+    coord 89415
     coord 84123.0
     coord 1002.0
   ]
@@ -84205,7 +84356,7 @@ graph [
     key 2
     tags "true"
     tags "spillover"
-    coord 95331.0
+    coord 95331
     coord 66722.0
     coord 900.0
   ]
@@ -84215,7 +84366,7 @@ graph [
     key 3
     tags "true"
     tags "spillover"
-    coord 96419.0
+    coord 96419
     coord 65577.0
     coord 908.0
   ]
@@ -84225,7 +84376,7 @@ graph [
     key 4
     tags "true"
     tags "spillover"
-    coord 92388.0
+    coord 92388
     coord 64749.0
     coord 884.0
   ]
@@ -84235,7 +84386,7 @@ graph [
     key 5
     tags "true"
     tags "spillover"
-    coord 89422.0
+    coord 89422
     coord 84126.0
     coord 1000.0
   ]
@@ -84245,7 +84396,7 @@ graph [
     key 6
     tags "true"
     tags "spillover"
-    coord 85246.0
+    coord 85246
     coord 84159.0
     coord 975.0
   ]
@@ -84255,7 +84406,7 @@ graph [
     key 7
     tags "true"
     tags "spillover"
-    coord 84690.0
+    coord 84690
     coord 83873.0
     coord 976.0
   ]
@@ -84265,7 +84416,7 @@ graph [
     key 8
     tags "true"
     tags "spillover"
-    coord 91441.0
+    coord 91441
     coord 59523.0
     coord 833.0
   ]
@@ -84315,7 +84466,7 @@ graph [
     key 2
     tags "true"
     tags "spillover"
-    coord 97687.0
+    coord 97687
     coord 63218.0
     coord 867.0
   ]
@@ -84355,7 +84506,7 @@ graph [
     key 0
     tags "true"
     tags "spillover"
-    coord 92262.0
+    coord 92262
     coord 73801.0
     coord 983.0
   ]
@@ -84975,7 +85126,7 @@ graph [
     key 0
     tags "true"
     tags "spillover"
-    coord 69243.0
+    coord 69243
     coord 73493.953125
     coord 239.49998474121094
   ]
@@ -85095,7 +85246,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 148934.0
+    coord 148934
     coord 82941.0
     coord 212.0
   ]
@@ -85105,7 +85256,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 148597.0
+    coord 148597
     coord 81156.0
     coord 205.0
   ]
@@ -85115,7 +85266,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 148384.0
+    coord 148384
     coord 79754.0
     coord 211.0
   ]
@@ -85125,7 +85276,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 147980.0
+    coord 147980
     coord 77482.0
     coord 213.0
   ]
@@ -85135,7 +85286,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 147783.0
+    coord 147783
     coord 75742.0
     coord 254.0
   ]
@@ -85155,7 +85306,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 145489.0
+    coord 145489
     coord 67920.0
     coord 214.0
   ]
@@ -85165,7 +85316,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 147500.0
+    coord 147500
     coord 73643.0
     coord 267.0
   ]
@@ -85175,7 +85326,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 146529.0
+    coord 146529
     coord 72180.0
     coord 245.0
   ]
@@ -85186,7 +85337,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145408.0
+    coord 145408
     coord 65941.0
     coord 208.0
   ]
@@ -85197,7 +85348,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145325.0
+    coord 145325
     coord 66543.0
     coord 281.0
   ]
@@ -85207,7 +85358,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 145907.0
+    coord 145907
     coord 69476.0
     coord 211.0
   ]
@@ -85217,7 +85368,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 145461.0
+    coord 145461
     coord 66747.0
     coord 199.0
   ]
@@ -85228,7 +85379,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145908.0
+    coord 145908
     coord 65861.0
     coord 129.0
   ]
@@ -85239,7 +85390,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145194.0
+    coord 145194
     coord 66530.0
     coord 322.0
   ]
@@ -85250,7 +85401,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145192.0
+    coord 145192
     coord 66412.0
     coord 337.0
   ]
@@ -85261,7 +85412,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 144855.0
+    coord 144855
     coord 65811.0
     coord 399.0
   ]
@@ -85272,7 +85423,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 144973.0
+    coord 144973
     coord 65999.0
     coord 477.0
   ]
@@ -85283,7 +85434,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145052.0
+    coord 145052
     coord 66161.0
     coord 495.0
   ]
@@ -85294,7 +85445,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145026.0
+    coord 145026
     coord 66886.0
     coord 684.0
   ]
@@ -85305,7 +85456,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145008.0
+    coord 145008
     coord 67151.0
     coord 710.0
   ]
@@ -85316,7 +85467,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 144848.0
+    coord 144848
     coord 66731.0
     coord 701.0
   ]
@@ -85327,7 +85478,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 145226.0
+    coord 145226
     coord 66959.0
     coord 684.0
   ]
@@ -85338,7 +85489,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 143992.0
+    coord 143992
     coord 66589.0
     coord 800.0
   ]
@@ -85360,7 +85511,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 144372.0
+    coord 144372
     coord 64019.0
     coord 1096.0
   ]
@@ -85371,7 +85522,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 144478.0
+    coord 144478
     coord 64018.0
     coord 1096.0
   ]
@@ -85381,7 +85532,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 124239.0
+    coord 124239
     coord 95312.0
     coord 587.0
   ]
@@ -85391,7 +85542,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 123912.0
+    coord 123912
     coord 92704.0
     coord 513.0
   ]
@@ -85401,7 +85552,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 124221.0
+    coord 124221
     coord 87662.0
     coord 468.0
   ]
@@ -85411,7 +85562,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 123733.0
+    coord 123733
     coord 79645.0
     coord 349.0
   ]
@@ -85421,7 +85572,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 123447.0
+    coord 123447
     coord 78151.0
     coord 329.0
   ]
@@ -85431,7 +85582,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 123447.0
+    coord 123447
     coord 75772.0
     coord 348.0
   ]
@@ -85441,7 +85592,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 123484.0
+    coord 123484
     coord 75151.0
     coord 335.0
   ]
@@ -85451,7 +85602,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 123224.0
+    coord 123224
     coord 69888.0
     coord 208.0
   ]
@@ -85461,7 +85612,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 123075.0
+    coord 123075
     coord 66216.0
     coord 247.0
   ]
@@ -85471,7 +85622,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 122484.0
+    coord 122484
     coord 62094.0
     coord 263.0
   ]
@@ -85481,7 +85632,7 @@ graph [
     key 9
     tags "true"
     tags "ascending_branch"
-    coord 122306.0
+    coord 122306
     coord 60119.0
     coord 284.0
   ]
@@ -85491,7 +85642,7 @@ graph [
     key 10
     tags "true"
     tags "ascending_branch"
-    coord 122232.0
+    coord 122232
     coord 59744.0
     coord 277.0
   ]
@@ -85501,7 +85652,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 123839.0
+    coord 123839
     coord 84931.0
     coord 463.0
   ]
@@ -85511,7 +85662,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 123068.0
+    coord 123068
     coord 65649.0
     coord 232.0
   ]
@@ -85521,7 +85672,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 122939.0
+    coord 122939
     coord 65056.0
     coord 251.0
   ]
@@ -85531,7 +85682,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 122291.0
+    coord 122291
     coord 58009.0
     coord 274.0
   ]
@@ -85541,7 +85692,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 122142.0
+    coord 122142
     coord 56817.0
     coord 302.0
   ]
@@ -85551,7 +85702,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 123410.0
+    coord 123410
     coord 72822.0
     coord 258.0
   ]
@@ -85561,7 +85712,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 123033.0
+    coord 123033
     coord 69197.0
     coord 219.0
   ]
@@ -85571,7 +85722,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 122924.0
+    coord 122924
     coord 69065.0
     coord 232.0
   ]
@@ -85581,7 +85732,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 123139.0
+    coord 123139
     coord 69261.0
     coord 228.0
   ]
@@ -85591,7 +85742,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 122798.0
+    coord 122798
     coord 63824.0
     coord 243.0
   ]
@@ -85601,7 +85752,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 123195.0
+    coord 123195
     coord 62365.0
     coord 259.0
   ]
@@ -85611,7 +85762,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 122867.0
+    coord 122867
     coord 63884.0
     coord 243.0
   ]
@@ -85621,7 +85772,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 122329.0
+    coord 122329
     coord 61694.0
     coord 296.0
   ]
@@ -85631,7 +85782,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 122023.0
+    coord 122023
     coord 56317.0
     coord 336.0
   ]
@@ -85641,7 +85792,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 121603.0
+    coord 121603
     coord 55636.0
     coord 375.0
   ]
@@ -85651,7 +85802,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 122158.0
+    coord 122158
     coord 53758.0
     coord 458.0
   ]
@@ -85661,7 +85812,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 121808.0
+    coord 121808
     coord 53138.0
     coord 487.0
   ]
@@ -85671,7 +85822,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 121715.0
+    coord 121715
     coord 52962.0
     coord 487.0
   ]
@@ -85681,7 +85832,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 121561.0
+    coord 121561
     coord 52576.0
     coord 625.0
   ]
@@ -85692,7 +85843,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121417.0
+    coord 121417
     coord 53364.0
     coord 697.0
   ]
@@ -85703,7 +85854,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121481.0
+    coord 121481
     coord 54065.0
     coord 815.0
   ]
@@ -85714,7 +85865,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121541.0
+    coord 121541
     coord 52954.0
     coord 935.0
   ]
@@ -85725,7 +85876,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121671.0
+    coord 121671
     coord 51697.0
     coord 1117.0
   ]
@@ -85735,7 +85886,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 118748.0
+    coord 118748
     coord 100422.0
     coord 391.0
   ]
@@ -85745,7 +85896,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 118474.0
+    coord 118474
     coord 97138.0
     coord 332.0
   ]
@@ -85755,7 +85906,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 117438.0
+    coord 117438
     coord 94225.0
     coord 248.0
   ]
@@ -85765,7 +85916,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 118465.0
+    coord 118465
     coord 96846.0
     coord 316.0
   ]
@@ -85775,7 +85926,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 118481.0
+    coord 118481
     coord 96822.0
     coord 304.0
   ]
@@ -85785,7 +85936,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117581.0
+    coord 117581
     coord 93010.0
     coord 252.0
   ]
@@ -85795,7 +85946,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 116585.0
+    coord 116585
     coord 92638.0
     coord 181.0
   ]
@@ -85805,7 +85956,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 116693.0
+    coord 116693
     coord 90815.0
     coord 212.0
   ]
@@ -85815,7 +85966,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 116765.0
+    coord 116765
     coord 90577.0
     coord 205.0
   ]
@@ -85825,7 +85976,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 116628.0
+    coord 116628
     coord 89550.0
     coord 226.0
   ]
@@ -85835,7 +85986,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 116657.0
+    coord 116657
     coord 87882.0
     coord 218.0
   ]
@@ -85845,7 +85996,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 116234.0
+    coord 116234
     coord 86386.0
     coord 221.0
   ]
@@ -85855,7 +86006,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 116142.0
+    coord 116142
     coord 86459.0
     coord 236.0
   ]
@@ -85865,7 +86016,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 116223.0
+    coord 116223
     coord 86378.0
     coord 220.0
   ]
@@ -85876,7 +86027,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116899.0
+    coord 116899
     coord 82211.0
     coord 227.0
   ]
@@ -85887,7 +86038,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116411.0
+    coord 116411
     coord 81650.0
     coord 283.0
   ]
@@ -85898,7 +86049,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116339.0
+    coord 116339
     coord 81504.0
     coord 302.0
   ]
@@ -85908,7 +86059,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 116050.0
+    coord 116050
     coord 85431.0
     coord 203.0
   ]
@@ -85918,7 +86069,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 116384.0
+    coord 116384
     coord 83213.0
     coord 191.0
   ]
@@ -85929,7 +86080,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115566.0
+    coord 115566
     coord 80794.0
     coord 655.0
   ]
@@ -85940,7 +86091,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115490.0
+    coord 115490
     coord 80852.0
     coord 669.0
   ]
@@ -85951,7 +86102,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116044.0
+    coord 116044
     coord 80060.0
     coord 524.0
   ]
@@ -85962,7 +86113,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115976.0
+    coord 115976
     coord 80108.0
     coord 537.0
   ]
@@ -85973,7 +86124,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115342.0
+    coord 115342
     coord 81312.0
     coord 732.0
   ]
@@ -85984,7 +86135,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115398.0
+    coord 115398
     coord 81277.0
     coord 810.0
   ]
@@ -85995,7 +86146,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115457.0
+    coord 115457
     coord 80940.0
     coord 810.0
   ]
@@ -86006,7 +86157,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115341.0
+    coord 115341
     coord 80925.0
     coord 882.0
   ]
@@ -86017,7 +86168,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115324.0
+    coord 115324
     coord 79717.0
     coord 1004.0
   ]
@@ -86028,7 +86179,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115156.0
+    coord 115156
     coord 79187.0
     coord 1060.0
   ]
@@ -86039,7 +86190,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115212.0
+    coord 115212
     coord 79226.0
     coord 1074.0
   ]
@@ -86050,7 +86201,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115207.0
+    coord 115207
     coord 78641.0
     coord 1160.0
   ]
@@ -86060,7 +86211,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100737.0
+    coord 100737
     coord 87994.0
     coord 609.0
   ]
@@ -86070,7 +86221,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 100764.0
+    coord 100764
     coord 87930.0
     coord 592.0
   ]
@@ -86080,7 +86231,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 98568.0
+    coord 98568
     coord 81880.0
     coord 595.0
   ]
@@ -86090,7 +86241,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 95472.0
+    coord 95472
     coord 68099.0
     coord 449.0
   ]
@@ -86100,7 +86251,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 95552.0
+    coord 95552
     coord 66669.0
     coord 412.0
   ]
@@ -86110,7 +86261,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 95099.0
+    coord 95099
     coord 63177.0
     coord 360.0
   ]
@@ -86120,7 +86271,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 95010.0
+    coord 95010
     coord 60980.0
     coord 381.0
   ]
@@ -86130,7 +86281,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 94983.0
+    coord 94983
     coord 60632.0
     coord 389.0
   ]
@@ -86141,7 +86292,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 95330.0
+    coord 95330
     coord 58791.0
     coord 352.0
   ]
@@ -86151,7 +86302,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99205.0
+    coord 99205
     coord 85022.0
     coord 669.0
   ]
@@ -86161,7 +86312,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 97949.0
+    coord 97949
     coord 80325.0
     coord 665.0
   ]
@@ -86171,7 +86322,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96008.0
+    coord 96008
     coord 74520.0
     coord 528.0
   ]
@@ -86181,7 +86332,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 96229.0
+    coord 96229
     coord 73515.0
     coord 499.0
   ]
@@ -86191,7 +86342,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 96207.0
+    coord 96207
     coord 72307.0
     coord 500.0
   ]
@@ -86201,7 +86352,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 95823.0
+    coord 95823
     coord 70248.0
     coord 489.0
   ]
@@ -86211,7 +86362,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 95085.0
+    coord 95085
     coord 59475.0
     coord 371.0
   ]
@@ -86221,7 +86372,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 95604.0
+    coord 95604
     coord 66492.0
     coord 402.0
   ]
@@ -86232,7 +86383,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 95089.0
+    coord 95089
     coord 57976.0
     coord 461.0
   ]
@@ -86243,7 +86394,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 94686.0
+    coord 94686
     coord 57743.0
     coord 613.0
   ]
@@ -86254,7 +86405,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 95311.0
+    coord 95311
     coord 59848.0
     coord 768.0
   ]
@@ -86265,7 +86416,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 95482.0
+    coord 95482
     coord 59748.0
     coord 841.0
   ]
@@ -86276,7 +86427,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 95336.0
+    coord 95336
     coord 59630.0
     coord 842.0
   ]
@@ -86287,7 +86438,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 95419.0
+    coord 95419
     coord 59201.0
     coord 842.0
   ]
@@ -86298,7 +86449,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 95853.0
+    coord 95853
     coord 59164.0
     coord 152.0
   ]
@@ -86308,7 +86459,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 126520.0
+    coord 126520
     coord 97550.0
     coord 469.0
   ]
@@ -86318,7 +86469,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 122502.0
+    coord 122502
     coord 91765.0
     coord 407.0
   ]
@@ -86328,7 +86479,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 121758.0
+    coord 121758
     coord 91156.0
     coord 419.0
   ]
@@ -86338,7 +86489,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 121129.0
+    coord 121129
     coord 90192.0
     coord 451.0
   ]
@@ -86348,7 +86499,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 120796.0
+    coord 120796
     coord 87514.0
     coord 383.0
   ]
@@ -86358,7 +86509,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 120539.0
+    coord 120539
     coord 87074.0
     coord 370.0
   ]
@@ -86368,7 +86519,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 120558.0
+    coord 120558
     coord 85537.0
     coord 301.0
   ]
@@ -86378,7 +86529,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 120165.0
+    coord 120165
     coord 84504.0
     coord 269.0
   ]
@@ -86388,7 +86539,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 120145.0
+    coord 120145
     coord 84170.0
     coord 250.0
   ]
@@ -86408,7 +86559,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 120218.0
+    coord 120218
     coord 82773.0
     coord 240.0
   ]
@@ -86418,7 +86569,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 121279.0
+    coord 121279
     coord 80750.0
     coord 230.0
   ]
@@ -86429,7 +86580,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121885.0
+    coord 121885
     coord 79619.0
     coord 564.0
   ]
@@ -86440,7 +86591,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121871.0
+    coord 121871
     coord 79614.0
     coord 563.0
   ]
@@ -86451,7 +86602,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 122000.0
+    coord 122000
     coord 80147.0
     coord 677.0
   ]
@@ -86462,7 +86613,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121564.0
+    coord 121564
     coord 80826.0
     coord 809.0
   ]
@@ -86473,7 +86624,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121750.0
+    coord 121750
     coord 80862.0
     coord 809.0
   ]
@@ -86484,7 +86635,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121729.0
+    coord 121729
     coord 80729.0
     coord 822.0
   ]
@@ -86494,7 +86645,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 109248.0
+    coord 109248
     coord 98924.0
     coord 759.0
   ]
@@ -86504,7 +86655,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 110651.0
+    coord 110651
     coord 93677.0
     coord 581.0
   ]
@@ -86514,7 +86665,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 110854.0
+    coord 110854
     coord 93337.0
     coord 581.0
   ]
@@ -86524,7 +86675,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 112503.0
+    coord 112503
     coord 92234.0
     coord 679.0
   ]
@@ -86535,7 +86686,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118215.0
+    coord 118215
     coord 71169.0
     coord 200.0
   ]
@@ -86546,7 +86697,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118271.0
+    coord 118271
     coord 71073.0
     coord 196.0
   ]
@@ -86557,7 +86708,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118397.0
+    coord 118397
     coord 71615.0
     coord 133.0
   ]
@@ -86567,7 +86718,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 112549.0
+    coord 112549
     coord 91448.0
     coord 723.0
   ]
@@ -86577,7 +86728,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 112777.0
+    coord 112777
     coord 91520.0
     coord 720.0
   ]
@@ -86587,7 +86738,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 112720.0
+    coord 112720
     coord 91290.0
     coord 711.0
   ]
@@ -86597,7 +86748,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 113168.0
+    coord 113168
     coord 90679.0
     coord 787.0
   ]
@@ -86607,7 +86758,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 113914.0
+    coord 113914
     coord 89382.0
     coord 749.0
   ]
@@ -86617,7 +86768,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 114503.0
+    coord 114503
     coord 88980.0
     coord 758.0
   ]
@@ -86627,7 +86778,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 114792.0
+    coord 114792
     coord 89137.0
     coord 769.0
   ]
@@ -86637,7 +86788,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 113926.0
+    coord 113926
     coord 89247.0
     coord 733.0
   ]
@@ -86647,7 +86798,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 114192.0
+    coord 114192
     coord 89413.0
     coord 750.0
   ]
@@ -86657,7 +86808,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114472.0
+    coord 114472
     coord 89011.0
     coord 772.0
   ]
@@ -86667,7 +86818,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 116927.0
+    coord 116927
     coord 86688.0
     coord 815.0
   ]
@@ -86677,7 +86828,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 116937.0
+    coord 116937
     coord 86536.0
     coord 809.0
   ]
@@ -86687,7 +86838,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 117642.0
+    coord 117642
     coord 81308.0
     coord 733.0
   ]
@@ -86697,7 +86848,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 117799.0
+    coord 117799
     coord 79904.0
     coord 720.0
   ]
@@ -86707,7 +86858,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 117662.0
+    coord 117662
     coord 75077.0
     coord 626.0
   ]
@@ -86717,7 +86868,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 117406.0
+    coord 117406
     coord 74165.0
     coord 600.0
   ]
@@ -86727,7 +86878,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 117498.0
+    coord 117498
     coord 73343.0
     coord 595.0
   ]
@@ -86737,7 +86888,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 117643.0
+    coord 117643
     coord 71268.0
     coord 555.0
   ]
@@ -86747,7 +86898,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 115457.0
+    coord 115457
     coord 89129.0
     coord 700.0
   ]
@@ -86757,7 +86908,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 115261.0
+    coord 115261
     coord 89084.0
     coord 702.0
   ]
@@ -86767,7 +86918,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 115993.0
+    coord 115993
     coord 88960.0
     coord 807.0
   ]
@@ -86777,7 +86928,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 116234.0
+    coord 116234
     coord 88888.0
     coord 826.0
   ]
@@ -86787,7 +86938,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 117174.0
+    coord 117174
     coord 85772.0
     coord 763.0
   ]
@@ -86797,7 +86948,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 116593.0
+    coord 116593
     coord 87276.0
     coord 878.0
   ]
@@ -86807,7 +86958,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 116438.0
+    coord 116438
     coord 87467.0
     coord 883.0
   ]
@@ -86817,7 +86968,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 116755.0
+    coord 116755
     coord 87327.0
     coord 861.0
   ]
@@ -86827,7 +86978,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 116857.0
+    coord 116857
     coord 86575.0
     coord 850.0
   ]
@@ -86837,7 +86988,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 116706.0
+    coord 116706
     coord 86543.0
     coord 847.0
   ]
@@ -86847,7 +86998,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117605.0
+    coord 117605
     coord 84305.0
     coord 729.0
   ]
@@ -86858,7 +87009,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117731.0
+    coord 117731
     coord 70062.0
     coord 607.0
   ]
@@ -86869,7 +87020,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117693.0
+    coord 117693
     coord 70545.0
     coord 680.0
   ]
@@ -86880,7 +87031,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117221.0
+    coord 117221
     coord 68954.0
     coord 1013.0
   ]
@@ -86891,7 +87042,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117175.0
+    coord 117175
     coord 68692.0
     coord 1086.0
   ]
@@ -86902,7 +87053,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117020.0
+    coord 117020
     coord 68757.0
     coord 1086.0
   ]
@@ -86913,7 +87064,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117069.0
+    coord 117069
     coord 68413.0
     coord 1162.0
   ]
@@ -86924,7 +87075,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117910.0
+    coord 117910
     coord 70528.0
     coord 438.0
   ]
@@ -86935,7 +87086,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118084.0
+    coord 118084
     coord 70923.0
     coord 304.0
   ]
@@ -86946,7 +87097,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118362.0
+    coord 118362
     coord 71522.0
     coord 154.0
   ]
@@ -87046,7 +87197,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 87163.0
+    coord 87163
     coord 72078.0
     coord 323.0
   ]
@@ -87057,7 +87208,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86618.0
+    coord 86618
     coord 59462.0
     coord 210.0
   ]
@@ -87157,7 +87308,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87147.0
+    coord 87147
     coord 71128.0
     coord 316.0
   ]
@@ -87167,7 +87318,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 85800.0
+    coord 85800
     coord 66163.0
     coord 294.0
   ]
@@ -87177,7 +87328,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87197.0
+    coord 87197
     coord 80004.0
     coord 285.0
   ]
@@ -87187,7 +87338,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87025.0
+    coord 87025
     coord 79863.0
     coord 274.0
   ]
@@ -87197,7 +87348,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 86985.0
+    coord 86985
     coord 79515.0
     coord 281.0
   ]
@@ -87207,7 +87358,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87574.0
+    coord 87574
     coord 73626.0
     coord 309.0
   ]
@@ -87218,7 +87369,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87055.0
+    coord 87055
     coord 59086.0
     coord 180.0
   ]
@@ -87228,7 +87379,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86451.0
+    coord 86451
     coord 68273.0
     coord 300.0
   ]
@@ -87248,7 +87399,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 85861.0
+    coord 85861
     coord 60987.0
     coord 272.0
   ]
@@ -87259,7 +87410,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86165.0
+    coord 86165
     coord 58546.0
     coord 360.0
   ]
@@ -87270,7 +87421,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86123.0
+    coord 86123
     coord 58416.0
     coord 355.0
   ]
@@ -87303,7 +87454,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85743.0
+    coord 85743
     coord 58450.0
     coord 549.0
   ]
@@ -87314,7 +87465,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85857.0
+    coord 85857
     coord 58512.0
     coord 552.0
   ]
@@ -87325,7 +87476,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86005.0
+    coord 86005
     coord 58268.0
     coord 577.0
   ]
@@ -87336,7 +87487,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86450.0
+    coord 86450
     coord 58505.0
     coord 615.0
   ]
@@ -87347,7 +87498,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86421.0
+    coord 86421
     coord 58483.0
     coord 653.0
   ]
@@ -87358,7 +87509,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86647.0
+    coord 86647
     coord 59047.0
     coord 695.0
   ]
@@ -87369,7 +87520,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87435.0
+    coord 87435
     coord 59768.0
     coord 764.0
   ]
@@ -87380,7 +87531,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87665.0
+    coord 87665
     coord 59242.0
     coord 831.0
   ]
@@ -87391,7 +87542,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87553.0
+    coord 87553
     coord 58880.0
     coord 852.0
   ]
@@ -87402,7 +87553,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86625.0
+    coord 86625
     coord 57079.0
     coord 1013.0
   ]
@@ -87413,7 +87564,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86253.0
+    coord 86253
     coord 56571.0
     coord 1086.0
   ]
@@ -87424,7 +87575,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86238.0
+    coord 86238
     coord 56433.0
     coord 1110.0
   ]
@@ -87434,7 +87585,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87936.0
+    coord 87936
     coord 99127.0
     coord 343.0
   ]
@@ -87444,7 +87595,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 83618.0
+    coord 83618
     coord 95695.0
     coord 337.0
   ]
@@ -87454,7 +87605,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 82776.0
+    coord 82776
     coord 95282.0
     coord 376.0
   ]
@@ -87464,7 +87615,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81903.0
+    coord 81903
     coord 94253.0
     coord 365.0
   ]
@@ -87474,7 +87625,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81476.0
+    coord 81476
     coord 93761.0
     coord 362.0
   ]
@@ -87484,7 +87635,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81031.0
+    coord 81031
     coord 92414.0
     coord 395.0
   ]
@@ -87494,7 +87645,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 81073.0
+    coord 81073
     coord 92175.0
     coord 405.0
   ]
@@ -87504,7 +87655,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 82358.0
+    coord 82358
     coord 88951.0
     coord 400.0
   ]
@@ -87514,7 +87665,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 81797.0
+    coord 81797
     coord 90619.0
     coord 408.0
   ]
@@ -87524,7 +87675,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81878.0
+    coord 81878
     coord 90510.0
     coord 404.0
   ]
@@ -87534,7 +87685,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 82620.0
+    coord 82620
     coord 86031.0
     coord 424.0
   ]
@@ -87544,7 +87695,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 81598.0
+    coord 81598
     coord 79610.0
     coord 395.0
   ]
@@ -87554,7 +87705,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81928.0
+    coord 81928
     coord 81793.0
     coord 397.0
   ]
@@ -87564,7 +87715,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 82457.0
+    coord 82457
     coord 76256.0
     coord 434.0
   ]
@@ -87574,7 +87725,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 82309.0
+    coord 82309
     coord 76290.0
     coord 434.0
   ]
@@ -87584,7 +87735,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81706.0
+    coord 81706
     coord 73665.0
     coord 422.0
   ]
@@ -87594,7 +87745,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 81382.0
+    coord 81382
     coord 69904.0
     coord 458.0
   ]
@@ -87604,7 +87755,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 81191.0
+    coord 81191
     coord 69641.0
     coord 454.0
   ]
@@ -87614,7 +87765,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81204.0
+    coord 81204
     coord 71618.0
     coord 436.0
   ]
@@ -87624,7 +87775,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 81374.0
+    coord 81374
     coord 70322.0
     coord 453.0
   ]
@@ -87634,7 +87785,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81304.0
+    coord 81304
     coord 70442.0
     coord 453.0
   ]
@@ -87645,7 +87796,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 81656.0
+    coord 81656
     coord 67055.0
     coord 288.0
   ]
@@ -87656,7 +87807,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 81689.0
+    coord 81689
     coord 67054.0
     coord 284.0
   ]
@@ -87666,7 +87817,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81370.0
+    coord 81370
     coord 68448.0
     coord 474.0
   ]
@@ -87677,7 +87828,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 81131.0
+    coord 81131
     coord 68132.0
     coord 484.0
   ]
@@ -87688,7 +87839,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 82345.0
+    coord 82345
     coord 67294.0
     coord 87.0
   ]
@@ -87699,7 +87850,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 81878.0
+    coord 81878
     coord 67626.0
     coord 647.0
   ]
@@ -87710,7 +87861,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 82073.0
+    coord 82073
     coord 67708.0
     coord 669.0
   ]
@@ -87721,7 +87872,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 82427.0
+    coord 82427
     coord 67702.0
     coord 695.0
   ]
@@ -87732,7 +87883,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 82474.0
+    coord 82474
     coord 68099.0
     coord 728.0
   ]
@@ -87743,7 +87894,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 83377.0
+    coord 83377
     coord 68170.0
     coord 826.0
   ]
@@ -87754,7 +87905,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 83491.0
+    coord 83491
     coord 67305.0
     coord 931.0
   ]
@@ -87765,7 +87916,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 83436.0
+    coord 83436
     coord 67346.0
     coord 946.0
   ]
@@ -87776,7 +87927,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 83149.0
+    coord 83149
     coord 67456.0
     coord 956.0
   ]
@@ -87787,7 +87938,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 81506.0
+    coord 81506
     coord 66856.0
     coord 337.0
   ]
@@ -87887,7 +88038,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92849.0
+    coord 92849
     coord 96231.0
     coord 1074.0
   ]
@@ -87897,7 +88048,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90414.0
+    coord 90414
     coord 93423.0
     coord 965.0
   ]
@@ -87907,7 +88058,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87635.0
+    coord 87635
     coord 87848.0
     coord 900.0
   ]
@@ -87917,7 +88068,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 87513.0
+    coord 87513
     coord 85983.0
     coord 885.0
   ]
@@ -87927,7 +88078,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 86802.0
+    coord 86802
     coord 82691.0
     coord 877.0
   ]
@@ -87938,7 +88089,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86385.0
+    coord 86385
     coord 68809.0
     coord 772.0
   ]
@@ -87949,7 +88100,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85790.0
+    coord 85790
     coord 67521.0
     coord 682.0
   ]
@@ -87959,7 +88110,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89871.0
+    coord 89871
     coord 93349.0
     coord 944.0
   ]
@@ -87969,7 +88120,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 88022.0
+    coord 88022
     coord 90733.0
     coord 894.0
   ]
@@ -87979,7 +88130,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87744.0
+    coord 87744
     coord 90192.0
     coord 907.0
   ]
@@ -87989,7 +88140,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87249.0
+    coord 87249
     coord 83725.0
     coord 883.0
   ]
@@ -87999,7 +88150,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 86567.0
+    coord 86567
     coord 82713.0
     coord 894.0
   ]
@@ -88009,7 +88160,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 87349.0
+    coord 87349
     coord 81049.0
     coord 920.0
   ]
@@ -88019,7 +88170,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 87227.0
+    coord 87227
     coord 80926.0
     coord 926.0
   ]
@@ -88029,7 +88180,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87626.0
+    coord 87626
     coord 89332.0
     coord 901.0
   ]
@@ -88039,7 +88190,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87770.0
+    coord 87770
     coord 89307.0
     coord 896.0
   ]
@@ -88049,7 +88200,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87646.0
+    coord 87646
     coord 88062.0
     coord 900.0
   ]
@@ -88059,7 +88210,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87485.0
+    coord 87485
     coord 85578.0
     coord 898.0
   ]
@@ -88069,7 +88220,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87407.0
+    coord 87407
     coord 85291.0
     coord 904.0
   ]
@@ -88079,7 +88230,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87177.0
+    coord 87177
     coord 73759.0
     coord 903.0
   ]
@@ -88089,7 +88240,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87149.0
+    coord 87149
     coord 83812.0
     coord 875.0
   ]
@@ -88099,7 +88250,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87192.0
+    coord 87192
     coord 80998.0
     coord 906.0
   ]
@@ -88109,7 +88260,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 86833.0
+    coord 86833
     coord 76842.0
     coord 962.0
   ]
@@ -88119,7 +88270,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 86980.0
+    coord 86980
     coord 76740.0
     coord 967.0
   ]
@@ -88129,7 +88280,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 87273.0
+    coord 87273
     coord 73497.0
     coord 885.0
   ]
@@ -88139,7 +88290,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 87234.0
+    coord 87234
     coord 72482.0
     coord 897.0
   ]
@@ -88149,7 +88300,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 87332.0
+    coord 87332
     coord 71809.0
     coord 877.0
   ]
@@ -88159,7 +88310,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 87100.0
+    coord 87100
     coord 69849.0
     coord 880.0
   ]
@@ -88169,7 +88320,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86835.0
+    coord 86835
     coord 79986.0
     coord 942.0
   ]
@@ -88179,7 +88330,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87122.0
+    coord 87122
     coord 78659.0
     coord 954.0
   ]
@@ -88189,7 +88340,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 87302.0
+    coord 87302
     coord 78823.0
     coord 955.0
   ]
@@ -88199,7 +88350,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 86861.0
+    coord 86861
     coord 78176.0
     coord 969.0
   ]
@@ -88209,7 +88360,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 87032.0
+    coord 87032
     coord 77612.0
     coord 959.0
   ]
@@ -88219,7 +88370,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 86928.0
+    coord 86928
     coord 76528.0
     coord 966.0
   ]
@@ -88229,7 +88380,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87208.0
+    coord 87208
     coord 75511.0
     coord 907.0
   ]
@@ -88239,7 +88390,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87227.0
+    coord 87227
     coord 72076.0
     coord 897.0
   ]
@@ -88249,7 +88400,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87275.0
+    coord 87275
     coord 70889.0
     coord 908.0
   ]
@@ -88260,7 +88411,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85677.0
+    coord 85677
     coord 66585.0
     coord 1056.0
   ]
@@ -88271,7 +88422,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85587.0
+    coord 85587
     coord 66407.0
     coord 1070.0
   ]
@@ -88282,7 +88433,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85316.0
+    coord 85316
     coord 66103.0
     coord 1135.0
   ]
@@ -88293,7 +88444,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 84873.0
+    coord 84873
     coord 66039.0
     coord 421.0
   ]
@@ -88304,7 +88455,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85156.0
+    coord 85156
     coord 65983.0
     coord 332.0
   ]
@@ -88315,7 +88466,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85232.0
+    coord 85232
     coord 66070.0
     coord 313.0
   ]
@@ -88326,7 +88477,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85526.0
+    coord 85526
     coord 66643.0
     coord 218.0
   ]
@@ -88337,7 +88488,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85700.0
+    coord 85700
     coord 66508.0
     coord 218.0
   ]
@@ -88637,7 +88788,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 122110.0
+    coord 122110
     coord 92930.0
     coord 395.0
   ]
@@ -88647,7 +88798,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 120789.0
+    coord 120789
     coord 92057.0
     coord 348.0
   ]
@@ -88657,7 +88808,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 118821.0
+    coord 118821
     coord 91791.0
     coord 339.0
   ]
@@ -88667,7 +88818,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 117652.0
+    coord 117652
     coord 91770.0
     coord 295.0
   ]
@@ -88678,7 +88829,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117724.0
+    coord 117724
     coord 91376.0
     coord 262.0
   ]
@@ -88688,7 +88839,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117201.0
+    coord 117201
     coord 92001.0
     coord 294.0
   ]
@@ -88698,7 +88849,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 117255.0
+    coord 117255
     coord 92146.0
     coord 263.0
   ]
@@ -88709,7 +88860,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117347.0
+    coord 117347
     coord 90504.0
     coord 373.0
   ]
@@ -88719,7 +88870,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117247.0
+    coord 117247
     coord 91970.0
     coord 260.0
   ]
@@ -88730,7 +88881,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117877.0
+    coord 117877
     coord 91402.0
     coord 247.0
   ]
@@ -88741,7 +88892,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117425.0
+    coord 117425
     coord 91519.0
     coord 163.0
   ]
@@ -88752,7 +88903,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117433.0
+    coord 117433
     coord 91568.0
     coord 157.0
   ]
@@ -88763,7 +88914,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117151.0
+    coord 117151
     coord 91661.0
     coord 115.0
   ]
@@ -88774,7 +88925,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116592.0
+    coord 116592
     coord 90584.0
     coord 570.0
   ]
@@ -88785,7 +88936,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116742.0
+    coord 116742
     coord 90531.0
     coord 571.0
   ]
@@ -88796,7 +88947,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116780.0
+    coord 116780
     coord 90613.0
     coord 570.0
   ]
@@ -88807,7 +88958,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116808.0
+    coord 116808
     coord 90650.0
     coord 593.0
   ]
@@ -88818,7 +88969,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116776.0
+    coord 116776
     coord 90616.0
     coord 624.0
   ]
@@ -88829,7 +88980,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116688.0
+    coord 116688
     coord 90468.0
     coord 626.0
   ]
@@ -88840,7 +88991,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116597.0
+    coord 116597
     coord 90574.0
     coord 638.0
   ]
@@ -88851,7 +89002,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116380.0
+    coord 116380
     coord 90698.0
     coord 641.0
   ]
@@ -88862,7 +89013,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116299.0
+    coord 116299
     coord 90576.0
     coord 646.0
   ]
@@ -88873,7 +89024,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116252.0
+    coord 116252
     coord 90664.0
     coord 652.0
   ]
@@ -88884,7 +89035,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116273.0
+    coord 116273
     coord 90778.0
     coord 662.0
   ]
@@ -88895,7 +89046,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116545.0
+    coord 116545
     coord 90563.0
     coord 664.0
   ]
@@ -88906,7 +89057,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116295.0
+    coord 116295
     coord 90498.0
     coord 679.0
   ]
@@ -88917,7 +89068,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116131.0
+    coord 116131
     coord 90607.0
     coord 692.0
   ]
@@ -88928,7 +89079,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116271.0
+    coord 116271
     coord 90433.0
     coord 711.0
   ]
@@ -88939,7 +89090,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116405.0
+    coord 116405
     coord 90617.0
     coord 722.0
   ]
@@ -88950,7 +89101,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116174.0
+    coord 116174
     coord 90775.0
     coord 734.0
   ]
@@ -88961,7 +89112,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115430.0
+    coord 115430
     coord 89932.0
     coord 949.0
   ]
@@ -88972,7 +89123,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115380.0
+    coord 115380
     coord 89826.0
     coord 971.0
   ]
@@ -88983,7 +89134,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 115066.0
+    coord 115066
     coord 89365.0
     coord 1079.0
   ]
@@ -88994,7 +89145,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 114918.0
+    coord 114918
     coord 89133.0
     coord 1087.0
   ]
@@ -89004,7 +89155,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 83956.0
+    coord 83956
     coord 95269.0
     coord 300.0
   ]
@@ -89014,7 +89165,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 81840.0
+    coord 81840
     coord 93582.0
     coord 348.0
   ]
@@ -89024,7 +89175,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 81676.0
+    coord 81676
     coord 93316.0
     coord 352.0
   ]
@@ -89034,7 +89185,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 81618.0
+    coord 81618
     coord 91426.0
     coord 375.0
   ]
@@ -89044,7 +89195,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 82642.0
+    coord 82642
     coord 86501.0
     coord 370.0
   ]
@@ -89054,7 +89205,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 82797.0
+    coord 82797
     coord 85751.0
     coord 353.0
   ]
@@ -89064,7 +89215,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 82441.0
+    coord 82441
     coord 81998.0
     coord 326.0
   ]
@@ -89074,7 +89225,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 82447.0
+    coord 82447
     coord 82169.0
     coord 315.0
   ]
@@ -89085,7 +89236,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 80883.0
+    coord 80883
     coord 75960.0
     coord 274.0
   ]
@@ -89096,7 +89247,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 81719.0
+    coord 81719
     coord 76394.0
     coord 157.0
   ]
@@ -89106,7 +89257,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81592.0
+    coord 81592
     coord 93452.0
     coord 348.0
   ]
@@ -89116,7 +89267,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81497.0
+    coord 81497
     coord 91533.0
     coord 367.0
   ]
@@ -89126,7 +89277,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 82073.0
+    coord 82073
     coord 89825.0
     coord 369.0
   ]
@@ -89136,7 +89287,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 82090.0
+    coord 82090
     coord 89733.0
     coord 382.0
   ]
@@ -89146,7 +89297,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 82609.0
+    coord 82609
     coord 87567.0
     coord 350.0
   ]
@@ -89156,7 +89307,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 82629.0
+    coord 82629
     coord 87018.0
     coord 350.0
   ]
@@ -89166,7 +89317,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 82829.0
+    coord 82829
     coord 82972.0
     coord 351.0
   ]
@@ -89176,7 +89327,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 82690.0
+    coord 82690
     coord 82801.0
     coord 354.0
   ]
@@ -89186,7 +89337,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 81794.0
+    coord 81794
     coord 80488.0
     coord 338.0
   ]
@@ -89196,7 +89347,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 80929.0
+    coord 80929
     coord 78758.0
     coord 345.0
   ]
@@ -89206,7 +89357,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 80845.0
+    coord 80845
     coord 78723.0
     coord 358.0
   ]
@@ -89216,7 +89367,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 80796.0
+    coord 80796
     coord 78668.0
     coord 378.0
   ]
@@ -89226,7 +89377,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 80373.0
+    coord 80373
     coord 77424.0
     coord 397.0
   ]
@@ -89236,7 +89387,7 @@ graph [
     key 9
     tags "true"
     tags "ascending_branch"
-    coord 80246.0
+    coord 80246
     coord 77325.0
     coord 408.0
   ]
@@ -89246,7 +89397,7 @@ graph [
     key 10
     tags "true"
     tags "ascending_branch"
-    coord 80212.0
+    coord 80212
     coord 76476.0
     coord 404.0
   ]
@@ -89256,7 +89407,7 @@ graph [
     key 11
     tags "true"
     tags "ascending_branch"
-    coord 80174.0
+    coord 80174
     coord 76341.0
     coord 416.0
   ]
@@ -89266,7 +89417,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 81816.0
+    coord 81816
     coord 79533.0
     coord 324.0
   ]
@@ -89276,7 +89427,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 81715.0
+    coord 81715
     coord 79375.0
     coord 324.0
   ]
@@ -89286,7 +89437,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 80326.0
+    coord 80326
     coord 77463.0
     coord 416.0
   ]
@@ -89296,7 +89447,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 80196.0
+    coord 80196
     coord 77208.0
     coord 426.0
   ]
@@ -89307,7 +89458,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79973.0
+    coord 79973
     coord 76146.0
     coord 466.0
   ]
@@ -89318,7 +89469,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79910.0
+    coord 79910
     coord 76053.0
     coord 473.0
   ]
@@ -89328,7 +89479,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 80091.0
+    coord 80091
     coord 76421.0
     coord 388.0
   ]
@@ -89338,7 +89489,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 80118.0
+    coord 80118
     coord 76473.0
     coord 404.0
   ]
@@ -89349,7 +89500,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79816.0
+    coord 79816
     coord 76095.0
     coord 485.0
   ]
@@ -89360,7 +89511,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79839.0
+    coord 79839
     coord 76057.0
     coord 574.0
   ]
@@ -89371,7 +89522,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 80296.0
+    coord 80296
     coord 76680.0
     coord 673.0
   ]
@@ -89382,7 +89533,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 80326.0
+    coord 80326
     coord 76597.0
     coord 684.0
   ]
@@ -89393,7 +89544,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 80401.0
+    coord 80401
     coord 76894.0
     coord 764.0
   ]
@@ -89404,7 +89555,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79856.0
+    coord 79856
     coord 75792.0
     coord 968.0
   ]
@@ -89415,7 +89566,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79371.0
+    coord 79371
     coord 74787.0
     coord 1086.0
   ]
@@ -89426,7 +89577,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79389.0
+    coord 79389
     coord 74703.0
     coord 1097.0
   ]
@@ -89437,7 +89588,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 79356.0
+    coord 79356
     coord 74493.0
     coord 1117.0
   ]
@@ -89448,7 +89599,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 81829.0
+    coord 81829
     coord 76543.0
     coord 146.0
   ]
@@ -89458,7 +89609,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 131922.0
+    coord 131922
     coord 104342.0
     coord 262.0
   ]
@@ -89468,7 +89619,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 132270.0
+    coord 132270
     coord 102570.0
     coord 243.0
   ]
@@ -89478,7 +89629,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 132480.0
+    coord 132480
     coord 102287.0
     coord 258.0
   ]
@@ -89488,7 +89639,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 135665.0
+    coord 135665
     coord 97688.0
     coord 225.0
   ]
@@ -89498,7 +89649,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 136507.0
+    coord 136507
     coord 95294.0
     coord 183.0
   ]
@@ -89508,7 +89659,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 137000.0
+    coord 137000
     coord 95067.0
     coord 176.0
   ]
@@ -89518,7 +89669,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 136982.0
+    coord 136982
     coord 92420.0
     coord 154.0
   ]
@@ -89528,7 +89679,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 137065.0
+    coord 137065
     coord 91942.0
     coord 147.0
   ]
@@ -89538,7 +89689,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 136602.0
+    coord 136602
     coord 77677.0
     coord 126.0
   ]
@@ -89548,7 +89699,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 135859.0
+    coord 135859
     coord 75996.0
     coord 107.0
   ]
@@ -89558,7 +89709,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 135128.0
+    coord 135128
     coord 74394.0
     coord 100.0
   ]
@@ -89568,7 +89719,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 135256.0
+    coord 135256
     coord 73638.0
     coord 118.0
   ]
@@ -89578,7 +89729,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 134435.0
+    coord 134435
     coord 71115.0
     coord 131.0
   ]
@@ -89588,7 +89739,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 134407.0
+    coord 134407
     coord 71304.0
     coord 126.0
   ]
@@ -89598,7 +89749,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 137318.0
+    coord 137318
     coord 89752.0
     coord 188.0
   ]
@@ -89608,7 +89759,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 137781.0
+    coord 137781
     coord 89078.0
     coord 185.0
   ]
@@ -89618,7 +89769,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 137640.0
+    coord 137640
     coord 86106.0
     coord 225.0
   ]
@@ -89628,7 +89779,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 137706.0
+    coord 137706
     coord 84247.0
     coord 228.0
   ]
@@ -89638,7 +89789,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 137844.0
+    coord 137844
     coord 80626.0
     coord 155.0
   ]
@@ -89648,7 +89799,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 137529.0
+    coord 137529
     coord 79930.0
     coord 110.0
   ]
@@ -89658,7 +89809,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 134832.0
+    coord 134832
     coord 71949.0
     coord 133.0
   ]
@@ -89668,7 +89819,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 134945.0
+    coord 134945
     coord 71639.0
     coord 142.0
   ]
@@ -89678,7 +89829,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 134624.0
+    coord 134624
     coord 71539.0
     coord 141.0
   ]
@@ -89688,7 +89839,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 134347.0
+    coord 134347
     coord 70415.0
     coord 147.0
   ]
@@ -89698,7 +89849,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 134369.0
+    coord 134369
     coord 69588.0
     coord 142.0
   ]
@@ -89708,7 +89859,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 134302.0
+    coord 134302
     coord 68170.0
     coord 181.0
   ]
@@ -89718,7 +89869,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 134207.0
+    coord 134207
     coord 68293.0
     coord 190.0
   ]
@@ -89729,7 +89880,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 134148.0
+    coord 134148
     coord 66652.0
     coord 153.0
   ]
@@ -89740,7 +89891,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 134395.0
+    coord 134395
     coord 66699.0
     coord 153.0
   ]
@@ -89751,7 +89902,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 134588.0
+    coord 134588
     coord 66798.0
     coord 98.0
   ]
@@ -89761,7 +89912,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 134173.0
+    coord 134173
     coord 69139.0
     coord 131.0
   ]
@@ -89771,7 +89922,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 134225.0
+    coord 134225
     coord 67950.0
     coord 198.0
   ]
@@ -89782,7 +89933,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 133997.0
+    coord 133997
     coord 66780.0
     coord 152.0
   ]
@@ -89793,7 +89944,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 133936.0
+    coord 133936
     coord 67690.0
     coord 242.0
   ]
@@ -89804,7 +89955,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 133850.0
+    coord 133850
     coord 67113.0
     coord 325.0
   ]
@@ -89815,7 +89966,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 133700.0
+    coord 133700
     coord 66521.0
     coord 404.0
   ]
@@ -89826,7 +89977,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 133270.0
+    coord 133270
     coord 66410.0
     coord 483.0
   ]
@@ -89837,7 +89988,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 133039.0
+    coord 133039
     coord 66170.0
     coord 576.0
   ]
@@ -89848,7 +89999,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 132990.0
+    coord 132990
     coord 66377.0
     coord 576.0
   ]
@@ -89859,7 +90010,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 132830.0
+    coord 132830
     coord 67090.0
     coord 660.0
   ]
@@ -89870,7 +90021,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 132578.0
+    coord 132578
     coord 67585.0
     coord 701.0
   ]
@@ -89881,7 +90032,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 132712.0
+    coord 132712
     coord 67521.0
     coord 701.0
   ]
@@ -89892,7 +90043,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 132866.0
+    coord 132866
     coord 67889.0
     coord 728.0
   ]
@@ -89903,7 +90054,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 132986.0
+    coord 132986
     coord 67944.0
     coord 731.0
   ]
@@ -89914,7 +90065,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 132967.0
+    coord 132967
     coord 67939.0
     coord 720.0
   ]
@@ -89925,7 +90076,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 131857.0
+    coord 131857
     coord 67780.0
     coord 806.0
   ]
@@ -89936,7 +90087,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 131868.0
+    coord 131868
     coord 67366.0
     coord 847.0
   ]
@@ -89947,7 +90098,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 131785.0
+    coord 131785
     coord 67368.0
     coord 868.0
   ]
@@ -89958,7 +90109,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 131190.0
+    coord 131190
     coord 66085.0
     coord 1033.0
   ]
@@ -89969,7 +90120,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 131101.0
+    coord 131101
     coord 65863.0
     coord 1039.0
   ]
@@ -89979,7 +90130,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99628.0
+    coord 99628
     coord 97845.0
     coord 408.0
   ]
@@ -89989,7 +90140,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 97698.0
+    coord 97698
     coord 93987.0
     coord 338.0
   ]
@@ -89999,7 +90150,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 98256.0
+    coord 98256
     coord 92407.0
     coord 271.0
   ]
@@ -90009,7 +90160,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 98028.0
+    coord 98028
     coord 93352.0
     coord 299.0
   ]
@@ -90019,7 +90170,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 98226.0
+    coord 98226
     coord 92813.0
     coord 304.0
   ]
@@ -90030,7 +90181,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98233.0
+    coord 98233
     coord 91735.0
     coord 206.0
   ]
@@ -90041,7 +90192,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97859.0
+    coord 97859
     coord 91026.0
     coord 301.0
   ]
@@ -90052,7 +90203,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98381.0
+    coord 98381
     coord 91664.0
     coord 196.0
   ]
@@ -90063,7 +90214,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98041.0
+    coord 98041
     coord 91057.0
     coord 306.0
   ]
@@ -90074,7 +90225,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97821.0
+    coord 97821
     coord 91192.0
     coord 320.0
   ]
@@ -90085,7 +90236,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97678.0
+    coord 97678
     coord 91012.0
     coord 320.0
   ]
@@ -90096,7 +90247,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97553.0
+    coord 97553
     coord 90409.0
     coord 508.0
   ]
@@ -90107,7 +90258,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97727.0
+    coord 97727
     coord 90167.0
     coord 535.0
   ]
@@ -90118,7 +90269,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97800.0
+    coord 97800
     coord 90219.0
     coord 549.0
   ]
@@ -90129,7 +90280,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97585.0
+    coord 97585
     coord 90407.0
     coord 625.0
   ]
@@ -90140,7 +90291,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97503.0
+    coord 97503
     coord 90827.0
     coord 681.0
   ]
@@ -90151,7 +90302,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97598.0
+    coord 97598
     coord 90926.0
     coord 707.0
   ]
@@ -90162,7 +90313,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97580.0
+    coord 97580
     coord 90738.0
     coord 691.0
   ]
@@ -90173,7 +90324,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97707.0
+    coord 97707
     coord 90906.0
     coord 807.0
   ]
@@ -90184,7 +90335,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97770.0
+    coord 97770
     coord 90322.0
     coord 953.0
   ]
@@ -90195,7 +90346,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97510.0
+    coord 97510
     coord 90188.0
     coord 966.0
   ]
@@ -90206,7 +90357,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 96446.0
+    coord 96446
     coord 89563.0
     coord 1134.0
   ]
@@ -90216,7 +90367,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 107579.0
+    coord 107579
     coord 99215.0
     coord 436.0
   ]
@@ -90227,7 +90378,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113402.0
+    coord 113402
     coord 91121.0
     coord 371.0
   ]
@@ -90237,7 +90388,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 108823.0
+    coord 108823
     coord 97352.0
     coord 514.0
   ]
@@ -90247,7 +90398,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 108816.0
+    coord 108816
     coord 97239.0
     coord 524.0
   ]
@@ -90257,7 +90408,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 111184.0
+    coord 111184
     coord 92826.0
     coord 587.0
   ]
@@ -90267,7 +90418,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 108537.0
+    coord 108537
     coord 96877.0
     coord 542.0
   ]
@@ -90277,7 +90428,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 110036.0
+    coord 110036
     coord 94300.0
     coord 563.0
   ]
@@ -90287,7 +90438,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 110031.0
+    coord 110031
     coord 93732.0
     coord 519.0
   ]
@@ -90297,7 +90448,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 109917.0
+    coord 109917
     coord 93929.0
     coord 557.0
   ]
@@ -90307,7 +90458,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 110271.0
+    coord 110271
     coord 93878.0
     coord 560.0
   ]
@@ -90317,7 +90468,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 110322.0
+    coord 110322
     coord 93529.0
     coord 469.0
   ]
@@ -90327,7 +90478,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 110234.0
+    coord 110234
     coord 93307.0
     coord 452.0
   ]
@@ -90337,7 +90488,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 110714.0
+    coord 110714
     coord 93369.0
     coord 435.0
   ]
@@ -90347,7 +90498,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 110857.0
+    coord 110857
     coord 93587.0
     coord 435.0
   ]
@@ -90357,7 +90508,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 110917.0
+    coord 110917
     coord 93486.0
     coord 428.0
   ]
@@ -90367,7 +90518,7 @@ graph [
     key 9
     tags "true"
     tags "ascending_branch"
-    coord 110676.0
+    coord 110676
     coord 93309.0
     coord 424.0
   ]
@@ -90377,7 +90528,7 @@ graph [
     key 10
     tags "true"
     tags "ascending_branch"
-    coord 111357.0
+    coord 111357
     coord 93726.0
     coord 442.0
   ]
@@ -90387,7 +90538,7 @@ graph [
     key 11
     tags "true"
     tags "ascending_branch"
-    coord 111417.0
+    coord 111417
     coord 93789.0
     coord 453.0
   ]
@@ -90397,7 +90548,7 @@ graph [
     key 12
     tags "true"
     tags "ascending_branch"
-    coord 111364.0
+    coord 111364
     coord 93828.0
     coord 483.0
   ]
@@ -90407,7 +90558,7 @@ graph [
     key 13
     tags "true"
     tags "ascending_branch"
-    coord 111176.0
+    coord 111176
     coord 92712.0
     coord 574.0
   ]
@@ -90417,7 +90568,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 112137.0
+    coord 112137
     coord 90953.0
     coord 515.0
   ]
@@ -90428,7 +90579,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113511.0
+    coord 113511
     coord 91236.0
     coord 312.0
   ]
@@ -90439,7 +90590,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113378.0
+    coord 113378
     coord 91839.0
     coord 274.0
   ]
@@ -90450,7 +90601,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113306.0
+    coord 113306
     coord 91944.0
     coord 181.0
   ]
@@ -90461,7 +90612,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 112895.0
+    coord 112895
     coord 90726.0
     coord 577.0
   ]
@@ -90472,7 +90623,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113478.0
+    coord 113478
     coord 91078.0
     coord 756.0
   ]
@@ -90483,7 +90634,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 114021.0
+    coord 114021
     coord 90533.0
     coord 873.0
   ]
@@ -90494,7 +90645,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 114010.0
+    coord 114010
     coord 90323.0
     coord 945.0
   ]
@@ -90505,7 +90656,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113720.0
+    coord 113720
     coord 89550.0
     coord 1029.0
   ]
@@ -90515,7 +90666,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 116999.0
+    coord 116999
     coord 99291.0
     coord 833.0
   ]
@@ -90525,7 +90676,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114320.0
+    coord 114320
     coord 95364.0
     coord 1048.0
   ]
@@ -90535,7 +90686,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114358.0
+    coord 114358
     coord 94133.0
     coord 1055.0
   ]
@@ -90545,7 +90696,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 114726.0
+    coord 114726
     coord 91363.0
     coord 1107.0
   ]
@@ -90555,7 +90706,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114738.0
+    coord 114738
     coord 91318.0
     coord 1089.0
   ]
@@ -90565,7 +90716,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 115507.0
+    coord 115507
     coord 87858.0
     coord 1031.0
   ]
@@ -90575,7 +90726,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 114952.0
+    coord 114952
     coord 85393.0
     coord 1036.0
   ]
@@ -90585,7 +90736,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 114602.0
+    coord 114602
     coord 80081.0
     coord 1013.0
   ]
@@ -90595,7 +90746,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 115095.0
+    coord 115095
     coord 74266.0
     coord 869.0
   ]
@@ -90605,7 +90756,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 114982.0
+    coord 114982
     coord 72902.0
     coord 866.0
   ]
@@ -90616,7 +90767,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113785.0
+    coord 113785
     coord 65549.0
     coord 824.0
   ]
@@ -90626,7 +90777,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114513.0
+    coord 114513
     coord 83616.0
     coord 1083.0
   ]
@@ -90636,7 +90787,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 115045.0
+    coord 115045
     coord 73482.0
     coord 872.0
   ]
@@ -90646,7 +90797,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 115050.0
+    coord 115050
     coord 72318.0
     coord 820.0
   ]
@@ -90656,7 +90807,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 114325.0
+    coord 114325
     coord 70229.0
     coord 781.0
   ]
@@ -90666,7 +90817,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114854.0
+    coord 114854
     coord 73127.0
     coord 866.0
   ]
@@ -90676,7 +90827,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114299.0
+    coord 114299
     coord 68564.0
     coord 772.0
   ]
@@ -90686,7 +90837,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 113976.0
+    coord 113976
     coord 66555.0
     coord 686.0
   ]
@@ -90697,7 +90848,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113820.0
+    coord 113820
     coord 65691.0
     coord 767.0
   ]
@@ -90707,7 +90858,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 113849.0
+    coord 113849
     coord 65988.0
     coord 703.0
   ]
@@ -90718,7 +90869,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 112658.0
+    coord 112658
     coord 64171.0
     coord 554.0
   ]
@@ -90729,7 +90880,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 112676.0
+    coord 112676
     coord 63751.0
     coord 522.0
   ]
@@ -90740,7 +90891,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 112587.0
+    coord 112587
     coord 63835.0
     coord 501.0
   ]
@@ -90751,7 +90902,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113151.0
+    coord 113151
     coord 63665.0
     coord 391.0
   ]
@@ -90762,7 +90913,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113350.0
+    coord 113350
     coord 63321.0
     coord 245.0
   ]
@@ -90773,7 +90924,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113852.0
+    coord 113852
     coord 64273.0
     coord 1049.0
   ]
@@ -90784,7 +90935,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 113571.0
+    coord 113571
     coord 63868.0
     coord 1105.0
   ]
@@ -90794,7 +90945,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91890.0
+    coord 91890
     coord 107422.0
     coord 353.0
   ]
@@ -90804,7 +90955,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90449.0
+    coord 90449
     coord 104263.0
     coord 383.0
   ]
@@ -90814,7 +90965,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 85614.0
+    coord 85614
     coord 98062.0
     coord 267.0
   ]
@@ -90824,7 +90975,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 85198.0
+    coord 85198
     coord 96449.0
     coord 272.0
   ]
@@ -90834,7 +90985,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 85382.0
+    coord 85382
     coord 96459.0
     coord 272.0
   ]
@@ -90844,7 +90995,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 82809.0
+    coord 82809
     coord 82450.0
     coord 230.0
   ]
@@ -90854,7 +91005,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 83171.0
+    coord 83171
     coord 76830.0
     coord 180.0
   ]
@@ -90864,7 +91015,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 82983.0
+    coord 82983
     coord 73133.0
     coord 147.0
   ]
@@ -90874,7 +91025,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 83258.0
+    coord 83258
     coord 71377.0
     coord 82.0
   ]
@@ -90884,7 +91035,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 84910.0
+    coord 84910
     coord 94168.0
     coord 328.0
   ]
@@ -90894,7 +91045,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 84891.0
+    coord 84891
     coord 90539.0
     coord 315.0
   ]
@@ -90904,7 +91055,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 84630.0
+    coord 84630
     coord 87560.0
     coord 343.0
   ]
@@ -90914,7 +91065,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 84204.0
+    coord 84204
     coord 84911.0
     coord 331.0
   ]
@@ -90924,7 +91075,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 83858.0
+    coord 83858
     coord 84137.0
     coord 329.0
   ]
@@ -90934,7 +91085,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 83189.0
+    coord 83189
     coord 83215.0
     coord 331.0
   ]
@@ -90944,7 +91095,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 83066.0
+    coord 83066
     coord 83035.0
     coord 320.0
   ]
@@ -90954,7 +91105,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 82890.0
+    coord 82890
     coord 82971.0
     coord 315.0
   ]
@@ -90964,7 +91115,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 82761.0
+    coord 82761
     coord 78877.0
     coord 196.0
   ]
@@ -90974,7 +91125,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 84935.0
+    coord 84935
     coord 89505.0
     coord 324.0
   ]
@@ -90984,7 +91135,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 84916.0
+    coord 84916
     coord 88951.0
     coord 319.0
   ]
@@ -90994,7 +91145,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 82610.0
+    coord 82610
     coord 81744.0
     coord 213.0
   ]
@@ -91004,7 +91155,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 82744.0
+    coord 82744
     coord 79503.0
     coord 219.0
   ]
@@ -91014,7 +91165,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 83102.0
+    coord 83102
     coord 78281.0
     coord 219.0
   ]
@@ -91024,7 +91175,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 83992.0
+    coord 83992
     coord 75646.0
     coord 170.0
   ]
@@ -91034,7 +91185,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 83188.0
+    coord 83188
     coord 69597.0
     coord 86.0
   ]
@@ -91044,7 +91195,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 83057.0
+    coord 83057
     coord 69661.0
     coord 86.0
   ]
@@ -91054,7 +91205,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 78963.0
+    coord 78963
     coord 100277.0
     coord 431.0
   ]
@@ -91064,7 +91215,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 78859.0
+    coord 78859
     coord 95916.0
     coord 347.0
   ]
@@ -91074,7 +91225,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 78662.0
+    coord 78662
     coord 95475.0
     coord 320.0
   ]
@@ -91084,7 +91235,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77861.0
+    coord 77861
     coord 87701.0
     coord 521.0
   ]
@@ -91094,7 +91245,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 77861.0
+    coord 77861
     coord 87513.0
     coord 532.0
   ]
@@ -91104,7 +91255,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 77720.0
+    coord 77720
     coord 87299.0
     coord 536.0
   ]
@@ -91114,7 +91265,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 76849.0
+    coord 76849
     coord 82997.0
     coord 456.0
   ]
@@ -91124,7 +91275,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77714.0
+    coord 77714
     coord 86447.0
     coord 560.0
   ]
@@ -91135,7 +91286,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 77027.0
+    coord 77027
     coord 57445.0
     coord 447.0
   ]
@@ -91145,7 +91296,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77029.0
+    coord 77029
     coord 80249.0
     coord 385.0
   ]
@@ -91155,7 +91306,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 76900.0
+    coord 76900
     coord 80174.0
     coord 396.0
   ]
@@ -91165,7 +91316,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 77054.0
+    coord 77054
     coord 78285.0
     coord 364.0
   ]
@@ -91175,7 +91326,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77462.0
+    coord 77462
     coord 78880.0
     coord 412.0
   ]
@@ -91185,7 +91336,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 76714.0
+    coord 76714
     coord 77892.0
     coord 362.0
   ]
@@ -91195,7 +91346,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 76770.0
+    coord 76770
     coord 75533.0
     coord 333.0
   ]
@@ -91205,7 +91356,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 76365.0
+    coord 76365
     coord 67204.0
     coord 301.0
   ]
@@ -91215,7 +91366,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 76829.0
+    coord 76829
     coord 65375.0
     coord 270.0
   ]
@@ -91225,7 +91376,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 77618.0
+    coord 77618
     coord 60418.0
     coord 254.0
   ]
@@ -91235,7 +91386,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 77568.0
+    coord 77568
     coord 59410.0
     coord 238.0
   ]
@@ -91246,7 +91397,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 78102.0
+    coord 78102
     coord 58982.0
     coord 201.0
   ]
@@ -91256,7 +91407,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77201.0
+    coord 77201
     coord 73353.0
     coord 311.0
   ]
@@ -91266,7 +91417,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 76817.0
+    coord 76817
     coord 73072.0
     coord 310.0
   ]
@@ -91276,7 +91427,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 76317.0
+    coord 76317
     coord 71782.0
     coord 317.0
   ]
@@ -91286,7 +91437,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 76376.0
+    coord 76376
     coord 70835.0
     coord 301.0
   ]
@@ -91296,7 +91447,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 77121.0
+    coord 77121
     coord 64506.0
     coord 275.0
   ]
@@ -91306,7 +91457,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 77441.0
+    coord 77441
     coord 63212.0
     coord 268.0
   ]
@@ -91317,7 +91468,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 76956.0
+    coord 76956
     coord 57354.0
     coord 545.0
   ]
@@ -91328,7 +91479,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 77177.0
+    coord 77177
     coord 57397.0
     coord 616.0
   ]
@@ -91339,7 +91490,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 78235.0
+    coord 78235
     coord 58703.0
     coord 733.0
   ]
@@ -91350,7 +91501,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 78404.0
+    coord 78404
     coord 58624.0
     coord 740.0
   ]
@@ -91361,7 +91512,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 78310.0
+    coord 78310
     coord 57637.0
     coord 943.0
   ]
@@ -91372,7 +91523,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 78362.0
+    coord 78362
     coord 58887.0
     coord 131.0
   ]
@@ -91383,7 +91534,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 78324.0
+    coord 78324
     coord 58895.0
     coord 122.0
   ]
@@ -91394,7 +91545,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 78430.0
+    coord 78430
     coord 59032.0
     coord 117.0
   ]
@@ -91404,7 +91555,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 119334.0
+    coord 119334
     coord 101698.0
     coord 686.0
   ]
@@ -91414,7 +91565,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117871.0
+    coord 117871
     coord 97897.0
     coord 733.0
   ]
@@ -91424,7 +91575,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 119055.0
+    coord 119055
     coord 96048.0
     coord 714.0
   ]
@@ -91434,7 +91585,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 119413.0
+    coord 119413
     coord 91899.0
     coord 575.0
   ]
@@ -91445,7 +91596,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118861.0
+    coord 118861
     coord 91073.0
     coord 631.0
   ]
@@ -91456,7 +91607,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118541.0
+    coord 118541
     coord 91154.0
     coord 662.0
   ]
@@ -91467,7 +91618,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117184.0
+    coord 117184
     coord 91213.0
     coord 829.0
   ]
@@ -91478,7 +91629,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 116297.0
+    coord 116297
     coord 90401.0
     coord 999.0
   ]
@@ -91489,7 +91640,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117118.0
+    coord 117118
     coord 91168.0
     coord 800.0
   ]
@@ -91500,7 +91651,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117071.0
+    coord 117071
     coord 91387.0
     coord 810.0
   ]
@@ -91511,7 +91662,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 120242.0
+    coord 120242
     coord 89786.0
     coord 405.0
   ]
@@ -91522,7 +91673,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 120453.0
+    coord 120453
     coord 89936.0
     coord 392.0
   ]
@@ -91533,7 +91684,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 121261.0
+    coord 121261
     coord 89091.0
     coord 251.0
   ]
@@ -91543,7 +91694,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 79937.0
+    coord 79937
     coord 100930.0
     coord 774.0
   ]
@@ -91553,7 +91704,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 73788.0
+    coord 73788
     coord 99195.0
     coord 866.0
   ]
@@ -91563,7 +91714,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 73830.0
+    coord 73830
     coord 96834.0
     coord 896.0
   ]
@@ -91573,7 +91724,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 74320.0
+    coord 74320
     coord 94801.0
     coord 916.0
   ]
@@ -91583,7 +91734,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 74861.0
+    coord 74861
     coord 93918.0
     coord 904.0
   ]
@@ -91593,7 +91744,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 76094.0
+    coord 76094
     coord 91686.0
     coord 903.0
   ]
@@ -91603,7 +91754,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 76576.0
+    coord 76576
     coord 78462.0
     coord 725.0
   ]
@@ -91613,7 +91764,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 76999.0
+    coord 76999
     coord 77967.0
     coord 739.0
   ]
@@ -91624,7 +91775,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 77404.0
+    coord 77404
     coord 74430.0
     coord 765.0
   ]
@@ -91634,7 +91785,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77327.0
+    coord 77327
     coord 89183.0
     coord 900.0
   ]
@@ -91644,7 +91795,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77243.0
+    coord 77243
     coord 87384.0
     coord 907.0
   ]
@@ -91654,7 +91805,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 77440.0
+    coord 77440
     coord 87005.0
     coord 902.0
   ]
@@ -91665,7 +91816,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 77501.0
+    coord 77501
     coord 74809.0
     coord 787.0
   ]
@@ -91675,7 +91826,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77601.0
+    coord 77601
     coord 86672.0
     coord 878.0
   ]
@@ -91686,7 +91837,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 77483.0
+    coord 77483
     coord 74823.0
     coord 798.0
   ]
@@ -91697,7 +91848,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 77603.0
+    coord 77603
     coord 74352.0
     coord 816.0
   ]
@@ -91718,7 +91869,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77883.0
+    coord 77883
     coord 85865.0
     coord 819.0
   ]
@@ -91728,7 +91879,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 77097.0
+    coord 77097
     coord 82114.0
     coord 759.0
   ]
@@ -91738,7 +91889,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 76796.0
+    coord 76796
     coord 79781.0
     coord 738.0
   ]
@@ -91749,7 +91900,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 76463.0
+    coord 76463
     coord 74104.0
     coord 684.0
   ]
@@ -91759,7 +91910,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 75651.0
+    coord 75651
     coord 75216.0
     coord 664.0
   ]
@@ -91769,7 +91920,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 75003.0
+    coord 75003
     coord 74294.0
     coord 619.0
   ]
@@ -91779,7 +91930,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 74917.0
+    coord 74917
     coord 74136.0
     coord 599.0
   ]
@@ -91790,7 +91941,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 75464.0
+    coord 75464
     coord 73553.0
     coord 573.0
   ]
@@ -91801,7 +91952,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 75186.0
+    coord 75186
     coord 73188.0
     coord 510.0
   ]
@@ -91812,7 +91963,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 75611.0
+    coord 75611
     coord 73637.0
     coord 599.0
   ]
@@ -91823,7 +91974,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 76936.0
+    coord 76936
     coord 72755.0
     coord 1001.0
   ]
@@ -91834,7 +91985,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 76642.0
+    coord 76642
     coord 71557.0
     coord 1083.0
   ]
@@ -91845,7 +91996,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 76227.0
+    coord 76227
     coord 71266.0
     coord 1118.0
   ]
@@ -91856,7 +92007,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 76591.0
+    coord 76591
     coord 70685.0
     coord 1151.0
   ]
@@ -91867,7 +92018,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 74976.0
+    coord 74976
     coord 72566.0
     coord 547.0
   ]
@@ -91878,7 +92029,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 75162.0
+    coord 75162
     coord 73303.0
     coord 420.0
   ]
@@ -91889,7 +92040,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 75596.0
+    coord 75596
     coord 74042.0
     coord 204.0
   ]
@@ -91900,7 +92051,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 75745.0
+    coord 75745
     coord 73979.0
     coord 204.0
   ]
@@ -91910,7 +92061,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 98538.0
+    coord 98538
     coord 101609.0
     coord 637.0
   ]
@@ -91920,7 +92071,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 97941.0
+    coord 97941
     coord 101579.0
     coord 637.0
   ]
@@ -91940,7 +92091,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 94887.0
+    coord 94887
     coord 101429.0
     coord 653.0
   ]
@@ -91950,7 +92101,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93742.0
+    coord 93742
     coord 100961.0
     coord 649.0
   ]
@@ -91960,7 +92111,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86561.0
+    coord 86561
     coord 92636.0
     coord 466.0
   ]
@@ -91970,7 +92121,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 86711.0
+    coord 86711
     coord 91489.0
     coord 420.0
   ]
@@ -91980,7 +92131,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 86976.0
+    coord 86976
     coord 86357.0
     coord 433.0
   ]
@@ -91990,7 +92141,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 87138.0
+    coord 87138
     coord 85289.0
     coord 467.0
   ]
@@ -92000,7 +92151,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 86750.0
+    coord 86750
     coord 81977.0
     coord 487.0
   ]
@@ -92010,7 +92161,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 85611.0
+    coord 85611
     coord 63878.0
     coord 300.0
   ]
@@ -92020,7 +92171,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87157.0
+    coord 87157
     coord 89182.0
     coord 411.0
   ]
@@ -92030,7 +92181,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87368.0
+    coord 87368
     coord 88137.0
     coord 375.0
   ]
@@ -92040,7 +92191,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87026.0
+    coord 87026
     coord 89357.0
     coord 405.0
   ]
@@ -92050,7 +92201,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86795.0
+    coord 86795
     coord 78391.0
     coord 487.0
   ]
@@ -92060,7 +92211,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86765.0
+    coord 86765
     coord 77073.0
     coord 465.0
   ]
@@ -92070,7 +92221,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86896.0
+    coord 86896
     coord 76542.0
     coord 484.0
   ]
@@ -92080,7 +92231,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86849.0
+    coord 86849
     coord 71663.0
     coord 536.0
   ]
@@ -92090,7 +92241,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86545.0
+    coord 86545
     coord 70488.0
     coord 554.0
   ]
@@ -92100,7 +92251,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 86500.0
+    coord 86500
     coord 68773.0
     coord 518.0
   ]
@@ -92110,7 +92261,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 85400.0
+    coord 85400
     coord 66766.0
     coord 438.0
   ]
@@ -92121,7 +92272,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85574.0
+    coord 85574
     coord 61208.0
     coord 464.0
   ]
@@ -92131,7 +92282,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86360.0
+    coord 86360
     coord 68530.0
     coord 487.0
   ]
@@ -92142,7 +92293,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85493.0
+    coord 85493
     coord 62157.0
     coord 319.0
   ]
@@ -92153,7 +92304,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85475.0
+    coord 85475
     coord 61567.0
     coord 370.0
   ]
@@ -92164,7 +92315,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85001.0
+    coord 85001
     coord 61699.0
     coord 101.0
   ]
@@ -92175,7 +92326,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86386.0
+    coord 86386
     coord 62659.0
     coord 715.0
   ]
@@ -92186,7 +92337,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86419.0
+    coord 86419
     coord 62234.0
     coord 959.0
   ]
@@ -92197,7 +92348,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 86259.0
+    coord 86259
     coord 61929.0
     coord 976.0
   ]
@@ -92208,7 +92359,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 85949.0
+    coord 85949
     coord 60783.0
     coord 1094.0
   ]
@@ -92218,7 +92369,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105340.0
+    coord 105340
     coord 96963.0
     coord 177.0
   ]
@@ -92228,7 +92379,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105345.0
+    coord 105345
     coord 95060.0
     coord 172.0
   ]
@@ -92238,7 +92389,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 104962.0
+    coord 104962
     coord 94347.0
     coord 173.0
   ]
@@ -92248,7 +92399,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 103526.0
+    coord 103526
     coord 92287.0
     coord 153.0
   ]
@@ -92258,7 +92409,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 104047.0
+    coord 104047
     coord 92964.0
     coord 173.0
   ]
@@ -92268,7 +92419,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 102454.0
+    coord 102454
     coord 91301.0
     coord 93.0
   ]
@@ -92278,7 +92429,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 102276.0
+    coord 102276
     coord 91317.0
     coord 100.0
   ]
@@ -92288,7 +92439,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 102217.0
+    coord 102217
     coord 91126.0
     coord 110.0
   ]
@@ -92299,7 +92450,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 100614.0
+    coord 100614
     coord 89908.0
     coord 332.0
   ]
@@ -92310,7 +92461,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 100797.0
+    coord 100797
     coord 89790.0
     coord 332.0
   ]
@@ -92321,7 +92472,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 100686.0
+    coord 100686
     coord 89769.0
     coord 348.0
   ]
@@ -92332,7 +92483,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 99563.0
+    coord 99563
     coord 89478.0
     coord 475.0
   ]
@@ -92343,7 +92494,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 99704.0
+    coord 99704
     coord 89481.0
     coord 463.0
   ]
@@ -92354,7 +92505,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 100711.0
+    coord 100711
     coord 89895.0
     coord 383.0
   ]
@@ -92365,7 +92516,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 99515.0
+    coord 99515
     coord 90493.0
     coord 750.0
   ]
@@ -92376,7 +92527,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98987.0
+    coord 98987
     coord 89761.0
     coord 918.0
   ]
@@ -92387,7 +92538,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98542.0
+    coord 98542
     coord 89516.0
     coord 1022.0
   ]
@@ -92398,7 +92549,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98670.0
+    coord 98670
     coord 89211.0
     coord 1035.0
   ]
@@ -92409,7 +92560,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97274.0
+    coord 97274
     coord 89190.0
     coord 1140.0
   ]
@@ -92419,7 +92570,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 94927.0
+    coord 94927
     coord 95451.0
     coord 438.0
   ]
@@ -92429,7 +92580,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 94620.0
+    coord 94620
     coord 94568.0
     coord 423.0
   ]
@@ -92439,7 +92590,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 94580.0
+    coord 94580
     coord 93505.0
     coord 461.0
   ]
@@ -92449,7 +92600,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 94530.0
+    coord 94530
     coord 93362.0
     coord 472.0
   ]
@@ -92459,7 +92610,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 94476.0
+    coord 94476
     coord 93454.0
     coord 490.0
   ]
@@ -92470,7 +92621,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92181.0
+    coord 92181
     coord 86408.0
     coord 405.0
   ]
@@ -92480,7 +92631,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93178.0
+    coord 93178
     coord 92263.0
     coord 468.0
   ]
@@ -92490,7 +92641,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 92974.0
+    coord 92974
     coord 91915.0
     coord 477.0
   ]
@@ -92500,7 +92651,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 92944.0
+    coord 92944
     coord 91444.0
     coord 481.0
   ]
@@ -92510,7 +92661,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 92508.0
+    coord 92508
     coord 89735.0
     coord 583.0
   ]
@@ -92520,7 +92671,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 92433.0
+    coord 92433
     coord 89898.0
     coord 591.0
   ]
@@ -92531,7 +92682,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92085.0
+    coord 92085
     coord 85990.0
     coord 491.0
   ]
@@ -92542,7 +92693,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92076.0
+    coord 92076
     coord 86160.0
     coord 456.0
   ]
@@ -92553,7 +92704,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92179.0
+    coord 92179
     coord 86398.0
     coord 439.0
   ]
@@ -92563,7 +92714,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92466.0
+    coord 92466
     coord 88025.0
     coord 600.0
   ]
@@ -92574,7 +92725,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92099.0
+    coord 92099
     coord 86165.0
     coord 589.0
   ]
@@ -92585,7 +92736,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92627.0
+    coord 92627
     coord 87168.0
     coord 754.0
   ]
@@ -92596,7 +92747,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92326.0
+    coord 92326
     coord 86622.0
     coord 856.0
   ]
@@ -92607,7 +92758,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91615.0
+    coord 91615
     coord 84962.0
     coord 1078.0
   ]
@@ -92617,7 +92768,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96957.0
+    coord 96957
     coord 96178.0
     coord 446.0
   ]
@@ -92627,7 +92778,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96837.0
+    coord 96837
     coord 96138.0
     coord 449.0
   ]
@@ -92638,7 +92789,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97489.0
+    coord 97489
     coord 90655.0
     coord 253.0
   ]
@@ -92648,7 +92799,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96597.0
+    coord 96597
     coord 95424.0
     coord 417.0
   ]
@@ -92658,7 +92809,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96820.0
+    coord 96820
     coord 93096.0
     coord 343.0
   ]
@@ -92668,7 +92819,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 96519.0
+    coord 96519
     coord 90793.0
     coord 361.0
   ]
@@ -92678,7 +92829,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 97077.0
+    coord 97077
     coord 89998.0
     coord 343.0
   ]
@@ -92689,7 +92840,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97292.0
+    coord 97292
     coord 89719.0
     coord 516.0
   ]
@@ -92699,7 +92850,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96817.0
+    coord 96817
     coord 92069.0
     coord 373.0
   ]
@@ -92709,7 +92860,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96462.0
+    coord 96462
     coord 91032.0
     coord 367.0
   ]
@@ -92720,7 +92871,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97832.0
+    coord 97832
     coord 90456.0
     coord 711.0
   ]
@@ -92731,7 +92882,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98001.0
+    coord 98001
     coord 90218.0
     coord 744.0
   ]
@@ -92742,7 +92893,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98111.0
+    coord 98111
     coord 90186.0
     coord 765.0
   ]
@@ -92753,7 +92904,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 97350.0
+    coord 97350
     coord 90204.0
     coord 228.0
   ]
@@ -92764,7 +92915,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 98079.0
+    coord 98079
     coord 90768.0
     coord 147.0
   ]
@@ -92774,7 +92925,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 95334.0
+    coord 95334
     coord 101310.0
     coord 289.0
   ]
@@ -92784,7 +92935,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 93676.0
+    coord 93676
     coord 99812.0
     coord 308.0
   ]
@@ -92794,7 +92945,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 91048.0
+    coord 91048
     coord 96556.0
     coord 239.0
   ]
@@ -92804,7 +92955,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91625.0
+    coord 91625
     coord 97497.0
     coord 288.0
   ]
@@ -92814,7 +92965,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90655.0
+    coord 90655
     coord 95646.0
     coord 181.0
   ]
@@ -92825,7 +92976,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89025.0
+    coord 89025
     coord 93140.0
     coord 201.0
   ]
@@ -92835,7 +92986,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89276.0
+    coord 89276
     coord 93642.0
     coord 158.0
   ]
@@ -92846,7 +92997,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88932.0
+    coord 88932
     coord 93065.0
     coord 220.0
   ]
@@ -92857,7 +93008,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88147.0
+    coord 88147
     coord 91949.0
     coord 322.0
   ]
@@ -92868,7 +93019,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88345.0
+    coord 88345
     coord 91896.0
     coord 390.0
   ]
@@ -92879,7 +93030,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88161.0
+    coord 88161
     coord 91763.0
     coord 322.0
   ]
@@ -92890,7 +93041,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88499.0
+    coord 88499
     coord 91795.0
     coord 495.0
   ]
@@ -92901,7 +93052,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88174.0
+    coord 88174
     coord 91837.0
     coord 533.0
   ]
@@ -92912,7 +93063,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88518.0
+    coord 88518
     coord 91666.0
     coord 490.0
   ]
@@ -92923,7 +93074,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88103.0
+    coord 88103
     coord 91659.0
     coord 553.0
   ]
@@ -92934,7 +93085,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88426.0
+    coord 88426
     coord 92161.0
     coord 661.0
   ]
@@ -92945,7 +93096,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89563.0
+    coord 89563
     coord 91803.0
     coord 805.0
   ]
@@ -92956,7 +93107,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89577.0
+    coord 89577
     coord 91874.0
     coord 822.0
   ]
@@ -92967,7 +93118,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89496.0
+    coord 89496
     coord 91630.0
     coord 869.0
   ]
@@ -92989,7 +93140,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89115.0
+    coord 89115
     coord 90739.0
     coord 965.0
   ]
@@ -92999,7 +93150,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 95340.0
+    coord 95340
     coord 92619.0
     coord 553.0
   ]
@@ -93009,7 +93160,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 93827.0
+    coord 93827
     coord 89525.0
     coord 459.0
   ]
@@ -93019,7 +93170,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 93243.0
+    coord 93243
     coord 87794.0
     coord 389.0
   ]
@@ -93029,7 +93180,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 92778.0
+    coord 92778
     coord 87289.0
     coord 369.0
   ]
@@ -93039,7 +93190,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 91700.0
+    coord 91700
     coord 85743.0
     coord 317.0
   ]
@@ -93049,7 +93200,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93363.0
+    coord 93363
     coord 88776.0
     coord 434.0
   ]
@@ -93060,7 +93211,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89077.0
+    coord 89077
     coord 52736.0
     coord 279.0
   ]
@@ -93070,7 +93221,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93259.0
+    coord 93259
     coord 87811.0
     coord 375.0
   ]
@@ -93080,7 +93231,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 92882.0
+    coord 92882
     coord 87219.0
     coord 354.0
   ]
@@ -93090,7 +93241,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 91737.0
+    coord 91737
     coord 85938.0
     coord 310.0
   ]
@@ -93100,7 +93251,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 91432.0
+    coord 91432
     coord 85424.0
     coord 287.0
   ]
@@ -93110,7 +93261,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 90942.0
+    coord 90942
     coord 81546.0
     coord 237.0
   ]
@@ -93120,7 +93271,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92297.0
+    coord 92297
     coord 87007.0
     coord 313.0
   ]
@@ -93130,7 +93281,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 91027.0
+    coord 91027
     coord 81434.0
     coord 246.0
   ]
@@ -93140,7 +93291,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 90350.0
+    coord 90350
     coord 76219.0
     coord 256.0
   ]
@@ -93150,7 +93301,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 90365.0
+    coord 90365
     coord 76067.0
     coord 253.0
   ]
@@ -93160,7 +93311,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 90270.0
+    coord 90270
     coord 75974.0
     coord 247.0
   ]
@@ -93170,7 +93321,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 89180.0
+    coord 89180
     coord 55717.0
     coord 138.0
   ]
@@ -93180,7 +93331,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 89175.0
+    coord 89175
     coord 54685.0
     coord 156.0
   ]
@@ -93190,7 +93341,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 89317.0
+    coord 89317
     coord 54205.0
     coord 149.0
   ]
@@ -93200,7 +93351,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 89195.0
+    coord 89195
     coord 54243.0
     coord 145.0
   ]
@@ -93210,7 +93361,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91596.0
+    coord 91596
     coord 85423.0
     coord 273.0
   ]
@@ -93220,7 +93371,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 91453.0
+    coord 91453
     coord 85359.0
     coord 266.0
   ]
@@ -93230,7 +93381,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 91174.0
+    coord 91174
     coord 85051.0
     coord 267.0
   ]
@@ -93240,7 +93391,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 90349.0
+    coord 90349
     coord 77814.0
     coord 259.0
   ]
@@ -93250,7 +93401,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 90323.0
+    coord 90323
     coord 77318.0
     coord 269.0
   ]
@@ -93260,7 +93411,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 89672.0
+    coord 89672
     coord 69720.0
     coord 142.0
   ]
@@ -93270,7 +93421,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 89732.0
+    coord 89732
     coord 69138.0
     coord 141.0
   ]
@@ -93280,7 +93431,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 89592.0
+    coord 89592
     coord 67093.0
     coord 122.0
   ]
@@ -93290,7 +93441,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 89575.0
+    coord 89575
     coord 66124.0
     coord 126.0
   ]
@@ -93300,7 +93451,7 @@ graph [
     key 9
     tags "true"
     tags "ascending_branch"
-    coord 89493.0
+    coord 89493
     coord 65705.0
     coord 124.0
   ]
@@ -93310,7 +93461,7 @@ graph [
     key 10
     tags "true"
     tags "ascending_branch"
-    coord 89565.0
+    coord 89565
     coord 62478.0
     coord 121.0
   ]
@@ -93320,7 +93471,7 @@ graph [
     key 11
     tags "true"
     tags "ascending_branch"
-    coord 89327.0
+    coord 89327
     coord 58527.0
     coord 102.0
   ]
@@ -93331,7 +93482,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88945.0
+    coord 88945
     coord 52343.0
     coord 433.0
   ]
@@ -93342,7 +93493,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89075.0
+    coord 89075
     coord 51719.0
     coord 520.0
   ]
@@ -93353,7 +93504,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89078.0
+    coord 89078
     coord 51669.0
     coord 547.0
   ]
@@ -93364,7 +93515,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89875.0
+    coord 89875
     coord 51881.0
     coord 628.0
   ]
@@ -93375,7 +93526,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 90431.0
+    coord 90431
     coord 52076.0
     coord 929.0
   ]
@@ -93386,7 +93537,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 90127.0
+    coord 90127
     coord 51394.0
     coord 1021.0
   ]
@@ -93397,7 +93548,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 89536.0
+    coord 89536
     coord 50544.0
     coord 1166.0
   ]
@@ -93407,7 +93558,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 124367.0
+    coord 124367
     coord 101874.0
     coord 365.0
   ]
@@ -93417,7 +93568,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 124278.0
+    coord 124278
     coord 99493.0
     coord 398.0
   ]
@@ -93427,7 +93578,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 123715.0
+    coord 123715
     coord 98879.0
     coord 451.0
   ]
@@ -93437,7 +93588,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 121733.0
+    coord 121733
     coord 96286.0
     coord 552.0
   ]
@@ -93447,7 +93598,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 119662.0
+    coord 119662
     coord 92620.0
     coord 559.0
   ]
@@ -93457,7 +93608,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 118955.0
+    coord 118955
     coord 91854.0
     coord 564.0
   ]
@@ -93467,7 +93618,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 118249.0
+    coord 118249
     coord 90766.0
     coord 570.0
   ]
@@ -93477,7 +93628,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 117843.0
+    coord 117843
     coord 89617.0
     coord 578.0
   ]
@@ -93487,7 +93638,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 117739.0
+    coord 117739
     coord 89013.0
     coord 583.0
   ]
@@ -93497,7 +93648,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 117496.0
+    coord 117496
     coord 89079.0
     coord 616.0
   ]
@@ -93507,7 +93658,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117067.0
+    coord 117067
     coord 87238.0
     coord 702.0
   ]
@@ -93517,7 +93668,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 117231.0
+    coord 117231
     coord 84500.0
     coord 705.0
   ]
@@ -93527,7 +93678,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 117690.0
+    coord 117690
     coord 78275.0
     coord 631.0
   ]
@@ -93537,7 +93688,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 117706.0
+    coord 117706
     coord 77719.0
     coord 608.0
   ]
@@ -93547,7 +93698,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117044.0
+    coord 117044
     coord 86828.0
     coord 706.0
   ]
@@ -93557,7 +93708,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 116766.0
+    coord 116766
     coord 85701.0
     coord 695.0
   ]
@@ -93567,7 +93718,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117350.0
+    coord 117350
     coord 84243.0
     coord 699.0
   ]
@@ -93577,7 +93728,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117622.0
+    coord 117622
     coord 80025.0
     coord 701.0
   ]
@@ -93587,7 +93738,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 117553.0
+    coord 117553
     coord 79323.0
     coord 684.0
   ]
@@ -93597,7 +93748,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117534.0
+    coord 117534
     coord 76272.0
     coord 581.0
   ]
@@ -93607,7 +93758,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117648.0
+    coord 117648
     coord 76550.0
     coord 574.0
   ]
@@ -93617,7 +93768,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 117687.0
+    coord 117687
     coord 74099.0
     coord 537.0
   ]
@@ -93628,7 +93779,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117975.0
+    coord 117975
     coord 73320.0
     coord 416.0
   ]
@@ -93638,7 +93789,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 117767.0
+    coord 117767
     coord 74586.0
     coord 560.0
   ]
@@ -93649,7 +93800,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117926.0
+    coord 117926
     coord 73171.0
     coord 434.0
   ]
@@ -93660,7 +93811,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118040.0
+    coord 118040
     coord 73527.0
     coord 318.0
   ]
@@ -93671,7 +93822,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118404.0
+    coord 118404
     coord 73650.0
     coord 277.0
   ]
@@ -93682,7 +93833,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118356.0
+    coord 118356
     coord 73731.0
     coord 269.0
   ]
@@ -93693,7 +93844,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118254.0
+    coord 118254
     coord 74320.0
     coord 775.0
   ]
@@ -93704,7 +93855,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 118307.0
+    coord 118307
     coord 74060.0
     coord 806.0
   ]
@@ -93715,7 +93866,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 117249.0
+    coord 117249
     coord 72038.0
     coord 1138.0
   ]
@@ -93725,7 +93876,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90199.0
+    coord 90199
     coord 101021.0
     coord 177.0
   ]
@@ -93735,7 +93886,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90335.0
+    coord 90335
     coord 98380.0
     coord 301.0
   ]
@@ -93745,7 +93896,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 90572.0
+    coord 90572
     coord 83692.0
     coord 289.0
   ]
@@ -93755,7 +93906,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90806.0
+    coord 90806
     coord 95815.0
     coord 335.0
   ]
@@ -93765,7 +93916,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90823.0
+    coord 90823
     coord 95283.0
     coord 339.0
   ]
@@ -93775,7 +93926,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 90381.0
+    coord 90381
     coord 77498.0
     coord 235.0
   ]
@@ -93785,7 +93936,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 90269.0
+    coord 90269
     coord 76500.0
     coord 249.0
   ]
@@ -93795,7 +93946,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 90227.0
+    coord 90227
     coord 76893.0
     coord 261.0
   ]
@@ -93805,7 +93956,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 92500.0
+    coord 92500
     coord 70187.0
     coord 142.0
   ]
@@ -93815,7 +93966,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91269.0
+    coord 91269
     coord 92789.0
     coord 369.0
   ]
@@ -93825,7 +93976,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90383.0
+    coord 90383
     coord 87926.0
     coord 400.0
   ]
@@ -93835,7 +93986,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 90219.0
+    coord 90219
     coord 86525.0
     coord 348.0
   ]
@@ -93845,7 +93996,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 90249.0
+    coord 90249
     coord 86286.0
     coord 348.0
   ]
@@ -93855,7 +94006,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91425.0
+    coord 91425
     coord 91814.0
     coord 402.0
   ]
@@ -93865,7 +94016,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90305.0
+    coord 90305
     coord 81515.0
     coord 259.0
   ]
@@ -93875,7 +94026,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 90106.0
+    coord 90106
     coord 73476.0
     coord 270.0
   ]
@@ -93885,7 +94036,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 91528.0
+    coord 91528
     coord 71886.0
     coord 207.0
   ]
@@ -93896,7 +94047,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91177.0
+    coord 91177
     coord 65724.0
     coord 302.0
   ]
@@ -93906,7 +94057,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90255.0
+    coord 90255
     coord 88362.0
     coord 436.0
   ]
@@ -93916,7 +94067,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90184.0
+    coord 90184
     coord 88149.0
     coord 429.0
   ]
@@ -93926,7 +94077,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 90056.0
+    coord 90056
     coord 88234.0
     coord 420.0
   ]
@@ -93936,7 +94087,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90265.0
+    coord 90265
     coord 74837.0
     coord 242.0
   ]
@@ -93946,7 +94097,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90952.0
+    coord 90952
     coord 72510.0
     coord 209.0
   ]
@@ -93956,7 +94107,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92112.0
+    coord 92112
     coord 70609.0
     coord 173.0
   ]
@@ -93966,7 +94117,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 91850.0
+    coord 91850
     coord 67127.0
     coord 161.0
   ]
@@ -93977,7 +94128,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91618.0
+    coord 91618
     coord 66580.0
     coord 230.0
   ]
@@ -93987,7 +94138,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92412.0
+    coord 92412
     coord 70126.0
     coord 146.0
   ]
@@ -93997,7 +94148,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 92365.0
+    coord 92365
     coord 68886.0
     coord 120.0
   ]
@@ -94008,7 +94159,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92180.0
+    coord 92180
     coord 66885.0
     coord 124.0
   ]
@@ -94019,7 +94170,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91866.0
+    coord 91866
     coord 66691.0
     coord 753.0
   ]
@@ -94030,7 +94181,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91285.0
+    coord 91285
     coord 65379.0
     coord 374.0
   ]
@@ -94041,7 +94192,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91038.0
+    coord 91038
     coord 64812.0
     coord 519.0
   ]
@@ -94052,7 +94203,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91312.0
+    coord 91312
     coord 64974.0
     coord 595.0
   ]
@@ -94063,7 +94214,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91517.0
+    coord 91517
     coord 65422.0
     coord 648.0
   ]
@@ -94074,7 +94225,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92200.0
+    coord 92200
     coord 66534.0
     coord 879.0
   ]
@@ -94085,7 +94236,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91791.0
+    coord 91791
     coord 65486.0
     coord 957.0
   ]
@@ -94096,7 +94247,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91764.0
+    coord 91764
     coord 65335.0
     coord 962.0
   ]
@@ -94107,7 +94258,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 91264.0
+    coord 91264
     coord 64388.0
     coord 1119.0
   ]
@@ -94117,7 +94268,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114470.0
+    coord 114470
     coord 99183.0
     coord 360.0
   ]
@@ -94127,7 +94278,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 114479.0
+    coord 114479
     coord 99045.0
     coord 352.0
   ]
@@ -94137,7 +94288,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 114289.0
+    coord 114289
     coord 98129.0
     coord 352.0
   ]
@@ -94147,7 +94298,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 113625.0
+    coord 113625
     coord 97168.0
     coord 339.0
   ]
@@ -94157,7 +94308,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 111584.0
+    coord 111584
     coord 80442.0
     coord 272.0
   ]
@@ -94167,7 +94318,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 112397.0
+    coord 112397
     coord 90523.0
     coord 347.0
   ]
@@ -94177,7 +94328,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 112390.0
+    coord 112390
     coord 91127.0
     coord 352.0
   ]
@@ -94187,7 +94338,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 112071.0
+    coord 112071
     coord 88192.0
     coord 300.0
   ]
@@ -94197,7 +94348,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 111983.0
+    coord 111983
     coord 86564.0
     coord 307.0
   ]
@@ -94207,7 +94358,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 111772.0
+    coord 111772
     coord 84472.0
     coord 345.0
   ]
@@ -94217,7 +94368,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 111800.0
+    coord 111800
     coord 83611.0
     coord 331.0
   ]
@@ -94227,7 +94378,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 111567.0
+    coord 111567
     coord 82462.0
     coord 315.0
   ]
@@ -94237,7 +94388,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 111455.0
+    coord 111455
     coord 80322.0
     coord 275.0
   ]
@@ -94247,7 +94398,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 111577.0
+    coord 111577
     coord 78220.0
     coord 234.0
   ]
@@ -94257,7 +94408,7 @@ graph [
     key 9
     tags "true"
     tags "ascending_branch"
-    coord 111767.0
+    coord 111767
     coord 76359.0
     coord 188.0
   ]
@@ -94268,7 +94419,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110801.0
+    coord 110801
     coord 73277.0
     coord 236.0
   ]
@@ -94279,7 +94430,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 111423.0
+    coord 111423
     coord 73403.0
     coord 137.0
   ]
@@ -94290,7 +94441,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110145.0
+    coord 110145
     coord 72803.0
     coord 408.0
   ]
@@ -94301,7 +94452,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109864.0
+    coord 109864
     coord 73142.0
     coord 616.0
   ]
@@ -94312,7 +94463,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109869.0
+    coord 109869
     coord 73514.0
     coord 693.0
   ]
@@ -94323,7 +94474,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110221.0
+    coord 110221
     coord 73890.0
     coord 817.0
   ]
@@ -94334,7 +94485,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110195.0
+    coord 110195
     coord 73534.0
     coord 916.0
   ]
@@ -94344,7 +94495,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99722.0
+    coord 99722
     coord 102827.0
     coord 339.0
   ]
@@ -94354,7 +94505,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 95314.0
+    coord 95314
     coord 100819.0
     coord 302.0
   ]
@@ -94364,7 +94515,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93616.0
+    coord 93616
     coord 99523.0
     coord 368.0
   ]
@@ -94374,7 +94525,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 93201.0
+    coord 93201
     coord 99048.0
     coord 372.0
   ]
@@ -94384,7 +94535,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91427.0
+    coord 91427
     coord 96072.0
     coord 300.0
   ]
@@ -94394,7 +94545,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91467.0
+    coord 91467
     coord 94847.0
     coord 284.0
   ]
@@ -94404,7 +94555,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 88484.0
+    coord 88484
     coord 88437.0
     coord 251.0
   ]
@@ -94414,7 +94565,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89937.0
+    coord 89937
     coord 92636.0
     coord 279.0
   ]
@@ -94424,7 +94575,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87956.0
+    coord 87956
     coord 86242.0
     coord 283.0
   ]
@@ -94434,7 +94585,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87524.0
+    coord 87524
     coord 84742.0
     coord 311.0
   ]
@@ -94444,7 +94595,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87093.0
+    coord 87093
     coord 79292.0
     coord 373.0
   ]
@@ -94455,7 +94606,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87691.0
+    coord 87691
     coord 74999.0
     coord 363.0
   ]
@@ -94466,7 +94617,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87685.0
+    coord 87685
     coord 74903.0
     coord 353.0
   ]
@@ -94476,7 +94627,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87297.0
+    coord 87297
     coord 83322.0
     coord 318.0
   ]
@@ -94487,7 +94638,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88470.0
+    coord 88470
     coord 74856.0
     coord 210.0
   ]
@@ -94498,7 +94649,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87852.0
+    coord 87852
     coord 74587.0
     coord 602.0
   ]
@@ -94508,7 +94659,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86913.0
+    coord 86913
     coord 80074.0
     coord 382.0
   ]
@@ -94518,7 +94669,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 86889.0
+    coord 86889
     coord 77447.0
     coord 419.0
   ]
@@ -94529,7 +94680,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87457.0
+    coord 87457
     coord 75058.0
     coord 453.0
   ]
@@ -94539,7 +94690,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86960.0
+    coord 86960
     coord 76146.0
     coord 438.0
   ]
@@ -94550,7 +94701,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 87882.0
+    coord 87882
     coord 74847.0
     coord 658.0
   ]
@@ -94561,7 +94712,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88599.0
+    coord 88599
     coord 74728.0
     coord 826.0
   ]
@@ -94572,7 +94723,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88711.0
+    coord 88711
     coord 74470.0
     coord 860.0
   ]
@@ -94583,7 +94734,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88238.0
+    coord 88238
     coord 73489.0
     coord 957.0
   ]
@@ -94594,7 +94745,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88414.0
+    coord 88414
     coord 72717.0
     coord 1011.0
   ]
@@ -94605,7 +94756,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 88025.0
+    coord 88025
     coord 71823.0
     coord 1090.0
   ]
@@ -94615,7 +94766,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 104758.0
+    coord 104758
     coord 97126.0
     coord 708.0
   ]
@@ -94625,7 +94776,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105504.0
+    coord 105504
     coord 93170.0
     coord 617.0
   ]
@@ -94635,7 +94786,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 105327.0
+    coord 105327
     coord 93256.0
     coord 613.0
   ]
@@ -94645,7 +94796,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 105595.0
+    coord 105595
     coord 92738.0
     coord 571.0
   ]
@@ -94656,7 +94807,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 105850.0
+    coord 105850
     coord 87220.0
     coord 420.0
   ]
@@ -94666,7 +94817,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105786.0
+    coord 105786
     coord 88127.0
     coord 630.0
   ]
@@ -94676,7 +94827,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 105823.0
+    coord 105823
     coord 87876.0
     coord 646.0
   ]
@@ -94686,7 +94837,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105491.0
+    coord 105491
     coord 87383.0
     coord 635.0
   ]
@@ -94697,7 +94848,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 105386.0
+    coord 105386
     coord 86992.0
     coord 542.0
   ]
@@ -94708,7 +94859,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 106093.0
+    coord 106093
     coord 87154.0
     coord 796.0
   ]
@@ -94719,7 +94870,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 105236.0
+    coord 105236
     coord 85948.0
     coord 946.0
   ]
@@ -94730,7 +94881,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 104303.0
+    coord 104303
     coord 85051.0
     coord 1090.0
   ]
@@ -94741,7 +94892,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 105229.0
+    coord 105229
     coord 87094.0
     coord 552.0
   ]
@@ -94752,7 +94903,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 106023.0
+    coord 106023
     coord 87130.0
     coord 285.0
   ]
@@ -94763,7 +94914,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 106293.0
+    coord 106293
     coord 87679.0
     coord 189.0
   ]
@@ -94774,7 +94925,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 106347.0
+    coord 106347
     coord 87520.0
     coord 197.0
   ]
@@ -94784,7 +94935,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 98921.0
+    coord 98921
     coord 94830.0
     coord 477.0
   ]
@@ -94794,7 +94945,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 98351.0
+    coord 98351
     coord 93029.0
     coord 458.0
   ]
@@ -94804,7 +94955,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 97286.0
+    coord 97286
     coord 91367.0
     coord 441.0
   ]
@@ -94814,7 +94965,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 97270.0
+    coord 97270
     coord 91433.0
     coord 428.0
   ]
@@ -94824,7 +94975,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 93497.0
+    coord 93497
     coord 75818.0
     coord 370.0
   ]
@@ -94834,7 +94985,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 93304.0
+    coord 93304
     coord 75053.0
     coord 392.0
   ]
@@ -94844,7 +94995,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 93243.0
+    coord 93243
     coord 73108.0
     coord 309.0
   ]
@@ -94854,7 +95005,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96437.0
+    coord 96437
     coord 89046.0
     coord 447.0
   ]
@@ -94864,7 +95015,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 96113.0
+    coord 96113
     coord 88574.0
     coord 423.0
   ]
@@ -94874,7 +95025,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 94441.0
+    coord 94441
     coord 86914.0
     coord 402.0
   ]
@@ -94884,7 +95035,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 93817.0
+    coord 93817
     coord 86363.0
     coord 389.0
   ]
@@ -94894,7 +95045,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 93906.0
+    coord 93906
     coord 85550.0
     coord 380.0
   ]
@@ -94904,7 +95055,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 94418.0
+    coord 94418
     coord 80539.0
     coord 374.0
   ]
@@ -94914,7 +95065,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93555.0
+    coord 93555
     coord 79081.0
     coord 347.0
   ]
@@ -94924,7 +95075,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93334.0
+    coord 93334
     coord 78348.0
     coord 364.0
   ]
@@ -94934,7 +95085,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93429.0
+    coord 93429
     coord 76094.0
     coord 378.0
   ]
@@ -94944,7 +95095,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 93432.0
+    coord 93432
     coord 74146.0
     coord 336.0
   ]
@@ -94954,7 +95105,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 93316.0
+    coord 93316
     coord 73080.0
     coord 290.0
   ]
@@ -94964,7 +95115,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 93223.0
+    coord 93223
     coord 71217.0
     coord 263.0
   ]
@@ -94974,7 +95125,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 93514.0
+    coord 93514
     coord 68891.0
     coord 242.0
   ]
@@ -94984,7 +95135,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 93517.0
+    coord 93517
     coord 68363.0
     coord 242.0
   ]
@@ -94994,7 +95145,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 93566.0
+    coord 93566
     coord 67962.0
     coord 258.0
   ]
@@ -95005,7 +95156,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 93740.0
+    coord 93740
     coord 67495.0
     coord 179.0
   ]
@@ -95016,7 +95167,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 93410.0
+    coord 93410
     coord 66915.0
     coord 298.0
   ]
@@ -95027,7 +95178,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92869.0
+    coord 92869
     coord 66217.0
     coord 473.0
   ]
@@ -95038,7 +95189,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92880.0
+    coord 92880
     coord 66289.0
     coord 499.0
   ]
@@ -95049,7 +95200,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 92918.0
+    coord 92918
     coord 66022.0
     coord 514.0
   ]
@@ -95060,7 +95211,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 93947.0
+    coord 93947
     coord 67131.0
     coord 731.0
   ]
@@ -95071,7 +95222,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 94355.0
+    coord 94355
     coord 67305.0
     coord 775.0
   ]
@@ -95082,7 +95233,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 94224.0
+    coord 94224
     coord 65769.0
     coord 981.0
   ]
@@ -95093,7 +95244,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 94009.0
+    coord 94009
     coord 64530.0
     coord 1157.0
   ]
@@ -95103,7 +95254,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105944.0
+    coord 105944
     coord 88851.0
     coord 841.0
   ]
@@ -95113,7 +95264,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 106446.0
+    coord 106446
     coord 85122.0
     coord 848.0
   ]
@@ -95123,7 +95274,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 106076.0
+    coord 106076
     coord 86727.0
     coord 877.0
   ]
@@ -95133,7 +95284,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 106166.0
+    coord 106166
     coord 86618.0
     coord 863.0
   ]
@@ -95154,7 +95305,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 101285.0
+    coord 101285
     coord 48602.0
     coord 350.0
   ]
@@ -95164,7 +95315,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 106230.0
+    coord 106230
     coord 83153.0
     coord 926.0
   ]
@@ -95174,7 +95325,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 106219.0
+    coord 106219
     coord 78418.0
     coord 933.0
   ]
@@ -95184,7 +95335,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 106209.0
+    coord 106209
     coord 75706.0
     coord 984.0
   ]
@@ -95194,7 +95345,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 105902.0
+    coord 105902
     coord 74714.0
     coord 978.0
   ]
@@ -95204,7 +95355,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 105896.0
+    coord 105896
     coord 74842.0
     coord 965.0
   ]
@@ -95214,7 +95365,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 106223.0
+    coord 106223
     coord 74187.0
     coord 958.0
   ]
@@ -95224,7 +95375,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 106255.0
+    coord 106255
     coord 67867.0
     coord 805.0
   ]
@@ -95234,7 +95385,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 103474.0
+    coord 103474
     coord 61897.0
     coord 669.0
   ]
@@ -95244,7 +95395,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 103010.0
+    coord 103010
     coord 59660.0
     coord 690.0
   ]
@@ -95254,7 +95405,7 @@ graph [
     key 9
     tags "true"
     tags "ascending_branch"
-    coord 102917.0
+    coord 102917
     coord 57731.0
     coord 699.0
   ]
@@ -95264,7 +95415,7 @@ graph [
     key 10
     tags "true"
     tags "ascending_branch"
-    coord 102792.0
+    coord 102792
     coord 55438.0
     coord 661.0
   ]
@@ -95274,7 +95425,7 @@ graph [
     key 11
     tags "true"
     tags "ascending_branch"
-    coord 102619.0
+    coord 102619
     coord 54135.0
     coord 648.0
   ]
@@ -95284,7 +95435,7 @@ graph [
     key 12
     tags "true"
     tags "ascending_branch"
-    coord 102964.0
+    coord 102964
     coord 54371.0
     coord 656.0
   ]
@@ -95304,7 +95455,7 @@ graph [
     key 14
     tags "true"
     tags "ascending_branch"
-    coord 101367.0
+    coord 101367
     coord 50410.0
     coord 616.0
   ]
@@ -95315,7 +95466,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 100979.0
+    coord 100979
     coord 48064.0
     coord 488.0
   ]
@@ -95325,7 +95476,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105788.0
+    coord 105788
     coord 82547.0
     coord 957.0
   ]
@@ -95335,7 +95486,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 106334.0
+    coord 106334
     coord 80487.0
     coord 945.0
   ]
@@ -95345,7 +95496,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 106171.0
+    coord 106171
     coord 77052.0
     coord 975.0
   ]
@@ -95355,7 +95506,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 105940.0
+    coord 105940
     coord 75079.0
     coord 993.0
   ]
@@ -95365,7 +95516,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 106045.0
+    coord 106045
     coord 74889.0
     coord 981.0
   ]
@@ -95375,7 +95526,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 106243.0
+    coord 106243
     coord 72028.0
     coord 885.0
   ]
@@ -95385,7 +95536,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 106159.0
+    coord 106159
     coord 69823.0
     coord 814.0
   ]
@@ -95405,7 +95556,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 102763.0
+    coord 102763
     coord 57701.0
     coord 691.0
   ]
@@ -95415,7 +95566,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 100901.0
+    coord 100901
     coord 48817.0
     coord 603.0
   ]
@@ -95425,7 +95576,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 102430.0
+    coord 102430
     coord 53240.0
     coord 648.0
   ]
@@ -95435,7 +95586,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 102346.0
+    coord 102346
     coord 53324.0
     coord 655.0
   ]
@@ -95455,7 +95606,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 101589.0
+    coord 101589
     coord 50948.0
     coord 644.0
   ]
@@ -95466,7 +95617,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 102191.0
+    coord 102191
     coord 50111.0
     coord 774.0
   ]
@@ -95477,7 +95628,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 102188.0
+    coord 102188
     coord 49652.0
     coord 855.0
   ]
@@ -95488,7 +95639,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 101597.0
+    coord 101597
     coord 47939.0
     coord 1069.0
   ]
@@ -95499,7 +95650,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 101704.0
+    coord 101704
     coord 48816.0
     coord 211.0
   ]
@@ -95510,7 +95661,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 101869.0
+    coord 101869
     coord 49300.0
     coord 136.0
   ]
@@ -95521,7 +95672,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 101917.0
+    coord 101917
     coord 49310.0
     coord 83.0
   ]
@@ -95531,7 +95682,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 107765.0
+    coord 107765
     coord 99423.0
     coord 649.0
   ]
@@ -95541,7 +95692,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 107991.0
+    coord 107991
     coord 95972.0
     coord 817.0
   ]
@@ -95551,7 +95702,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 107193.0
+    coord 107193
     coord 94242.0
     coord 946.0
   ]
@@ -95561,7 +95712,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 107517.0
+    coord 107517
     coord 91383.0
     coord 1048.0
   ]
@@ -95571,7 +95722,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 107487.0
+    coord 107487
     coord 91044.0
     coord 1064.0
   ]
@@ -95581,7 +95732,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 107045.0
+    coord 107045
     coord 92658.0
     coord 978.0
   ]
@@ -95591,7 +95742,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 108451.0
+    coord 108451
     coord 88828.0
     coord 1087.0
   ]
@@ -95601,7 +95752,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 109088.0
+    coord 109088
     coord 87124.0
     coord 1137.0
   ]
@@ -95612,7 +95763,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109473.0
+    coord 109473
     coord 87144.0
     coord 1000.0
   ]
@@ -95623,7 +95774,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109604.0
+    coord 109604
     coord 87443.0
     coord 876.0
   ]
@@ -95634,7 +95785,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109898.0
+    coord 109898
     coord 87804.0
     coord 774.0
   ]
@@ -95645,7 +95796,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109932.0
+    coord 109932
     coord 87981.0
     coord 762.0
   ]
@@ -95656,7 +95807,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109971.0
+    coord 109971
     coord 87772.0
     coord 742.0
   ]
@@ -95667,7 +95818,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109359.0
+    coord 109359
     coord 87246.0
     coord 573.0
   ]
@@ -95678,7 +95829,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109528.0
+    coord 109528
     coord 87164.0
     coord 563.0
   ]
@@ -95689,7 +95840,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110221.0
+    coord 110221
     coord 87035.0
     coord 320.0
   ]
@@ -95700,7 +95851,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110547.0
+    coord 110547
     coord 87237.0
     coord 270.0
   ]
@@ -95711,7 +95862,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 111318.0
+    coord 111318
     coord 87550.0
     coord 182.0
   ]
@@ -95722,7 +95873,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 111103.0
+    coord 111103
     coord 87650.0
     coord 182.0
   ]
@@ -95733,7 +95884,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 111617.0
+    coord 111617
     coord 88194.0
     coord 123.0
   ]
@@ -95743,7 +95894,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 107847.0
+    coord 107847
     coord 90291.0
     coord 1117.0
   ]
@@ -95753,7 +95904,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 108768.0
+    coord 108768
     coord 88157.0
     coord 1131.0
   ]
@@ -95765,7 +95916,7 @@ graph [
     tags "ascending_branch"
     coord 109361.3125
     coord 80819.9453125
-    coord 1066.0
+    coord 1066
   ]
   edge [
     source 331
@@ -95773,7 +95924,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 110227.0
+    coord 110227
     coord 78544.0
     coord 1033.0
   ]
@@ -95783,7 +95934,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 110436.0
+    coord 110436
     coord 78641.0
     coord 1015.0
   ]
@@ -95793,7 +95944,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 110649.0
+    coord 110649
     coord 72786.0
     coord 944.0
   ]
@@ -95803,7 +95954,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 111209.0
+    coord 111209
     coord 69254.0
     coord 926.0
   ]
@@ -95814,7 +95965,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110668.0
+    coord 110668
     coord 61400.0
     coord 708.0
   ]
@@ -95824,7 +95975,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 109068.0
+    coord 109068
     coord 85206.0
     coord 1143.0
   ]
@@ -95834,7 +95985,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 108953.0
+    coord 108953
     coord 84798.0
     coord 1133.0
   ]
@@ -95844,7 +95995,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 108839.0
+    coord 108839
     coord 81713.0
     coord 1123.0
   ]
@@ -95854,7 +96005,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 109533.0
+    coord 109533
     coord 80220.0
     coord 1075.0
   ]
@@ -95865,7 +96016,7 @@ graph [
     tags "true"
     tags "ascending_branch"
     tags "false"
-    coord 110800.0
+    coord 110800
     coord 72064.0
     coord 929.0
   ]
@@ -95875,7 +96026,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 109224.0
+    coord 109224
     coord 80834.0
     coord 1066.0
   ]
@@ -95885,7 +96036,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 110298.0
+    coord 110298
     coord 78439.0
     coord 1020.0
   ]
@@ -95895,7 +96046,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 110546.0
+    coord 110546
     coord 77593.0
     coord 987.0
   ]
@@ -95905,7 +96056,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 111233.0
+    coord 111233
     coord 68110.0
     coord 902.0
   ]
@@ -95916,7 +96067,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110733.0
+    coord 110733
     coord 61308.0
     coord 942.0
   ]
@@ -95927,7 +96078,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 109963.0
+    coord 109963
     coord 59803.0
     coord 1153.0
   ]
@@ -95938,7 +96089,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110321.0
+    coord 110321
     coord 60270.0
     coord 652.0
   ]
@@ -95949,7 +96100,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110157.0
+    coord 110157
     coord 59379.0
     coord 574.0
   ]
@@ -95960,7 +96111,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 110951.0
+    coord 110951
     coord 58948.0
     coord 299.0
   ]
@@ -95971,7 +96122,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 111640.0
+    coord 111640
     coord 59238.0
     coord 203.0
   ]
@@ -95982,7 +96133,7 @@ graph [
     tags "true"
     tags "pf"
     tags "local"
-    coord 111604.0
+    coord 111604
     coord 59091.0
     coord 205.0
   ]
@@ -95992,7 +96143,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 102919.0
+    coord 102919
     coord 90275.0
     coord 789.0
   ]
@@ -96002,7 +96153,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100870.0
+    coord 100870
     coord 87849.0
     coord 708.0
   ]
@@ -96012,7 +96163,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100321.0
+    coord 100321
     coord 85307.0
     coord 675.0
   ]
@@ -96022,7 +96173,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100170.0
+    coord 100170
     coord 84452.0
     coord 646.0
   ]
@@ -96032,7 +96183,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 99772.0
+    coord 99772
     coord 80384.0
     coord 498.0
   ]
@@ -96042,7 +96193,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 100007.0
+    coord 100007
     coord 76647.0
     coord 506.0
   ]
@@ -96052,7 +96203,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100327.0
+    coord 100327
     coord 82452.0
     coord 654.0
   ]
@@ -96062,7 +96213,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99753.0
+    coord 99753
     coord 81056.0
     coord 520.0
   ]
@@ -96072,7 +96223,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99639.0
+    coord 99639
     coord 80023.0
     coord 492.0
   ]
@@ -96082,7 +96233,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99953.0
+    coord 99953
     coord 79785.0
     coord 506.0
   ]
@@ -96092,7 +96243,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 99770.0
+    coord 99770
     coord 79796.0
     coord 499.0
   ]
@@ -96102,7 +96253,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 100249.0
+    coord 100249
     coord 79549.0
     coord 530.0
   ]
@@ -96112,7 +96263,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 100356.0
+    coord 100356
     coord 79488.0
     coord 544.0
   ]
@@ -96122,7 +96273,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100319.0
+    coord 100319
     coord 79638.0
     coord 553.0
   ]
@@ -96274,7 +96425,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 49639.0
+    coord 49639
     coord 60699.0
     coord 747.0
   ]
@@ -96285,7 +96436,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 49087.0
+    coord 49087
     coord 59701.0
     coord 939.0
   ]
@@ -96296,7 +96447,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 48164.0
+    coord 48164
     coord 58625.0
     coord 1121.0
   ]
@@ -96307,7 +96458,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 48049.0
+    coord 48049
     coord 70086.0
     coord 121.0
   ]
@@ -96318,7 +96469,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 46512.0
+    coord 46512
     coord 69231.0
     coord 308.0
   ]
@@ -96329,7 +96480,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 48455.0
+    coord 48455
     coord 75560.0
     coord 1043.0
   ]
@@ -96340,7 +96491,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 46042.0
+    coord 46042
     coord 72857.0
     coord 510.0
   ]
@@ -96351,7 +96502,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 46359.0
+    coord 46359
     coord 72351.0
     coord 332.0
   ]
@@ -96362,7 +96513,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 46975.0
+    coord 46975
     coord 72338.0
     coord 234.0
   ]
@@ -96373,7 +96524,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 49012.0
+    coord 49012
     coord 76576.0
     coord 992.0
   ]
@@ -96384,7 +96535,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 50207.0
+    coord 50207
     coord 77643.0
     coord 816.0
   ]
@@ -96395,7 +96546,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 47156.0
+    coord 47156
     coord 76405.0
     coord 454.0
   ]
@@ -96406,7 +96557,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 47089.0
+    coord 47089
     coord 76469.0
     coord 447.0
   ]
@@ -96417,7 +96568,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 47105.0
+    coord 47105
     coord 76388.0
     coord 447.0
   ]
@@ -96428,7 +96579,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 47363.0
+    coord 47363
     coord 76929.0
     coord 249.0
   ]
@@ -96440,7 +96591,7 @@ graph [
     tags "pf"
     tags "nonlocal"
     tags "incomplete"
-    coord 47739.0
+    coord 47739
     coord 82667.0
     coord 617.0
   ]
@@ -96451,7 +96602,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 50334.0
+    coord 50334
     coord 83248.0
     coord 769.0
   ]
@@ -96462,7 +96613,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 47228.0
+    coord 47228
     coord 81204.0
     coord 1104.0
   ]
@@ -96473,7 +96624,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 47058.0
+    coord 47058
     coord 81229.0
     coord 1122.0
   ]
@@ -96484,7 +96635,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 47106.0
+    coord 47106
     coord 80974.0
     coord 1129.0
   ]
@@ -96495,7 +96646,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70394.0
+    coord 70394
     coord 60089.0
     coord 107.0
   ]
@@ -96506,7 +96657,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69030.0
+    coord 69030
     coord 58740.0
     coord 429.0
   ]
@@ -96517,7 +96668,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70022.0
+    coord 70022
     coord 59507.0
     coord 676.0
   ]
@@ -96528,7 +96679,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70739.0
+    coord 70739
     coord 58634.0
     coord 1031.0
   ]
@@ -96539,7 +96690,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69645.0
+    coord 69645
     coord 64087.0
     coord 159.0
   ]
@@ -96550,7 +96701,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69470.0
+    coord 69470
     coord 63980.0
     coord 177.0
   ]
@@ -96561,7 +96712,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69297.0
+    coord 69297
     coord 63801.0
     coord 219.0
   ]
@@ -96572,7 +96723,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 68981.0
+    coord 68981
     coord 63610.0
     coord 372.0
   ]
@@ -96583,7 +96734,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 68836.0
+    coord 68836
     coord 63519.0
     coord 429.0
   ]
@@ -96594,7 +96745,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 68878.0
+    coord 68878
     coord 63609.0
     coord 447.0
   ]
@@ -96605,7 +96756,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70877.0
+    coord 70877
     coord 63900.0
     coord 736.0
   ]
@@ -96616,7 +96767,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 71011.0
+    coord 71011
     coord 64255.0
     coord 800.0
   ]
@@ -96627,7 +96778,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70944.0
+    coord 70944
     coord 64220.0
     coord 875.0
   ]
@@ -96638,7 +96789,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70922.0
+    coord 70922
     coord 64263.0
     coord 897.0
   ]
@@ -96649,7 +96800,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 64123.0
+    coord 64123
     coord 67001.0
     coord 243.0
   ]
@@ -96660,7 +96811,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 62934.0
+    coord 62934
     coord 67066.0
     coord 406.0
   ]
@@ -96671,7 +96822,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 63231.0
+    coord 63231
     coord 67055.0
     coord 342.0
   ]
@@ -96682,7 +96833,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 63412.0
+    coord 63412
     coord 66781.0
     coord 505.0
   ]
@@ -96693,7 +96844,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 65863.0
+    coord 65863
     coord 67761.0
     coord 735.0
   ]
@@ -96704,7 +96855,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 65906.0
+    coord 65906
     coord 68086.0
     coord 823.0
   ]
@@ -96715,7 +96866,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 64533.0
+    coord 64533
     coord 65506.0
     coord 1074.0
   ]
@@ -96726,7 +96877,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 63409.0
+    coord 63409
     coord 65301.0
     coord 1149.0
   ]
@@ -96737,7 +96888,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70578.0
+    coord 70578
     coord 70599.0
     coord 301.0
   ]
@@ -96748,7 +96899,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69997.0
+    coord 69997
     coord 70388.0
     coord 482.0
   ]
@@ -96759,7 +96910,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70163.0
+    coord 70163
     coord 69387.0
     coord 1030.0
   ]
@@ -96770,7 +96921,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 66828.0
+    coord 66828
     coord 76039.0
     coord 413.0
   ]
@@ -96781,7 +96932,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69543.0
+    coord 69543
     coord 77212.0
     coord 749.0
   ]
@@ -96792,7 +96943,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69637.0
+    coord 69637
     coord 77021.0
     coord 898.0
   ]
@@ -96803,7 +96954,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 68782.0
+    coord 68782
     coord 74320.0
     coord 1150.0
   ]
@@ -96814,7 +96965,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70453.0
+    coord 70453
     coord 85074.0
     coord 86.0
   ]
@@ -96825,7 +96976,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70488.0
+    coord 70488
     coord 85090.0
     coord 98.0
   ]
@@ -96836,7 +96987,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70021.0
+    coord 70021
     coord 84643.0
     coord 242.0
   ]
@@ -96847,7 +96998,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70007.0
+    coord 70007
     coord 84532.0
     coord 264.0
   ]
@@ -96858,7 +97009,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 68977.0
+    coord 68977
     coord 84483.0
     coord 400.0
   ]
@@ -96869,7 +97020,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 68866.0
+    coord 68866
     coord 84617.0
     coord 402.0
   ]
@@ -96880,7 +97031,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 68590.0
+    coord 68590
     coord 84775.0
     coord 500.0
   ]
@@ -96891,7 +97042,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70112.0
+    coord 70112
     coord 84789.0
     coord 713.0
   ]
@@ -96902,7 +97053,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 70910.0
+    coord 70910
     coord 85003.0
     coord 884.0
   ]
@@ -96913,7 +97064,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69007.0
+    coord 69007
     coord 88558.0
     coord 107.0
   ]
@@ -96924,7 +97075,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69266.0
+    coord 69266
     coord 88511.0
     coord 225.0
   ]
@@ -96935,7 +97086,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69162.0
+    coord 69162
     coord 88325.0
     coord 321.0
   ]
@@ -96946,7 +97097,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 69349.0
+    coord 69349
     coord 88205.0
     coord 377.0
   ]
@@ -96957,7 +97108,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 72345.0
+    coord 72345
     coord 89025.0
     coord 787.0
   ]
@@ -96968,7 +97119,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 72763.0
+    coord 72763
     coord 87916.0
     coord 880.0
   ]
@@ -96979,7 +97130,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 109451.0
+    coord 109451
     coord 52772.0
     coord 1145.0
   ]
@@ -96990,7 +97141,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 109666.0
+    coord 109666
     coord 54501.0
     coord 949.0
   ]
@@ -97001,7 +97152,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 109371.0
+    coord 109371
     coord 54015.0
     coord 435.0
   ]
@@ -97012,7 +97163,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 109700.0
+    coord 109700
     coord 54024.0
     coord 329.0
   ]
@@ -97023,7 +97174,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 110328.0
+    coord 110328
     coord 54617.0
     coord 163.0
   ]
@@ -97034,7 +97185,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 110366.0
+    coord 110366
     coord 54806.0
     coord 151.0
   ]
@@ -97045,7 +97196,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 110433.0
+    coord 110433
     coord 54744.0
     coord 122.0
   ]
@@ -97056,7 +97207,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111384.0
+    coord 111384
     coord 61820.0
     coord 134.0
   ]
@@ -97067,7 +97218,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 110387.0
+    coord 110387
     coord 62189.0
     coord 761.0
   ]
@@ -97078,7 +97229,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111206.0
+    coord 111206
     coord 66792.0
     coord 460.0
   ]
@@ -97089,7 +97240,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111294.0
+    coord 111294
     coord 66852.0
     coord 460.0
   ]
@@ -97100,7 +97251,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111380.0
+    coord 111380
     coord 66915.0
     coord 532.0
   ]
@@ -97111,7 +97262,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111433.0
+    coord 111433
     coord 67332.0
     coord 638.0
   ]
@@ -97122,7 +97273,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 110753.0
+    coord 110753
     coord 66900.0
     coord 1074.0
   ]
@@ -97133,7 +97284,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111553.0
+    coord 111553
     coord 74437.0
     coord 642.0
   ]
@@ -97144,7 +97295,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111469.0
+    coord 111469
     coord 74202.0
     coord 534.0
   ]
@@ -97155,7 +97306,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111767.0
+    coord 111767
     coord 79825.0
     coord 1150.0
   ]
@@ -97166,7 +97317,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112020.0
+    coord 112020
     coord 80475.0
     coord 1005.0
   ]
@@ -97177,7 +97328,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 111732.0
+    coord 111732
     coord 80935.0
     coord 588.0
   ]
@@ -97188,7 +97339,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112340.0
+    coord 112340
     coord 80838.0
     coord 316.0
   ]
@@ -97199,7 +97350,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112735.0
+    coord 112735
     coord 81178.0
     coord 224.0
   ]
@@ -97210,7 +97361,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112939.0
+    coord 112939
     coord 81325.0
     coord 142.0
   ]
@@ -97221,7 +97372,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113073.0
+    coord 113073
     coord 81528.0
     coord 85.0
   ]
@@ -97232,7 +97383,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 140245.0
+    coord 140245
     coord 48591.0
     coord 261.0
   ]
@@ -97243,7 +97394,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139956.0
+    coord 139956
     coord 48576.0
     coord 328.0
   ]
@@ -97254,7 +97405,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 140207.0
+    coord 140207
     coord 48555.0
     coord 470.0
   ]
@@ -97265,7 +97416,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139715.0
+    coord 139715
     coord 49203.0
     coord 653.0
   ]
@@ -97276,7 +97427,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139808.0
+    coord 139808
     coord 57761.0
     coord 78.0
   ]
@@ -97287,7 +97438,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139248.0
+    coord 139248
     coord 57074.0
     coord 282.0
   ]
@@ -97298,7 +97449,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138859.0
+    coord 138859
     coord 56228.0
     coord 443.0
   ]
@@ -97309,7 +97460,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138737.0
+    coord 138737
     coord 56108.0
     coord 501.0
   ]
@@ -97320,7 +97471,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138016.0
+    coord 138016
     coord 56808.0
     coord 1057.0
   ]
@@ -97331,7 +97482,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138075.0
+    coord 138075
     coord 56738.0
     coord 1088.0
   ]
@@ -97342,7 +97493,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 137264.0
+    coord 137264
     coord 68590.0
     coord 248.0
   ]
@@ -97353,7 +97504,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136952.0
+    coord 136952
     coord 68495.0
     coord 570.0
   ]
@@ -97364,7 +97515,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136219.0
+    coord 136219
     coord 70079.0
     coord 707.0
   ]
@@ -97375,7 +97526,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136267.0
+    coord 136267
     coord 69998.0
     coord 709.0
   ]
@@ -97386,7 +97537,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136009.0
+    coord 136009
     coord 70314.0
     coord 747.0
   ]
@@ -97397,7 +97548,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 135509.0
+    coord 135509
     coord 69577.0
     coord 880.0
   ]
@@ -97408,7 +97559,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138854.0
+    coord 138854
     coord 79159.0
     coord 150.0
   ]
@@ -97419,7 +97570,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138955.0
+    coord 138955
     coord 78953.0
     coord 167.0
   ]
@@ -97430,7 +97581,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 137880.0
+    coord 137880
     coord 78923.0
     coord 451.0
   ]
@@ -97441,7 +97592,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 137555.0
+    coord 137555
     coord 78674.0
     coord 495.0
   ]
@@ -97452,7 +97603,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 137737.0
+    coord 137737
     coord 79080.0
     coord 560.0
   ]
@@ -97463,7 +97614,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136622.0
+    coord 136622
     coord 80245.0
     coord 759.0
   ]
@@ -97474,7 +97625,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136515.0
+    coord 136515
     coord 80140.0
     coord 892.0
   ]
@@ -97485,7 +97636,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136517.0
+    coord 136517
     coord 80011.0
     coord 903.0
   ]
@@ -97496,7 +97647,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 136147.0
+    coord 136147
     coord 78457.0
     coord 1149.0
   ]
@@ -97507,7 +97658,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164319.0
+    coord 164319
     coord 50304.0
     coord 807.0
   ]
@@ -97518,7 +97669,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164498.0
+    coord 164498
     coord 48953.0
     coord 990.0
   ]
@@ -97529,7 +97680,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168999.0
+    coord 168999
     coord 55938.0
     coord 120.0
   ]
@@ -97540,7 +97691,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168515.0
+    coord 168515
     coord 54430.0
     coord 339.0
   ]
@@ -97551,7 +97702,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168513.0
+    coord 168513
     coord 54453.0
     coord 352.0
   ]
@@ -97562,7 +97713,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 167821.0
+    coord 167821
     coord 54476.0
     coord 534.0
   ]
@@ -97573,7 +97724,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 165323.0
+    coord 165323
     coord 56865.0
     coord 898.0
   ]
@@ -97584,7 +97735,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 165258.0
+    coord 165258
     coord 56812.0
     coord 936.0
   ]
@@ -97595,7 +97746,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 165996.0
+    coord 165996
     coord 62473.0
     coord 1058.0
   ]
@@ -97606,7 +97757,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 165444.0
+    coord 165444
     coord 62831.0
     coord 972.0
   ]
@@ -97617,7 +97768,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 165946.0
+    coord 165946
     coord 62763.0
     coord 686.0
   ]
@@ -97628,7 +97779,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168542.0
+    coord 168542
     coord 62011.0
     coord 261.0
   ]
@@ -97639,7 +97790,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168411.0
+    coord 168411
     coord 61799.0
     coord 96.0
   ]
@@ -97650,7 +97801,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164789.0
+    coord 164789
     coord 68888.0
     coord 948.0
   ]
@@ -97661,7 +97812,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164605.0
+    coord 164605
     coord 68992.0
     coord 948.0
   ]
@@ -97672,7 +97823,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 165705.0
+    coord 165705
     coord 69050.0
     coord 696.0
   ]
@@ -97683,7 +97834,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 167074.0
+    coord 167074
     coord 68273.0
     coord 556.0
   ]
@@ -97694,7 +97845,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 167879.0
+    coord 167879
     coord 68307.0
     coord 424.0
   ]
@@ -97705,7 +97856,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168421.0
+    coord 168421
     coord 68849.0
     coord 218.0
   ]
@@ -97716,7 +97867,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168349.0
+    coord 168349
     coord 68797.0
     coord 191.0
   ]
@@ -97727,7 +97878,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164800.0
+    coord 164800
     coord 76685.0
     coord 145.0
   ]
@@ -97738,7 +97889,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164525.0
+    coord 164525
     coord 76638.0
     coord 228.0
   ]
@@ -97749,7 +97900,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164758.0
+    coord 164758
     coord 76458.0
     coord 359.0
   ]
@@ -97760,7 +97911,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 164380.0
+    coord 164380
     coord 76305.0
     coord 391.0
   ]
@@ -97771,7 +97922,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 163998.0
+    coord 163998
     coord 76227.0
     coord 528.0
   ]
@@ -97782,7 +97933,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 163751.0
+    coord 163751
     coord 76030.0
     coord 531.0
   ]
@@ -97793,7 +97944,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 163410.0
+    coord 163410
     coord 76359.0
     coord 613.0
   ]
@@ -97804,7 +97955,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 163122.0
+    coord 163122
     coord 76548.0
     coord 640.0
   ]
@@ -97815,7 +97966,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 161819.0
+    coord 161819
     coord 76485.0
     coord 930.0
   ]
@@ -97826,7 +97977,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 161853.0
+    coord 161853
     coord 75385.0
     coord 1038.0
   ]
@@ -97837,7 +97988,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 88498.0
+    coord 88498
     coord 57590.0
     coord 896.0
   ]
@@ -97848,7 +97999,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 88533.0
+    coord 88533
     coord 57629.0
     coord 722.0
   ]
@@ -97859,7 +98010,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 87620.0
+    coord 87620
     coord 56343.0
     coord 468.0
   ]
@@ -97870,7 +98021,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 87962.0
+    coord 87962
     coord 56876.0
     coord 339.0
   ]
@@ -97881,7 +98032,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 88416.0
+    coord 88416
     coord 57448.0
     coord 231.0
   ]
@@ -97892,7 +98043,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90829.0
+    coord 90829
     coord 65578.0
     coord 164.0
   ]
@@ -97903,7 +98054,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90915.0
+    coord 90915
     coord 65538.0
     coord 164.0
   ]
@@ -97914,7 +98065,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89970.0
+    coord 89970
     coord 64794.0
     coord 312.0
   ]
@@ -97925,7 +98076,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89372.0
+    coord 89372
     coord 64835.0
     coord 404.0
   ]
@@ -97936,7 +98087,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89910.0
+    coord 89910
     coord 64542.0
     coord 601.0
   ]
@@ -97947,7 +98098,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89966.0
+    coord 89966
     coord 64732.0
     coord 620.0
   ]
@@ -97958,7 +98109,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90723.0
+    coord 90723
     coord 66082.0
     coord 756.0
   ]
@@ -97969,7 +98120,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89884.0
+    coord 89884
     coord 64568.0
     coord 613.0
   ]
@@ -97980,7 +98131,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 91839.0
+    coord 91839
     coord 75734.0
     coord 763.0
   ]
@@ -97991,7 +98142,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90878.0
+    coord 90878
     coord 75056.0
     coord 664.0
   ]
@@ -98002,7 +98153,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90674.0
+    coord 90674
     coord 74698.0
     coord 634.0
   ]
@@ -98013,7 +98164,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90601.0
+    coord 90601
     coord 74386.0
     coord 419.0
   ]
@@ -98024,7 +98175,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 91034.0
+    coord 91034
     coord 74794.0
     coord 326.0
   ]
@@ -98035,7 +98186,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90405.0
+    coord 90405
     coord 80308.0
     coord 1017.0
   ]
@@ -98046,7 +98197,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 91123.0
+    coord 91123
     coord 81163.0
     coord 628.0
   ]
@@ -98057,7 +98208,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 91261.0
+    coord 91261
     coord 81498.0
     coord 544.0
   ]
@@ -98068,7 +98219,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 91831.0
+    coord 91831
     coord 81492.0
     coord 264.0
   ]
@@ -98079,7 +98230,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123619.0
+    coord 123619
     coord 49446.0
     coord 357.0
   ]
@@ -98090,7 +98241,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123246.0
+    coord 123246
     coord 48881.0
     coord 465.0
   ]
@@ -98101,7 +98252,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 122168.0
+    coord 122168
     coord 49147.0
     coord 902.0
   ]
@@ -98112,7 +98263,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 122116.0
+    coord 122116
     coord 49143.0
     coord 909.0
   ]
@@ -98123,7 +98274,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131371.0
+    coord 131371
     coord 47092.0
     coord 279.0
   ]
@@ -98134,7 +98285,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131139.0
+    coord 131139
     coord 47253.0
     coord 311.0
   ]
@@ -98145,7 +98296,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130865.0
+    coord 130865
     coord 46951.0
     coord 365.0
   ]
@@ -98156,7 +98307,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130545.0
+    coord 130545
     coord 46629.0
     coord 501.0
   ]
@@ -98167,7 +98318,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130735.0
+    coord 130735
     coord 47033.0
     coord 412.0
   ]
@@ -98178,7 +98329,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129946.0
+    coord 129946
     coord 47106.0
     coord 1013.0
   ]
@@ -98189,7 +98340,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 126012.0
+    coord 126012
     coord 80815.0
     coord 307.0
   ]
@@ -98200,7 +98351,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125183.0
+    coord 125183
     coord 80520.0
     coord 394.0
   ]
@@ -98211,7 +98362,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124109.0
+    coord 124109
     coord 81476.0
     coord 738.0
   ]
@@ -98222,7 +98373,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124104.0
+    coord 124104
     coord 81614.0
     coord 762.0
   ]
@@ -98233,7 +98384,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123866.0
+    coord 123866
     coord 78867.0
     coord 986.0
   ]
@@ -98244,7 +98395,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124084.0
+    coord 124084
     coord 79868.0
     coord 826.0
   ]
@@ -98255,7 +98406,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124139.0
+    coord 124139
     coord 79589.0
     coord 728.0
   ]
@@ -98266,7 +98417,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124205.0
+    coord 124205
     coord 79747.0
     coord 723.0
   ]
@@ -98277,7 +98428,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124168.0
+    coord 124168
     coord 78574.0
     coord 453.0
   ]
@@ -98288,7 +98439,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124554.0
+    coord 124554
     coord 79193.0
     coord 400.0
   ]
@@ -98299,7 +98450,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 126099.0
+    coord 126099
     coord 79498.0
     coord 191.0
   ]
@@ -98310,7 +98461,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123629.0
+    coord 123629
     coord 52650.0
     coord 590.0
   ]
@@ -98332,7 +98483,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124626.0
+    coord 124626
     coord 53318.0
     coord 225.0
   ]
@@ -98343,7 +98494,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124558.0
+    coord 124558
     coord 53199.0
     coord 225.0
   ]
@@ -98354,7 +98505,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123791.0
+    coord 123791
     coord 76304.0
     coord 870.0
   ]
@@ -98365,7 +98516,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123747.0
+    coord 123747
     coord 76511.0
     coord 785.0
   ]
@@ -98387,7 +98538,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124305.0
+    coord 124305
     coord 75105.0
     coord 542.0
   ]
@@ -98398,7 +98549,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125122.0
+    coord 125122
     coord 75163.0
     coord 425.0
   ]
@@ -98409,7 +98560,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125142.0
+    coord 125142
     coord 75268.0
     coord 402.0
   ]
@@ -98420,7 +98571,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125664.0
+    coord 125664
     coord 75614.0
     coord 255.0
   ]
@@ -98431,7 +98582,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125536.0
+    coord 125536
     coord 75615.0
     coord 255.0
   ]
@@ -98442,7 +98593,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125958.0
+    coord 125958
     coord 75979.0
     coord 74.0
   ]
@@ -98453,7 +98604,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123150.0
+    coord 123150
     coord 73077.0
     coord 795.0
   ]
@@ -98464,7 +98615,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123236.0
+    coord 123236
     coord 71554.0
     coord 620.0
   ]
@@ -98475,7 +98626,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123000.0
+    coord 123000
     coord 73045.0
     coord 788.0
   ]
@@ -98486,7 +98637,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123269.0
+    coord 123269
     coord 71719.0
     coord 649.0
   ]
@@ -98497,7 +98648,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123096.0
+    coord 123096
     coord 70906.0
     coord 583.0
   ]
@@ -98508,7 +98659,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123735.0
+    coord 123735
     coord 70859.0
     coord 406.0
   ]
@@ -98519,7 +98670,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125094.0
+    coord 125094
     coord 71684.0
     coord 236.0
   ]
@@ -98530,7 +98681,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125077.0
+    coord 125077
     coord 71655.0
     coord 227.0
   ]
@@ -98541,7 +98692,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125673.0
+    coord 125673
     coord 71604.0
     coord 207.0
   ]
@@ -98563,7 +98714,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121436.0
+    coord 121436
     coord 67435.0
     coord 1097.0
   ]
@@ -98574,7 +98725,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121461.0
+    coord 121461
     coord 67522.0
     coord 1078.0
   ]
@@ -98585,7 +98736,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 122010.0
+    coord 122010
     coord 68227.0
     coord 1051.0
   ]
@@ -98596,7 +98747,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 122121.0
+    coord 122121
     coord 68200.0
     coord 1029.0
   ]
@@ -98629,7 +98780,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 122441.0
+    coord 122441
     coord 67658.0
     coord 571.0
   ]
@@ -98640,7 +98791,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 122552.0
+    coord 122552
     coord 67430.0
     coord 526.0
   ]
@@ -98651,7 +98802,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 122510.0
+    coord 122510
     coord 67549.0
     coord 514.0
   ]
@@ -98662,7 +98813,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123063.0
+    coord 123063
     coord 68309.0
     coord 383.0
   ]
@@ -98673,7 +98824,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123056.0
+    coord 123056
     coord 68193.0
     coord 363.0
   ]
@@ -98684,7 +98835,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123542.0
+    coord 123542
     coord 68277.0
     coord 282.0
   ]
@@ -98695,7 +98846,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 123593.0
+    coord 123593
     coord 68115.0
     coord 282.0
   ]
@@ -98706,7 +98857,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124911.0
+    coord 124911
     coord 68695.0
     coord 141.0
   ]
@@ -98717,7 +98868,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125080.0
+    coord 125080
     coord 68759.0
     coord 141.0
   ]
@@ -98728,7 +98879,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 119340.0
+    coord 119340
     coord 64057.0
     coord 1061.0
   ]
@@ -98739,7 +98890,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 119799.0
+    coord 119799
     coord 64891.0
     coord 664.0
   ]
@@ -98750,7 +98901,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 119926.0
+    coord 119926
     coord 64226.0
     coord 359.0
   ]
@@ -98761,7 +98912,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120159.0
+    coord 120159
     coord 64487.0
     coord 267.0
   ]
@@ -98772,7 +98923,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120880.0
+    coord 120880
     coord 65618.0
     coord 84.0
   ]
@@ -98783,7 +98934,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120390.0
+    coord 120390
     coord 62143.0
     coord 177.0
   ]
@@ -98794,7 +98945,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120565.0
+    coord 120565
     coord 62109.0
     coord 223.0
   ]
@@ -98805,7 +98956,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120537.0
+    coord 120537
     coord 62102.0
     coord 418.0
   ]
@@ -98816,7 +98967,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 119616.0
+    coord 119616
     coord 62359.0
     coord 1045.0
   ]
@@ -98827,7 +98978,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 119521.0
+    coord 119521
     coord 62302.0
     coord 1053.0
   ]
@@ -98838,7 +98989,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121079.0
+    coord 121079
     coord 57209.0
     coord 170.0
   ]
@@ -98849,7 +99000,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121192.0
+    coord 121192
     coord 56921.0
     coord 215.0
   ]
@@ -98860,7 +99011,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120994.0
+    coord 120994
     coord 56242.0
     coord 336.0
   ]
@@ -98871,7 +99022,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120788.0
+    coord 120788
     coord 56309.0
     coord 447.0
   ]
@@ -98882,7 +99033,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 120974.0
+    coord 120974
     coord 57337.0
     coord 606.0
   ]
@@ -98893,7 +99044,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121172.0
+    coord 121172
     coord 57120.0
     coord 720.0
   ]
@@ -98904,7 +99055,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121443.0
+    coord 121443
     coord 56947.0
     coord 953.0
   ]
@@ -98915,7 +99066,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121251.0
+    coord 121251
     coord 56154.0
     coord 1043.0
   ]
@@ -98926,7 +99077,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 121234.0
+    coord 121234
     coord 55957.0
     coord 1122.0
   ]
@@ -98937,7 +99088,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99449.0
+    coord 99449
     coord 54468.0
     coord 1088.0
   ]
@@ -98948,7 +99099,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99532.0
+    coord 99532
     coord 54481.0
     coord 1083.0
   ]
@@ -98959,7 +99110,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99292.0
+    coord 99292
     coord 54344.0
     coord 662.0
   ]
@@ -98970,7 +99121,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99111.0
+    coord 99111
     coord 53727.0
     coord 563.0
   ]
@@ -98981,7 +99132,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98828.0
+    coord 98828
     coord 53697.0
     coord 452.0
   ]
@@ -98992,7 +99143,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99118.0
+    coord 99118
     coord 53827.0
     coord 327.0
   ]
@@ -99003,7 +99154,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99263.0
+    coord 99263
     coord 54029.0
     coord 230.0
   ]
@@ -99014,7 +99165,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98551.0
+    coord 98551
     coord 58906.0
     coord 1103.0
   ]
@@ -99025,7 +99176,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99020.0
+    coord 99020
     coord 59862.0
     coord 972.0
   ]
@@ -99036,7 +99187,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99054.0
+    coord 99054
     coord 60230.0
     coord 954.0
   ]
@@ -99047,7 +99198,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99162.0
+    coord 99162
     coord 61361.0
     coord 806.0
   ]
@@ -99058,7 +99209,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98498.0
+    coord 98498
     coord 60065.0
     coord 614.0
   ]
@@ -99069,7 +99220,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98592.0
+    coord 98592
     coord 60049.0
     coord 606.0
   ]
@@ -99080,7 +99231,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98839.0
+    coord 98839
     coord 59810.0
     coord 431.0
   ]
@@ -99091,7 +99242,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100562.0
+    coord 100562
     coord 63104.0
     coord 277.0
   ]
@@ -99102,7 +99253,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100538.0
+    coord 100538
     coord 63115.0
     coord 296.0
   ]
@@ -99113,7 +99264,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100027.0
+    coord 100027
     coord 63047.0
     coord 714.0
   ]
@@ -99124,7 +99275,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100434.0
+    coord 100434
     coord 63785.0
     coord 792.0
   ]
@@ -99135,7 +99286,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99877.0
+    coord 99877
     coord 63151.0
     coord 942.0
   ]
@@ -99146,7 +99297,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99415.0
+    coord 99415
     coord 62209.0
     coord 1065.0
   ]
@@ -99157,7 +99308,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98702.0
+    coord 98702
     coord 67936.0
     coord 392.0
   ]
@@ -99168,7 +99319,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98672.0
+    coord 98672
     coord 67942.0
     coord 410.0
   ]
@@ -99179,7 +99330,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98406.0
+    coord 98406
     coord 67771.0
     coord 433.0
   ]
@@ -99190,7 +99341,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 98547.0
+    coord 98547
     coord 67841.0
     coord 441.0
   ]
@@ -99201,7 +99352,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99664.0
+    coord 99664
     coord 69685.0
     coord 793.0
   ]
@@ -99212,7 +99363,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99497.0
+    coord 99497
     coord 67539.0
     coord 1050.0
   ]
@@ -99223,7 +99374,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100931.0
+    coord 100931
     coord 70309.0
     coord 148.0
   ]
@@ -99234,7 +99385,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100759.0
+    coord 100759
     coord 70808.0
     coord 747.0
   ]
@@ -99245,7 +99396,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100938.0
+    coord 100938
     coord 70931.0
     coord 754.0
   ]
@@ -99256,7 +99407,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100657.0
+    coord 100657
     coord 70077.0
     coord 995.0
   ]
@@ -99267,7 +99418,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100612.0
+    coord 100612
     coord 69985.0
     coord 1009.0
   ]
@@ -99278,7 +99429,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 101493.0
+    coord 101493
     coord 71728.0
     coord 136.0
   ]
@@ -99289,7 +99440,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99954.0
+    coord 99954
     coord 71046.0
     coord 347.0
   ]
@@ -99300,7 +99451,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100593.0
+    coord 100593
     coord 72225.0
     coord 855.0
   ]
@@ -99311,7 +99462,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100016.0
+    coord 100016
     coord 71769.0
     coord 935.0
   ]
@@ -99322,7 +99473,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 99870.0
+    coord 99870
     coord 71640.0
     coord 946.0
   ]
@@ -99333,7 +99484,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 140051.0
+    coord 140051
     coord 82772.0
     coord 415.0
   ]
@@ -99344,7 +99495,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 140189.0
+    coord 140189
     coord 83002.0
     coord 642.0
   ]
@@ -99355,7 +99506,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139969.0
+    coord 139969
     coord 83601.0
     coord 710.0
   ]
@@ -99366,7 +99517,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139936.0
+    coord 139936
     coord 83029.0
     coord 875.0
   ]
@@ -99377,7 +99528,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139556.0
+    coord 139556
     coord 82949.0
     coord 884.0
   ]
@@ -99388,7 +99539,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139323.0
+    coord 139323
     coord 82923.0
     coord 904.0
   ]
@@ -99399,7 +99550,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139069.0
+    coord 139069
     coord 82282.0
     coord 1131.0
   ]
@@ -99410,7 +99561,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113935.0
+    coord 113935
     coord 83109.0
     coord 205.0
   ]
@@ -99421,7 +99572,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113271.0
+    coord 113271
     coord 83121.0
     coord 317.0
   ]
@@ -99432,7 +99583,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112376.0
+    coord 112376
     coord 82811.0
     coord 489.0
   ]
@@ -99443,7 +99594,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112929.0
+    coord 112929
     coord 83305.0
     coord 744.0
   ]
@@ -99454,7 +99605,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112925.0
+    coord 112925
     coord 83352.0
     coord 861.0
   ]
@@ -99465,7 +99616,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 112433.0
+    coord 112433
     coord 81266.0
     coord 1154.0
   ]
@@ -99476,7 +99627,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 153305.0
+    coord 153305
     coord 80172.0
     coord 1015.0
   ]
@@ -99487,7 +99638,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154225.0
+    coord 154225
     coord 80016.0
     coord 734.0
   ]
@@ -99498,7 +99649,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 156075.0
+    coord 156075
     coord 79156.0
     coord 491.0
   ]
@@ -99509,7 +99660,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 156640.0
+    coord 156640
     coord 79655.0
     coord 237.0
   ]
@@ -99520,7 +99671,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 103554.0
+    coord 103554
     coord 84221.0
     coord 172.0
   ]
@@ -99531,7 +99682,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102501.0
+    coord 102501
     coord 82654.0
     coord 531.0
   ]
@@ -99542,7 +99693,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102559.0
+    coord 102559
     coord 83703.0
     coord 731.0
   ]
@@ -99553,7 +99704,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102663.0
+    coord 102663
     coord 83640.0
     coord 736.0
   ]
@@ -99564,7 +99715,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90299.0
+    coord 90299
     coord 82437.0
     coord 1094.0
   ]
@@ -99575,7 +99726,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 90846.0
+    coord 90846
     coord 83458.0
     coord 535.0
   ]
@@ -99586,7 +99737,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 91623.0
+    coord 91623
     coord 84294.0
     coord 254.0
   ]
@@ -99597,7 +99748,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 91997.0
+    coord 91997
     coord 84900.0
     coord 183.0
   ]
@@ -99608,7 +99759,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93272.0
+    coord 93272
     coord 86423.0
     coord 1009.0
   ]
@@ -99619,7 +99770,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93163.0
+    coord 93163
     coord 87604.0
     coord 729.0
   ]
@@ -99630,7 +99781,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93120.0
+    coord 93120
     coord 87314.0
     coord 705.0
   ]
@@ -99641,7 +99792,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 92419.0
+    coord 92419
     coord 86913.0
     coord 428.0
   ]
@@ -99652,7 +99803,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 92720.0
+    coord 92720
     coord 87080.0
     coord 390.0
   ]
@@ -99674,7 +99825,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93390.0
+    coord 93390
     coord 87598.0
     coord 199.0
   ]
@@ -99685,7 +99836,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 124650.0
+    coord 124650
     coord 83740.0
     coord 1064.0
   ]
@@ -99696,7 +99847,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 125743.0
+    coord 125743
     coord 84477.0
     coord 848.0
   ]
@@ -99718,7 +99869,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 126380.0
+    coord 126380
     coord 84528.0
     coord 757.0
   ]
@@ -99729,7 +99880,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 126282.0
+    coord 126282
     coord 84417.0
     coord 742.0
   ]
@@ -99740,7 +99891,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 126698.0
+    coord 126698
     coord 84143.0
     coord 687.0
   ]
@@ -99751,7 +99902,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127112.0
+    coord 127112
     coord 83931.0
     coord 649.0
   ]
@@ -99762,7 +99913,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127497.0
+    coord 127497
     coord 83441.0
     coord 542.0
   ]
@@ -99773,7 +99924,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128012.0
+    coord 128012
     coord 83553.0
     coord 462.0
   ]
@@ -99784,7 +99935,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128506.0
+    coord 128506
     coord 83819.0
     coord 392.0
   ]
@@ -99795,7 +99946,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128489.0
+    coord 128489
     coord 84071.0
     coord 245.0
   ]
@@ -99806,7 +99957,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113392.0
+    coord 113392
     coord 85075.0
     coord 774.0
   ]
@@ -99817,7 +99968,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113788.0
+    coord 113788
     coord 83847.0
     coord 595.0
   ]
@@ -99839,7 +99990,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113967.0
+    coord 113967
     coord 83707.0
     coord 506.0
   ]
@@ -99850,7 +100001,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114221.0
+    coord 114221
     coord 83332.0
     coord 471.0
   ]
@@ -99861,7 +100012,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113967.0
+    coord 113967
     coord 83634.0
     coord 434.0
   ]
@@ -99872,7 +100023,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114033.0
+    coord 114033
     coord 83642.0
     coord 369.0
   ]
@@ -99883,7 +100034,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113856.0
+    coord 113856
     coord 84069.0
     coord 251.0
   ]
@@ -99894,7 +100045,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114267.0
+    coord 114267
     coord 84510.0
     coord 189.0
   ]
@@ -99905,7 +100056,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127052.0
+    coord 127052
     coord 83876.0
     coord 1131.0
   ]
@@ -99916,7 +100067,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127502.0
+    coord 127502
     coord 84225.0
     coord 1020.0
   ]
@@ -99927,7 +100078,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128495.0
+    coord 128495
     coord 84918.0
     coord 682.0
   ]
@@ -99938,7 +100089,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128662.0
+    coord 128662
     coord 84610.0
     coord 367.0
   ]
@@ -99949,7 +100100,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128610.0
+    coord 128610
     coord 84473.0
     coord 367.0
   ]
@@ -99960,7 +100111,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 168102.0
+    coord 168102
     coord 82297.0
     coord 82.0
   ]
@@ -99971,7 +100122,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 167817.0
+    coord 167817
     coord 82047.0
     coord 232.0
   ]
@@ -99982,7 +100133,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 167121.0
+    coord 167121
     coord 81967.0
     coord 321.0
   ]
@@ -99993,7 +100144,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 166989.0
+    coord 166989
     coord 81899.0
     coord 331.0
   ]
@@ -100004,7 +100155,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 166021.0
+    coord 166021
     coord 81730.0
     coord 573.0
   ]
@@ -100015,7 +100166,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 165410.0
+    coord 165410
     coord 82238.0
     coord 657.0
   ]
@@ -100026,7 +100177,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 163195.0
+    coord 163195
     coord 82447.0
     coord 897.0
   ]
@@ -100037,7 +100188,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149719.0
+    coord 149719
     coord 82436.0
     coord 246.0
   ]
@@ -100048,7 +100199,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149864.0
+    coord 149864
     coord 81609.0
     coord 560.0
   ]
@@ -100059,7 +100210,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148587.0
+    coord 148587
     coord 82396.0
     coord 726.0
   ]
@@ -100070,7 +100221,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148318.0
+    coord 148318
     coord 82230.0
     coord 947.0
   ]
@@ -100081,7 +100232,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 151305.0
+    coord 151305
     coord 46473.0
     coord 408.0
   ]
@@ -100092,7 +100243,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150635.0
+    coord 150635
     coord 46941.0
     coord 547.0
   ]
@@ -100103,7 +100254,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150046.0
+    coord 150046
     coord 48484.0
     coord 682.0
   ]
@@ -100114,7 +100265,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149388.0
+    coord 149388
     coord 49958.0
     coord 766.0
   ]
@@ -100125,7 +100276,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149034.0
+    coord 149034
     coord 49117.0
     coord 962.0
   ]
@@ -100136,7 +100287,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 151187.0
+    coord 151187
     coord 48865.0
     coord 239.0
   ]
@@ -100147,7 +100298,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150054.0
+    coord 150054
     coord 48528.0
     coord 537.0
   ]
@@ -100158,7 +100309,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149024.0
+    coord 149024
     coord 50475.0
     coord 1074.0
   ]
@@ -100169,7 +100320,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148465.0
+    coord 148465
     coord 80343.0
     coord 959.0
   ]
@@ -100180,7 +100331,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148475.0
+    coord 148475
     coord 80687.0
     coord 894.0
   ]
@@ -100191,7 +100342,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149519.0
+    coord 149519
     coord 79815.0
     coord 646.0
   ]
@@ -100202,7 +100353,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150486.0
+    coord 150486
     coord 78687.0
     coord 520.0
   ]
@@ -100213,7 +100364,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150727.0
+    coord 150727
     coord 78394.0
     coord 473.0
   ]
@@ -100224,7 +100375,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150612.0
+    coord 150612
     coord 78758.0
     coord 396.0
   ]
@@ -100235,7 +100386,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150548.0
+    coord 150548
     coord 78785.0
     coord 367.0
   ]
@@ -100246,7 +100397,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155970.0
+    coord 155970
     coord 49070.0
     coord 781.0
   ]
@@ -100257,7 +100408,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 157535.0
+    coord 157535
     coord 46622.0
     coord 196.0
   ]
@@ -100268,7 +100419,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154875.0
+    coord 154875
     coord 50815.0
     coord 932.0
   ]
@@ -100279,7 +100430,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 156272.0
+    coord 156272
     coord 49340.0
     coord 507.0
   ]
@@ -100290,7 +100441,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 156643.0
+    coord 156643
     coord 49746.0
     coord 397.0
   ]
@@ -100301,7 +100452,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 156894.0
+    coord 156894
     coord 50150.0
     coord 87.0
   ]
@@ -100312,7 +100463,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 156714.0
+    coord 156714
     coord 80144.0
     coord 467.0
   ]
@@ -100323,7 +100474,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 156127.0
+    coord 156127
     coord 80450.0
     coord 620.0
   ]
@@ -100334,7 +100485,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155957.0
+    coord 155957
     coord 80817.0
     coord 682.0
   ]
@@ -100345,7 +100496,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155612.0
+    coord 155612
     coord 81016.0
     coord 707.0
   ]
@@ -100356,7 +100507,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155339.0
+    coord 155339
     coord 81471.0
     coord 869.0
   ]
@@ -100367,7 +100518,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155258.0
+    coord 155258
     coord 80976.0
     coord 959.0
   ]
@@ -100378,7 +100529,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155286.0
+    coord 155286
     coord 80271.0
     coord 1123.0
   ]
@@ -100389,7 +100540,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152810.0
+    coord 152810
     coord 54771.0
     coord 878.0
   ]
@@ -100400,7 +100551,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 153071.0
+    coord 153071
     coord 53237.0
     coord 1092.0
   ]
@@ -100411,7 +100562,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128562.0
+    coord 128562
     coord 55764.0
     coord 149.0
   ]
@@ -100422,7 +100573,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127535.0
+    coord 127535
     coord 54154.0
     coord 555.0
   ]
@@ -100433,7 +100584,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127205.0
+    coord 127205
     coord 54759.0
     coord 668.0
   ]
@@ -100444,7 +100595,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 126923.0
+    coord 126923
     coord 55954.0
     coord 794.0
   ]
@@ -100455,7 +100606,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127233.0
+    coord 127233
     coord 54361.0
     coord 1022.0
   ]
@@ -100466,7 +100617,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 127224.0
+    coord 127224
     coord 54251.0
     coord 1030.0
   ]
@@ -100477,7 +100628,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 187805.0
+    coord 187805
     coord 59162.0
     coord 933.0
   ]
@@ -100488,7 +100639,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 187692.0
+    coord 187692
     coord 59083.0
     coord 926.0
   ]
@@ -100499,7 +100650,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 188176.0
+    coord 188176
     coord 59918.0
     coord 757.0
   ]
@@ -100510,7 +100661,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 188186.0
+    coord 188186
     coord 59913.1640625
     coord 756.5
   ]
@@ -100543,7 +100694,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150808.0
+    coord 150808
     coord 53629.0
     coord 103.0
   ]
@@ -100554,7 +100705,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150827.0
+    coord 150827
     coord 52973.0
     coord 249.0
   ]
@@ -100565,7 +100716,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150458.0
+    coord 150458
     coord 51991.0
     coord 316.0
   ]
@@ -100587,7 +100738,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150380.0
+    coord 150380
     coord 51774.0
     coord 396.0
   ]
@@ -100598,7 +100749,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150032.0
+    coord 150032
     coord 51273.0
     coord 491.0
   ]
@@ -100609,7 +100760,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148935.0
+    coord 148935
     coord 52554.0
     coord 687.0
   ]
@@ -100620,7 +100771,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148227.0
+    coord 148227
     coord 53166.0
     coord 742.0
   ]
@@ -100631,7 +100782,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 147859.0
+    coord 147859
     coord 51714.0
     coord 978.0
   ]
@@ -100642,7 +100793,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148379.0
+    coord 148379
     coord 50973.0
     coord 1141.0
   ]
@@ -100653,7 +100804,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131630.0
+    coord 131630
     coord 52160.0
     coord 870.0
   ]
@@ -100664,7 +100815,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131910.0
+    coord 131910
     coord 52812.0
     coord 818.0
   ]
@@ -100675,7 +100826,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132081.0
+    coord 132081
     coord 51948.0
     coord 679.0
   ]
@@ -100686,7 +100837,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131506.0
+    coord 131506
     coord 83851.0
     coord 1000.0
   ]
@@ -100697,7 +100848,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131889.0
+    coord 131889
     coord 84337.0
     coord 952.0
   ]
@@ -100708,7 +100859,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132247.0
+    coord 132247
     coord 84530.0
     coord 723.0
   ]
@@ -100719,7 +100870,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132619.0
+    coord 132619
     coord 83548.0
     coord 593.0
   ]
@@ -100730,7 +100881,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132804.0
+    coord 132804
     coord 83504.0
     coord 547.0
   ]
@@ -100741,7 +100892,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133474.0
+    coord 133474
     coord 84155.0
     coord 344.0
   ]
@@ -100752,7 +100903,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 153409.0
+    coord 153409
     coord 77115.0
     coord 1133.0
   ]
@@ -100763,7 +100914,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 153179.0
+    coord 153179
     coord 77928.0
     coord 907.0
   ]
@@ -100774,7 +100925,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155134.0
+    coord 155134
     coord 76362.0
     coord 404.0
   ]
@@ -100785,7 +100936,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154834.0
+    coord 154834
     coord 76570.0
     coord 291.0
   ]
@@ -100796,7 +100947,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154532.0
+    coord 154532
     coord 77175.0
     coord 183.0
   ]
@@ -100807,7 +100958,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152848.0
+    coord 152848
     coord 73483.0
     coord 1148.0
   ]
@@ -100818,7 +100969,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 153715.0
+    coord 153715
     coord 74234.0
     coord 709.0
   ]
@@ -100829,7 +100980,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154599.0
+    coord 154599
     coord 73244.0
     coord 602.0
   ]
@@ -100840,7 +100991,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154663.0
+    coord 154663
     coord 73092.0
     coord 542.0
   ]
@@ -100851,7 +101002,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155272.0
+    coord 155272
     coord 73334.0
     coord 392.0
   ]
@@ -100862,7 +101013,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155373.0
+    coord 155373
     coord 73237.0
     coord 384.0
   ]
@@ -100873,7 +101024,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155475.0
+    coord 155475
     coord 73129.0
     coord 345.0
   ]
@@ -100884,7 +101035,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152406.0
+    coord 152406
     coord 71120.0
     coord 936.0
   ]
@@ -100895,7 +101046,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155897.0
+    coord 155897
     coord 68326.0
     coord 388.0
   ]
@@ -100906,7 +101057,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155396.0
+    coord 155396
     coord 65470.0
     coord 296.0
   ]
@@ -100917,7 +101068,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154267.0
+    coord 154267
     coord 65906.0
     coord 521.0
   ]
@@ -100928,7 +101079,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 155060.0
+    coord 155060
     coord 65474.0
     coord 374.0
   ]
@@ -100939,7 +101090,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154493.0
+    coord 154493
     coord 65766.0
     coord 420.0
   ]
@@ -100950,7 +101101,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 153838.0
+    coord 153838
     coord 66550.0
     coord 646.0
   ]
@@ -100961,7 +101112,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152446.0
+    coord 152446
     coord 68027.0
     coord 805.0
   ]
@@ -100972,7 +101123,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152232.0
+    coord 152232
     coord 68039.0
     coord 830.0
   ]
@@ -100983,7 +101134,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152146.0
+    coord 152146
     coord 67434.0
     coord 975.0
   ]
@@ -100994,7 +101145,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152083.0
+    coord 152083
     coord 67398.0
     coord 990.0
   ]
@@ -101005,7 +101156,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152199.0
+    coord 152199
     coord 66963.0
     coord 1033.0
   ]
@@ -101016,7 +101167,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154727.0
+    coord 154727
     coord 57755.0
     coord 212.0
   ]
@@ -101027,7 +101178,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154761.0
+    coord 154761
     coord 58071.0
     coord 367.0
   ]
@@ -101038,7 +101189,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154693.0
+    coord 154693
     coord 58097.0
     coord 443.0
   ]
@@ -101049,7 +101200,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 154158.0
+    coord 154158
     coord 58409.0
     coord 545.0
   ]
@@ -101060,7 +101211,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152420.0
+    coord 152420
     coord 60142.0
     coord 813.0
   ]
@@ -101071,7 +101222,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152399.0
+    coord 152399
     coord 60125.0
     coord 826.0
   ]
@@ -101082,7 +101233,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152521.0
+    coord 152521
     coord 60258.0
     coord 833.0
   ]
@@ -101093,7 +101244,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152416.0
+    coord 152416
     coord 60352.0
     coord 841.0
   ]
@@ -101104,7 +101255,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152383.0
+    coord 152383
     coord 59971.0
     coord 928.0
   ]
@@ -101115,7 +101266,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152165.0
+    coord 152165
     coord 58764.0
     coord 1099.0
   ]
@@ -101126,7 +101277,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 152105.0
+    coord 152105
     coord 58762.0
     coord 1136.0
   ]
@@ -101137,7 +101288,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150731.0
+    coord 150731
     coord 74275.0
     coord 179.0
   ]
@@ -101148,7 +101299,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150175.0
+    coord 150175
     coord 73940.0
     coord 354.0
   ]
@@ -101159,7 +101310,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149926.0
+    coord 149926
     coord 73569.0
     coord 515.0
   ]
@@ -101170,7 +101321,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148574.0
+    coord 148574
     coord 74261.0
     coord 687.0
   ]
@@ -101181,7 +101332,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148225.0
+    coord 148225
     coord 74501.0
     coord 714.0
   ]
@@ -101192,7 +101343,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148005.0
+    coord 148005
     coord 74605.0
     coord 733.0
   ]
@@ -101203,7 +101354,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 147551.0
+    coord 147551
     coord 75051.0
     coord 874.0
   ]
@@ -101214,7 +101365,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 147517.0
+    coord 147517
     coord 74963.0
     coord 890.0
   ]
@@ -101225,7 +101376,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 147488.0
+    coord 147488
     coord 73448.0
     coord 1128.0
   ]
@@ -101236,7 +101387,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150139.0
+    coord 150139
     coord 68454.0
     coord 377.0
   ]
@@ -101247,7 +101398,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149728.0
+    coord 149728
     coord 68797.0
     coord 475.0
   ]
@@ -101258,7 +101409,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149700.0
+    coord 149700
     coord 68729.0
     coord 514.0
   ]
@@ -101269,7 +101420,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149280.0
+    coord 149280
     coord 68537.0
     coord 600.0
   ]
@@ -101280,7 +101431,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148331.0
+    coord 148331
     coord 69934.0
     coord 751.0
   ]
@@ -101291,7 +101442,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148280.0
+    coord 148280
     coord 69424.0
     coord 1005.0
   ]
@@ -101302,7 +101453,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150120.0
+    coord 150120
     coord 65744.0
     coord 235.0
   ]
@@ -101313,7 +101464,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150010.0
+    coord 150010
     coord 65054.0
     coord 436.0
   ]
@@ -101324,7 +101475,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149081.0
+    coord 149081
     coord 64588.0
     coord 540.0
   ]
@@ -101335,7 +101486,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148812.0
+    coord 148812
     coord 65884.0
     coord 703.0
   ]
@@ -101346,7 +101497,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148463.0
+    coord 148463
     coord 66257.0
     coord 929.0
   ]
@@ -101357,7 +101508,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148606.0
+    coord 148606
     coord 66142.0
     coord 933.0
   ]
@@ -101368,7 +101519,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148755.0
+    coord 148755
     coord 65389.0
     coord 1018.0
   ]
@@ -101379,7 +101530,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148928.0
+    coord 148928
     coord 62088.0
     coord 351.0
   ]
@@ -101390,7 +101541,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 147496.0
+    coord 147496
     coord 61636.0
     coord 675.0
   ]
@@ -101401,7 +101552,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 146847.0
+    coord 146847
     coord 61705.0
     coord 948.0
   ]
@@ -101412,7 +101563,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 147452.0
+    coord 147452
     coord 58815.0
     coord 901.0
   ]
@@ -101423,7 +101574,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 148028.0
+    coord 148028
     coord 57744.0
     coord 649.0
   ]
@@ -101434,7 +101585,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 149132.0
+    coord 149132
     coord 57179.0
     coord 484.0
   ]
@@ -101445,7 +101596,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150101.0
+    coord 150101
     coord 57076.0
     coord 247.0
   ]
@@ -101456,7 +101607,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 150207.0
+    coord 150207
     coord 56986.0
     coord 223.0
   ]
@@ -101467,7 +101618,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139751.0
+    coord 139751
     coord 62907.0
     coord 106.0
   ]
@@ -101478,7 +101629,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139762.0
+    coord 139762
     coord 62150.0
     coord 226.0
   ]
@@ -101489,7 +101640,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139236.0
+    coord 139236
     coord 61688.0
     coord 353.0
   ]
@@ -101500,7 +101651,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138760.0
+    coord 138760
     coord 61018.0
     coord 462.0
   ]
@@ -101511,7 +101662,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138471.0
+    coord 138471
     coord 61300.0
     coord 574.0
   ]
@@ -101523,7 +101674,7 @@ graph [
     tags "pf"
     tags "nonlocal"
     tags "incomplete"
-    coord 138592.0
+    coord 138592
     coord 61499.0
     coord 643.0
   ]
@@ -101534,7 +101685,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138139.0
+    coord 138139
     coord 62878.0
     coord 787.0
   ]
@@ -101545,7 +101696,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138137.0
+    coord 138137
     coord 62716.0
     coord 752.0
   ]
@@ -101556,7 +101707,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138133.0
+    coord 138133
     coord 62674.0
     coord 831.0
   ]
@@ -101567,7 +101718,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 137989.0
+    coord 137989
     coord 61658.0
     coord 981.0
   ]
@@ -101600,7 +101751,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138164.0
+    coord 138164
     coord 60825.0
     coord 1108.0
   ]
@@ -101611,7 +101762,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138336.0
+    coord 138336
     coord 52833.0
     coord 976.0
   ]
@@ -101622,7 +101773,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138693.0
+    coord 138693
     coord 53470.0
     coord 909.0
   ]
@@ -101633,7 +101784,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 138716.0
+    coord 138716
     coord 54119.0
     coord 766.0
   ]
@@ -101644,7 +101795,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139797.0
+    coord 139797
     coord 51419.0
     coord 527.0
   ]
@@ -101655,7 +101806,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 139921.0
+    coord 139921
     coord 51167.0
     coord 471.0
   ]
@@ -101666,7 +101817,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 140253.0
+    coord 140253
     coord 52307.0
     coord 144.0
   ]
@@ -101677,7 +101828,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133584.0
+    coord 133584
     coord 54460.0
     coord 213.0
   ]
@@ -101688,7 +101839,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133020.0
+    coord 133020
     coord 53709.0
     coord 370.0
   ]
@@ -101699,7 +101850,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132507.0
+    coord 132507
     coord 53894.0
     coord 482.0
   ]
@@ -101710,7 +101861,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132266.0
+    coord 132266
     coord 54146.0
     coord 649.0
   ]
@@ -101721,7 +101872,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132263.0
+    coord 132263
     coord 53756.0
     coord 1050.0
   ]
@@ -101732,7 +101883,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134871.0
+    coord 134871
     coord 60579.0
     coord 209.0
   ]
@@ -101743,7 +101894,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133853.0
+    coord 133853
     coord 59447.0
     coord 440.0
   ]
@@ -101754,7 +101905,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133193.0
+    coord 133193
     coord 59650.0
     coord 582.0
   ]
@@ -101765,7 +101916,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132969.0
+    coord 132969
     coord 59806.0
     coord 657.0
   ]
@@ -101776,7 +101927,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132804.0
+    coord 132804
     coord 61088.0
     coord 758.0
   ]
@@ -101787,7 +101938,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132588.0
+    coord 132588
     coord 60761.0
     coord 846.0
   ]
@@ -101798,7 +101949,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133736.0
+    coord 133736
     coord 62984.0
     coord 177.0
   ]
@@ -101809,7 +101960,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133488.0
+    coord 133488
     coord 61661.0
     coord 399.0
   ]
@@ -101820,7 +101971,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132652.0
+    coord 132652
     coord 63160.0
     coord 918.0
   ]
@@ -101831,7 +101982,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132420.0
+    coord 132420
     coord 61027.0
     coord 1145.0
   ]
@@ -101842,7 +101993,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132911.0
+    coord 132911
     coord 65818.0
     coord 764.0
   ]
@@ -101853,7 +102004,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134201.0
+    coord 134201
     coord 64882.0
     coord 284.0
   ]
@@ -101864,7 +102015,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133330.0
+    coord 133330
     coord 64255.0
     coord 617.0
   ]
@@ -101875,7 +102026,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134508.0
+    coord 134508
     coord 69637.0
     coord 335.0
   ]
@@ -101886,7 +102037,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134004.0
+    coord 134004
     coord 68013.0
     coord 598.0
   ]
@@ -101897,7 +102048,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133677.0
+    coord 133677
     coord 69465.0
     coord 702.0
   ]
@@ -101908,7 +102059,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133533.0
+    coord 133533
     coord 69979.0
     coord 765.0
   ]
@@ -101919,7 +102070,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134031.0
+    coord 134031
     coord 68069.0
     coord 607.0
   ]
@@ -101930,7 +102081,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133123.0
+    coord 133123
     coord 68598.0
     coord 1017.0
   ]
@@ -101941,7 +102092,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132848.0
+    coord 132848
     coord 68044.0
     coord 1168.0
   ]
@@ -101952,7 +102103,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134914.0
+    coord 134914
     coord 73970.0
     coord 262.0
   ]
@@ -101963,7 +102114,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134342.0
+    coord 134342
     coord 73549.0
     coord 517.0
   ]
@@ -101974,7 +102125,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 134130.0
+    coord 134130
     coord 73121.0
     coord 556.0
   ]
@@ -101985,7 +102136,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133631.0
+    coord 133631
     coord 73320.0
     coord 625.0
   ]
@@ -101996,7 +102147,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133174.0
+    coord 133174
     coord 74055.0
     coord 762.0
   ]
@@ -102007,7 +102158,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133022.0
+    coord 133022
     coord 74158.0
     coord 833.0
   ]
@@ -102018,7 +102169,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133520.0
+    coord 133520
     coord 77686.0
     coord 169.0
   ]
@@ -102029,7 +102180,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133515.0
+    coord 133515
     coord 77834.0
     coord 169.0
   ]
@@ -102040,7 +102191,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133722.0
+    coord 133722
     coord 77320.0
     coord 230.0
   ]
@@ -102051,7 +102202,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 133626.0
+    coord 133626
     coord 77020.0
     coord 308.0
   ]
@@ -102062,7 +102213,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132884.0
+    coord 132884
     coord 76478.0
     coord 500.0
   ]
@@ -102073,7 +102224,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132646.0
+    coord 132646
     coord 76432.0
     coord 534.0
   ]
@@ -102084,7 +102235,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132206.0
+    coord 132206
     coord 76349.0
     coord 563.0
   ]
@@ -102095,7 +102246,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132027.0
+    coord 132027
     coord 76406.0
     coord 573.0
   ]
@@ -102106,7 +102257,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132027.0
+    coord 132027
     coord 76304.0
     coord 581.0
   ]
@@ -102117,7 +102268,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131771.0
+    coord 131771
     coord 76375.0
     coord 658.0
   ]
@@ -102128,7 +102279,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132170.0
+    coord 132170
     coord 76367.0
     coord 696.0
   ]
@@ -102139,7 +102290,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132159.0
+    coord 132159
     coord 76488.0
     coord 709.0
   ]
@@ -102150,7 +102301,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132216.0
+    coord 132216
     coord 76610.0
     coord 709.0
   ]
@@ -102161,7 +102312,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131773.0
+    coord 131773
     coord 76993.0
     coord 847.0
   ]
@@ -102172,7 +102323,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131091.0
+    coord 131091
     coord 76335.0
     coord 940.0
   ]
@@ -102183,7 +102334,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131078.0
+    coord 131078
     coord 76151.0
     coord 959.0
   ]
@@ -102194,7 +102345,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130941.0
+    coord 130941
     coord 75610.0
     coord 995.0
   ]
@@ -102205,7 +102356,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130435.0
+    coord 130435
     coord 75490.0
     coord 1088.0
   ]
@@ -102216,7 +102367,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130324.0
+    coord 130324
     coord 75570.0
     coord 1105.0
   ]
@@ -102227,7 +102378,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130302.0
+    coord 130302
     coord 75297.0
     coord 1123.0
   ]
@@ -102238,7 +102389,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131575.0
+    coord 131575
     coord 80901.0
     coord 203.0
   ]
@@ -102249,7 +102400,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131524.0
+    coord 131524
     coord 80590.0
     coord 302.0
   ]
@@ -102260,7 +102411,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131290.0
+    coord 131290
     coord 80074.0
     coord 467.0
   ]
@@ -102271,7 +102422,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130622.0
+    coord 130622
     coord 80193.0
     coord 639.0
   ]
@@ -102282,7 +102433,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130860.0
+    coord 130860
     coord 80088.0
     coord 585.0
   ]
@@ -102293,7 +102444,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129828.0
+    coord 129828
     coord 81020.0
     coord 762.0
   ]
@@ -102304,7 +102455,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129636.0
+    coord 129636
     coord 80874.0
     coord 815.0
   ]
@@ -102315,7 +102466,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129455.0
+    coord 129455
     coord 80508.0
     coord 889.0
   ]
@@ -102326,7 +102477,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129245.0
+    coord 129245
     coord 79335.0
     coord 995.0
   ]
@@ -102337,7 +102488,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129127.0
+    coord 129127
     coord 79396.0
     coord 998.0
   ]
@@ -102348,7 +102499,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129237.0
+    coord 129237
     coord 79271.0
     coord 1019.0
   ]
@@ -102359,7 +102510,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131741.0
+    coord 131741
     coord 78704.0
     coord 262.0
   ]
@@ -102370,7 +102521,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 132003.0
+    coord 132003
     coord 78912.0
     coord 370.0
   ]
@@ -102381,7 +102532,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 131918.0
+    coord 131918
     coord 78748.0
     coord 392.0
   ]
@@ -102392,7 +102543,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130619.0
+    coord 130619
     coord 78195.0
     coord 458.0
   ]
@@ -102403,7 +102554,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130812.0
+    coord 130812
     coord 78282.0
     coord 458.0
   ]
@@ -102414,7 +102565,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 130419.0
+    coord 130419
     coord 78129.0
     coord 460.0
   ]
@@ -102425,7 +102576,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129196.0
+    coord 129196
     coord 77781.0
     coord 609.0
   ]
@@ -102436,7 +102587,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 129123.0
+    coord 129123
     coord 78008.0
     coord 628.0
   ]
@@ -102447,7 +102598,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128760.0
+    coord 128760
     coord 78931.0
     coord 838.0
   ]
@@ -102458,7 +102609,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 128565.0
+    coord 128565
     coord 76932.0
     coord 1130.0
   ]
@@ -102469,7 +102620,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 118484.0
+    coord 118484
     coord 83714.0
     coord 185.0
   ]
@@ -102480,7 +102631,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117764.0
+    coord 117764
     coord 82707.0
     coord 328.0
   ]
@@ -102491,7 +102642,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117003.0
+    coord 117003
     coord 82792.0
     coord 640.0
   ]
@@ -102502,7 +102653,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116720.0
+    coord 116720
     coord 81327.0
     coord 1145.0
   ]
@@ -102513,7 +102664,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113693.0
+    coord 113693
     coord 52251.0
     coord 236.0
   ]
@@ -102524,7 +102675,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113233.0
+    coord 113233
     coord 51702.0
     coord 458.0
   ]
@@ -102535,7 +102686,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113846.0
+    coord 113846
     coord 56224.0
     coord 83.0
   ]
@@ -102546,7 +102697,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113488.0
+    coord 113488
     coord 55307.0
     coord 467.0
   ]
@@ -102557,7 +102708,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113539.0
+    coord 113539
     coord 55569.0
     coord 625.0
   ]
@@ -102579,7 +102730,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113546.0
+    coord 113546
     coord 59089.0
     coord 467.0
   ]
@@ -102590,7 +102741,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113483.0
+    coord 113483
     coord 58954.0
     coord 482.0
   ]
@@ -102612,7 +102763,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114416.0
+    coord 114416
     coord 60071.0
     coord 163.0
   ]
@@ -102623,7 +102774,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114351.0
+    coord 114351
     coord 60039.0
     coord 176.0
   ]
@@ -102634,7 +102785,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113287.0
+    coord 113287
     coord 59811.0
     coord 347.0
   ]
@@ -102667,7 +102818,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114215.0
+    coord 114215
     coord 62319.0
     coord 107.0
   ]
@@ -102678,7 +102829,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113688.0
+    coord 113688
     coord 61638.0
     coord 269.0
   ]
@@ -102689,7 +102840,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113456.0
+    coord 113456
     coord 61427.0
     coord 495.0
   ]
@@ -102700,7 +102851,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113520.0
+    coord 113520
     coord 61495.0
     coord 595.0
   ]
@@ -102711,7 +102862,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113637.0
+    coord 113637
     coord 61580.0
     coord 603.0
   ]
@@ -102722,7 +102873,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113829.0
+    coord 113829
     coord 63257.0
     coord 838.0
   ]
@@ -102733,7 +102884,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113525.0
+    coord 113525
     coord 61786.0
     coord 1026.0
   ]
@@ -102744,7 +102895,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 113708.0
+    coord 113708
     coord 60958.0
     coord 1159.0
   ]
@@ -102755,7 +102906,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 115922.0
+    coord 115922
     coord 68774.0
     coord 101.0
   ]
@@ -102766,7 +102917,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114963.0
+    coord 114963
     coord 67183.0
     coord 571.0
   ]
@@ -102777,7 +102928,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114803.0
+    coord 114803
     coord 67434.0
     coord 602.0
   ]
@@ -102788,7 +102939,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114927.0
+    coord 114927
     coord 68755.0
     coord 816.0
   ]
@@ -102799,7 +102950,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114859.0
+    coord 114859
     coord 68749.0
     coord 837.0
   ]
@@ -102810,7 +102961,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114646.0
+    coord 114646
     coord 68222.0
     coord 889.0
   ]
@@ -102821,7 +102972,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114680.0
+    coord 114680
     coord 67059.0
     coord 983.0
   ]
@@ -102832,7 +102983,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114635.0
+    coord 114635
     coord 66888.0
     coord 1004.0
   ]
@@ -102843,7 +102994,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 114453.0
+    coord 114453
     coord 66264.0
     coord 1066.0
   ]
@@ -102854,7 +103005,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116738.0
+    coord 116738
     coord 74440.0
     coord 111.0
   ]
@@ -102865,7 +103016,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 115776.0
+    coord 115776
     coord 73271.0
     coord 573.0
   ]
@@ -102876,7 +103027,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116004.0
+    coord 116004
     coord 73304.0
     coord 661.0
   ]
@@ -102887,7 +103038,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 115990.0
+    coord 115990
     coord 73648.0
     coord 677.0
   ]
@@ -102898,7 +103049,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 115833.0
+    coord 115833
     coord 73613.0
     coord 918.0
   ]
@@ -102909,7 +103060,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 115242.0
+    coord 115242
     coord 72338.0
     coord 1145.0
   ]
@@ -102920,7 +103071,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117547.0
+    coord 117547
     coord 78563.0
     coord 458.0
   ]
@@ -102931,7 +103082,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117405.0
+    coord 117405
     coord 78144.0
     coord 564.0
   ]
@@ -102942,7 +103093,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117351.0
+    coord 117351
     coord 78740.0
     coord 679.0
   ]
@@ -102953,7 +103104,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117331.0
+    coord 117331
     coord 79515.0
     coord 859.0
   ]
@@ -102964,7 +103115,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116810.0
+    coord 116810
     coord 77909.0
     coord 1036.0
   ]
@@ -102975,7 +103126,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116436.0
+    coord 116436
     coord 78076.0
     coord 1069.0
   ]
@@ -102986,7 +103137,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117676.0
+    coord 117676
     coord 80475.0
     coord 236.0
   ]
@@ -102997,7 +103148,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117801.0
+    coord 117801
     coord 80156.0
     coord 286.0
   ]
@@ -103008,7 +103159,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117424.0
+    coord 117424
     coord 80088.0
     coord 914.0
   ]
@@ -103019,7 +103170,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116998.0
+    coord 116998
     coord 79684.0
     coord 994.0
   ]
@@ -103030,7 +103181,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116903.0
+    coord 116903
     coord 79119.0
     coord 1147.0
   ]
@@ -103041,7 +103192,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116963.0
+    coord 116963
     coord 79052.0
     coord 1162.0
   ]
@@ -103052,7 +103203,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117916.0
+    coord 117916
     coord 82985.0
     coord 266.0
   ]
@@ -103063,7 +103214,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 117644.0
+    coord 117644
     coord 83160.0
     coord 383.0
   ]
@@ -103074,7 +103225,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116655.0
+    coord 116655
     coord 83731.0
     coord 779.0
   ]
@@ -103085,7 +103236,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116355.0
+    coord 116355
     coord 82639.0
     coord 971.0
   ]
@@ -103096,7 +103247,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116343.0
+    coord 116343
     coord 82063.0
     coord 1075.0
   ]
@@ -103107,7 +103258,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 116763.0
+    coord 116763
     coord 81788.0
     coord 1157.0
   ]
@@ -103118,7 +103269,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 103711.0
+    coord 103711
     coord 80307.0
     coord 109.0
   ]
@@ -103129,7 +103280,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 103442.0
+    coord 103442
     coord 79587.0
     coord 328.0
   ]
@@ -103140,7 +103291,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 103479.0
+    coord 103479
     coord 79520.0
     coord 343.0
   ]
@@ -103151,7 +103302,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102949.0
+    coord 102949
     coord 79462.0
     coord 382.0
   ]
@@ -103162,7 +103313,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102783.0
+    coord 102783
     coord 79369.0
     coord 427.0
   ]
@@ -103173,7 +103324,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102571.0
+    coord 102571
     coord 79458.0
     coord 479.0
   ]
@@ -103184,7 +103335,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102394.0
+    coord 102394
     coord 79680.0
     coord 626.0
   ]
@@ -103195,7 +103346,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102614.0
+    coord 102614
     coord 80244.0
     coord 922.0
   ]
@@ -103206,7 +103357,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 102039.0
+    coord 102039
     coord 78506.0
     coord 1096.0
   ]
@@ -103217,7 +103368,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 101835.0
+    coord 101835
     coord 77588.0
     coord 227.0
   ]
@@ -103228,7 +103379,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 101246.0
+    coord 101246
     coord 76993.0
     coord 335.0
   ]
@@ -103239,7 +103390,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 101243.0
+    coord 101243
     coord 76947.0
     coord 353.0
   ]
@@ -103250,7 +103401,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100979.0
+    coord 100979
     coord 77092.0
     coord 378.0
   ]
@@ -103261,7 +103412,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100992.0
+    coord 100992
     coord 76781.0
     coord 424.0
   ]
@@ -103272,7 +103423,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 101161.0
+    coord 101161
     coord 77499.0
     coord 656.0
   ]
@@ -103283,7 +103434,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 101344.0
+    coord 101344
     coord 77622.0
     coord 681.0
   ]
@@ -103294,7 +103445,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 101375.0
+    coord 101375
     coord 77883.0
     coord 852.0
   ]
@@ -103305,7 +103456,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 100970.0
+    coord 100970
     coord 76880.0
     coord 993.0
   ]
@@ -103316,7 +103467,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 84369.0
+    coord 84369
     coord 90707.0
     coord 128.0
   ]
@@ -103327,7 +103478,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 84157.0
+    coord 84157
     coord 90573.0
     coord 214.0
   ]
@@ -103338,7 +103489,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 84114.0
+    coord 84114
     coord 90197.0
     coord 262.0
   ]
@@ -103349,7 +103500,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83847.0
+    coord 83847
     coord 89124.0
     coord 649.0
   ]
@@ -103360,7 +103511,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 84114.0
+    coord 84114
     coord 89315.0
     coord 716.0
   ]
@@ -103371,7 +103522,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 84320.0
+    coord 84320
     coord 89877.0
     coord 795.0
   ]
@@ -103382,7 +103533,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83506.0
+    coord 83506
     coord 88581.0
     coord 1011.0
   ]
@@ -103393,7 +103544,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83456.0
+    coord 83456
     coord 88454.0
     coord 1026.0
   ]
@@ -103404,7 +103555,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83710.0
+    coord 83710
     coord 86396.0
     coord 176.0
   ]
@@ -103415,7 +103566,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83606.0
+    coord 83606
     coord 86294.0
     coord 182.0
   ]
@@ -103426,7 +103577,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82968.0
+    coord 82968
     coord 85956.0
     coord 386.0
   ]
@@ -103437,7 +103588,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83062.0
+    coord 83062
     coord 85943.0
     coord 391.0
   ]
@@ -103448,7 +103599,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82816.0
+    coord 82816
     coord 85913.0
     coord 474.0
   ]
@@ -103459,7 +103610,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82622.0
+    coord 82622
     coord 85857.0
     coord 562.0
   ]
@@ -103470,7 +103621,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83836.0
+    coord 83836
     coord 86544.0
     coord 758.0
   ]
@@ -103481,7 +103632,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83763.0
+    coord 83763
     coord 85433.0
     coord 1029.0
   ]
@@ -103492,7 +103643,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82967.0
+    coord 82967
     coord 81919.0
     coord 436.0
   ]
@@ -103503,7 +103654,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82922.0
+    coord 82922
     coord 82105.0
     coord 495.0
   ]
@@ -103514,7 +103665,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83052.0
+    coord 83052
     coord 82009.0
     coord 557.0
   ]
@@ -103525,7 +103676,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83732.0
+    coord 83732
     coord 83317.0
     coord 726.0
   ]
@@ -103536,7 +103687,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 84564.0
+    coord 84564
     coord 82995.0
     coord 896.0
   ]
@@ -103547,7 +103698,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80784.0
+    coord 80784
     coord 58747.0
     coord 106.0
   ]
@@ -103558,7 +103709,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80599.0
+    coord 80599
     coord 58456.0
     coord 165.0
   ]
@@ -103569,7 +103720,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 79644.0
+    coord 79644
     coord 57965.0
     coord 327.0
   ]
@@ -103580,7 +103731,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 79751.0
+    coord 79751
     coord 57555.0
     coord 454.0
   ]
@@ -103591,7 +103742,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81341.0
+    coord 81341
     coord 58936.0
     coord 1000.0
   ]
@@ -103602,7 +103753,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81129.0
+    coord 81129
     coord 58817.0
     coord 1029.0
   ]
@@ -103613,7 +103764,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82180.0
+    coord 82180
     coord 59353.0
     coord 294.0
   ]
@@ -103624,7 +103775,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81356.0
+    coord 81356
     coord 59258.0
     coord 481.0
   ]
@@ -103635,7 +103786,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81501.0
+    coord 81501
     coord 59153.0
     coord 564.0
   ]
@@ -103646,7 +103797,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81648.0
+    coord 81648
     coord 59323.0
     coord 636.0
   ]
@@ -103657,7 +103808,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82648.0
+    coord 82648
     coord 60372.0
     coord 720.0
   ]
@@ -103668,7 +103819,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83297.0
+    coord 83297
     coord 60496.0
     coord 898.0
   ]
@@ -103679,7 +103830,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82742.0
+    coord 82742
     coord 59301.0
     coord 1043.0
   ]
@@ -103690,7 +103841,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83118.0
+    coord 83118
     coord 60941.0
     coord 90.0
   ]
@@ -103701,7 +103852,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82948.0
+    coord 82948
     coord 59916.0
     coord 249.0
   ]
@@ -103712,7 +103863,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81992.0
+    coord 81992
     coord 59499.0
     coord 389.0
   ]
@@ -103723,7 +103874,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81582.0
+    coord 81582
     coord 59683.0
     coord 461.0
   ]
@@ -103734,7 +103885,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81508.0
+    coord 81508
     coord 59165.0
     coord 564.0
   ]
@@ -103745,7 +103896,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81668.0
+    coord 81668
     coord 59350.0
     coord 637.0
   ]
@@ -103756,7 +103907,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82071.0
+    coord 82071
     coord 60415.0
     coord 654.0
   ]
@@ -103767,7 +103918,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82621.0
+    coord 82621
     coord 61620.0
     coord 768.0
   ]
@@ -103778,7 +103929,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82752.0
+    coord 82752
     coord 61793.0
     coord 792.0
   ]
@@ -103789,7 +103940,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82763.0
+    coord 82763
     coord 61686.0
     coord 815.0
   ]
@@ -103800,7 +103951,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82294.0
+    coord 82294
     coord 59943.0
     coord 1001.0
   ]
@@ -103811,7 +103962,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81378.0
+    coord 81378
     coord 62664.0
     coord 118.0
   ]
@@ -103822,7 +103973,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81122.0
+    coord 81122
     coord 62471.0
     coord 178.0
   ]
@@ -103833,7 +103984,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81019.0
+    coord 81019
     coord 61844.0
     coord 282.0
   ]
@@ -103844,7 +103995,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80825.0
+    coord 80825
     coord 61622.0
     coord 354.0
   ]
@@ -103855,7 +104006,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80743.0
+    coord 80743
     coord 61304.0
     coord 462.0
   ]
@@ -103866,7 +104017,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80666.0
+    coord 80666
     coord 61230.0
     coord 477.0
   ]
@@ -103877,7 +104028,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81056.0
+    coord 81056
     coord 61634.0
     coord 609.0
   ]
@@ -103888,7 +104039,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82547.0
+    coord 82547
     coord 63298.0
     coord 753.0
   ]
@@ -103899,7 +104050,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82285.0
+    coord 82285
     coord 61989.0
     coord 993.0
   ]
@@ -103910,7 +104061,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82168.0
+    coord 82168
     coord 61816.0
     coord 1015.0
   ]
@@ -103921,7 +104072,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81682.0
+    coord 81682
     coord 61056.0
     coord 1129.0
   ]
@@ -103932,7 +104083,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81647.0
+    coord 81647
     coord 60996.0
     coord 1146.0
   ]
@@ -103943,7 +104094,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82324.0
+    coord 82324
     coord 61915.0
     coord 1014.0
   ]
@@ -103954,7 +104105,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 79989.0
+    coord 79989
     coord 65576.0
     coord 122.0
   ]
@@ -103965,7 +104116,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 79298.0
+    coord 79298
     coord 64498.0
     coord 296.0
   ]
@@ -103976,7 +104127,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 79232.0
+    coord 79232
     coord 64340.0
     coord 508.0
   ]
@@ -103987,7 +104138,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81173.0
+    coord 81173
     coord 66029.0
     coord 800.0
   ]
@@ -103998,7 +104149,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80740.0
+    coord 80740
     coord 63972.0
     coord 1091.0
   ]
@@ -104009,7 +104160,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80579.0
+    coord 80579
     coord 63818.0
     coord 1103.0
   ]
@@ -104020,7 +104171,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 80720.0
+    coord 80720
     coord 63713.0
     coord 1111.0
   ]
@@ -104031,7 +104182,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82067.0
+    coord 82067
     coord 67971.0
     coord 209.0
   ]
@@ -104042,7 +104193,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81566.0
+    coord 81566
     coord 67702.0
     coord 360.0
   ]
@@ -104053,7 +104204,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81392.0
+    coord 81392
     coord 67850.0
     coord 608.0
   ]
@@ -104064,7 +104215,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82082.0
+    coord 82082
     coord 67257.0
     coord 1011.0
   ]
@@ -104075,7 +104226,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82028.0
+    coord 82028
     coord 67333.0
     coord 1017.0
   ]
@@ -104086,7 +104237,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82666.0
+    coord 82666
     coord 68615.0
     coord 247.0
   ]
@@ -104097,7 +104248,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82597.0
+    coord 82597
     coord 68401.0
     coord 256.0
   ]
@@ -104108,7 +104259,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82277.0
+    coord 82277
     coord 68919.0
     coord 396.0
   ]
@@ -104119,7 +104270,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82064.0
+    coord 82064
     coord 68692.0
     coord 429.0
   ]
@@ -104130,7 +104281,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81813.0
+    coord 81813
     coord 69437.0
     coord 494.0
   ]
@@ -104141,7 +104292,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82309.0
+    coord 82309
     coord 70077.0
     coord 624.0
   ]
@@ -104152,7 +104303,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82369.0
+    coord 82369
     coord 69918.0
     coord 626.0
   ]
@@ -104163,7 +104314,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82386.0
+    coord 82386
     coord 69611.0
     coord 1018.0
   ]
@@ -104174,7 +104325,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83023.0
+    coord 83023
     coord 73549.0
     coord 181.0
   ]
@@ -104185,7 +104336,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82923.0
+    coord 82923
     coord 72837.0
     coord 391.0
   ]
@@ -104196,7 +104347,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82840.0
+    coord 82840
     coord 72886.0
     coord 410.0
   ]
@@ -104207,7 +104358,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82874.0
+    coord 82874
     coord 72940.0
     coord 423.0
   ]
@@ -104218,7 +104369,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82758.0
+    coord 82758
     coord 72842.0
     coord 447.0
   ]
@@ -104229,7 +104380,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82918.0
+    coord 82918
     coord 72921.0
     coord 570.0
   ]
@@ -104240,7 +104391,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83754.0
+    coord 83754
     coord 73624.0
     coord 850.0
   ]
@@ -104251,7 +104402,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83698.0
+    coord 83698
     coord 73616.0
     coord 869.0
   ]
@@ -104262,7 +104413,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83474.0
+    coord 83474
     coord 79558.0
     coord 99.0
   ]
@@ -104273,7 +104424,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83247.0
+    coord 83247
     coord 78919.0
     coord 227.0
   ]
@@ -104284,7 +104435,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82029.0
+    coord 82029
     coord 78669.0
     coord 454.0
   ]
@@ -104295,7 +104446,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82546.0
+    coord 82546
     coord 78910.0
     coord 671.0
   ]
@@ -104306,7 +104457,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82742.0
+    coord 82742
     coord 79047.0
     coord 671.0
   ]
@@ -104317,7 +104468,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82430.0
+    coord 82430
     coord 78904.0
     coord 693.0
   ]
@@ -104328,7 +104479,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82568.0
+    coord 82568
     coord 79246.0
     coord 744.0
   ]
@@ -104339,7 +104490,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82154.0
+    coord 82154
     coord 77812.0
     coord 1018.0
   ]
@@ -104350,7 +104501,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82004.0
+    coord 82004
     coord 77724.0
     coord 1038.0
   ]
@@ -104361,7 +104512,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81728.0
+    coord 81728
     coord 77518.0
     coord 1069.0
   ]
@@ -104372,7 +104523,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 81569.0
+    coord 81569
     coord 76787.0
     coord 1169.0
   ]
@@ -104383,7 +104534,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 84486.0
+    coord 84486
     coord 76866.0
     coord 141.0
   ]
@@ -104394,7 +104545,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83227.0
+    coord 83227
     coord 76491.0
     coord 298.0
   ]
@@ -104405,7 +104556,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82607.0
+    coord 82607
     coord 75843.0
     coord 414.0
   ]
@@ -104416,7 +104567,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82464.0
+    coord 82464
     coord 75398.0
     coord 529.0
   ]
@@ -104427,7 +104578,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82957.0
+    coord 82957
     coord 75397.0
     coord 652.0
   ]
@@ -104438,7 +104589,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83894.0
+    coord 83894
     coord 75404.0
     coord 880.0
   ]
@@ -104449,7 +104600,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 83813.0
+    coord 83813
     coord 75271.0
     coord 892.0
   ]
@@ -104460,7 +104611,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 82359.0
+    coord 82359
     coord 72970.0
     coord 1146.0
   ]
@@ -104471,7 +104622,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89109.0
+    coord 89109
     coord 58464.0
     coord 732.0
   ]
@@ -104482,7 +104633,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89744.0
+    coord 89744
     coord 58460.0
     coord 916.0
   ]
@@ -104493,7 +104644,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89146.0
+    coord 89146
     coord 57966.0
     coord 1036.0
   ]
@@ -104504,7 +104655,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 89091.0
+    coord 89091
     coord 57753.0
     coord 1090.0
   ]
@@ -104515,7 +104666,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 96152.0
+    coord 96152
     coord 90924.0
     coord 201.0
   ]
@@ -104526,7 +104677,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 95271.0
+    coord 95271
     coord 90445.0
     coord 254.0
   ]
@@ -104537,7 +104688,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 95159.0
+    coord 95159
     coord 89660.0
     coord 306.0
   ]
@@ -104548,7 +104699,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93696.0
+    coord 93696
     coord 89450.0
     coord 479.0
   ]
@@ -104559,7 +104710,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93607.0
+    coord 93607
     coord 89360.0
     coord 494.0
   ]
@@ -104570,7 +104721,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93733.0
+    coord 93733
     coord 89744.0
     coord 608.0
   ]
@@ -104581,7 +104732,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93899.0
+    coord 93899
     coord 90083.0
     coord 708.0
   ]
@@ -104592,7 +104743,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 94334.0
+    coord 94334
     coord 90555.0
     coord 774.0
   ]
@@ -104603,7 +104754,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93601.0
+    coord 93601
     coord 89528.0
     coord 1075.0
   ]
@@ -104614,7 +104765,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93694.0
+    coord 93694
     coord 89553.0
     coord 1104.0
   ]
@@ -104625,7 +104776,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93596.0
+    coord 93596
     coord 89460.0
     coord 1125.0
   ]
@@ -104636,7 +104787,7 @@ graph [
     tags "true"
     tags "pf"
     tags "nonlocal"
-    coord 93477.0
+    coord 93477
     coord 89461.0
     coord 1135.0
   ]
@@ -104657,7 +104808,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 107420.0
+    coord 107420
     coord 94604.0
     coord 926.0
   ]
@@ -104667,7 +104818,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 107353.0
+    coord 107353
     coord 91345.0
     coord 1049.0
   ]
@@ -104677,7 +104828,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 106859.0
+    coord 106859
     coord 93365.0
     coord 990.0
   ]
@@ -104687,7 +104838,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 107741.0
+    coord 107741
     coord 90554.0
     coord 1050.0
   ]
@@ -104697,7 +104848,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 108899.0
+    coord 108899
     coord 86838.0
     coord 1125.0
   ]
@@ -104707,7 +104858,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 109162.0
+    coord 109162
     coord 85533.0
     coord 1124.0
   ]
@@ -104717,7 +104868,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 108955.0
+    coord 108955
     coord 85578.0
     coord 1130.0
   ]
@@ -104727,7 +104878,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 108884.0
+    coord 108884
     coord 84194.0
     coord 1104.0
   ]
@@ -104737,7 +104888,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 108964.0
+    coord 108964
     coord 83586.0
     coord 1124.0
   ]
@@ -104747,7 +104898,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 108849.0
+    coord 108849
     coord 83671.0
     coord 1126.0
   ]
@@ -104757,7 +104908,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 108621.0
+    coord 108621
     coord 81738.0
     coord 1095.0
   ]
@@ -104767,7 +104918,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105712.0
+    coord 105712
     coord 89850.0
     coord 942.0
   ]
@@ -104777,7 +104928,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 105833.0
+    coord 105833
     coord 89768.0
     coord 953.0
   ]
@@ -104787,7 +104938,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105686.0
+    coord 105686
     coord 86582.0
     coord 988.0
   ]
@@ -104797,7 +104948,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 105714.0
+    coord 105714
     coord 80710.0
     coord 1004.0
   ]
@@ -104807,7 +104958,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 105696.0
+    coord 105696
     coord 79490.0
     coord 1137.0
   ]
@@ -104817,7 +104968,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96936.0
+    coord 96936
     coord 94523.0
     coord 850.0
   ]
@@ -104827,7 +104978,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96051.0
+    coord 96051
     coord 93833.0
     coord 800.0
   ]
@@ -104837,7 +104988,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96742.0
+    coord 96742
     coord 93439.0
     coord 901.0
   ]
@@ -104847,7 +104998,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 96540.0
+    coord 96540
     coord 92819.0
     coord 938.0
   ]
@@ -104857,7 +105008,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 97228.0
+    coord 97228
     coord 88067.0
     coord 962.0
   ]
@@ -104867,7 +105018,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 97350.0
+    coord 97350
     coord 87324.0
     coord 978.0
   ]
@@ -104877,7 +105028,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 97133.0
+    coord 97133
     coord 87287.0
     coord 985.0
   ]
@@ -104887,7 +105038,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96752.0
+    coord 96752
     coord 92373.0
     coord 957.0
   ]
@@ -104897,7 +105048,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 96750.0
+    coord 96750
     coord 92515.0
     coord 957.0
   ]
@@ -104907,7 +105058,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 96997.0
+    coord 96997
     coord 89293.0
     coord 950.0
   ]
@@ -104917,7 +105068,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96485.0
+    coord 96485
     coord 91403.0
     coord 1008.0
   ]
@@ -104927,7 +105078,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96554.0
+    coord 96554
     coord 91309.0
     coord 1014.0
   ]
@@ -104937,7 +105088,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 96663.0
+    coord 96663
     coord 90548.0
     coord 1006.0
   ]
@@ -104947,7 +105098,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 96788.0
+    coord 96788
     coord 89780.0
     coord 968.0
   ]
@@ -104957,7 +105108,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 94322.0
+    coord 94322
     coord 93206.0
     coord 750.0
   ]
@@ -104967,7 +105118,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 93394.0
+    coord 93394
     coord 90796.0
     coord 738.0
   ]
@@ -104977,7 +105128,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 93213.0
+    coord 93213
     coord 90436.0
     coord 731.0
   ]
@@ -104987,7 +105138,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 92468.0
+    coord 92468
     coord 86239.0
     coord 698.0
   ]
@@ -104997,7 +105148,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 92510.0
+    coord 92510
     coord 86367.0
     coord 694.0
   ]
@@ -105007,7 +105158,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 93972.0
+    coord 93972
     coord 80733.0
     coord 772.0
   ]
@@ -105017,7 +105168,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 93977.0
+    coord 93977
     coord 80944.0
     coord 772.0
   ]
@@ -105027,7 +105178,7 @@ graph [
     key 7
     tags "true"
     tags "ascending_branch"
-    coord 93877.0
+    coord 93877
     coord 80608.0
     coord 761.0
   ]
@@ -105037,7 +105188,7 @@ graph [
     key 8
     tags "true"
     tags "ascending_branch"
-    coord 93795.0
+    coord 93795
     coord 80803.0
     coord 751.0
   ]
@@ -105047,7 +105198,7 @@ graph [
     key 9
     tags "true"
     tags "ascending_branch"
-    coord 91244.0
+    coord 91244
     coord 69117.0
     coord 601.0
   ]
@@ -105057,7 +105208,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93735.0
+    coord 93735
     coord 91688.0
     coord 740.0
   ]
@@ -105067,7 +105218,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93485.0
+    coord 93485
     coord 83705.0
     coord 773.0
   ]
@@ -105077,7 +105228,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 93535.0
+    coord 93535
     coord 83699.0
     coord 787.0
   ]
@@ -105087,7 +105238,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 93074.0
+    coord 93074
     coord 77535.0
     coord 722.0
   ]
@@ -105097,7 +105248,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 91892.0
+    coord 91892
     coord 72689.0
     coord 669.0
   ]
@@ -105107,7 +105258,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92658.0
+    coord 92658
     coord 74528.0
     coord 738.0
   ]
@@ -105117,7 +105268,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91465.0
+    coord 91465
     coord 70650.0
     coord 601.0
   ]
@@ -105127,7 +105278,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 89864.0
+    coord 89864
     coord 54021.0
     coord 365.0
   ]
@@ -105137,7 +105288,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91159.0
+    coord 91159
     coord 68969.0
     coord 598.0
   ]
@@ -105147,7 +105298,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 89906.0
+    coord 89906
     coord 58271.0
     coord 436.0
   ]
@@ -105157,7 +105308,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90584.0
+    coord 90584
     coord 67303.0
     coord 539.0
   ]
@@ -105167,7 +105318,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90527.0
+    coord 90527
     coord 67034.0
     coord 531.0
   ]
@@ -105177,7 +105328,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 89923.0
+    coord 89923
     coord 65109.0
     coord 517.0
   ]
@@ -105187,7 +105338,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 89454.0
+    coord 89454
     coord 63822.0
     coord 450.0
   ]
@@ -105197,7 +105348,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 89962.0
+    coord 89962
     coord 61377.0
     coord 454.0
   ]
@@ -105207,7 +105358,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 89875.0
+    coord 89875
     coord 52697.0
     coord 339.0
   ]
@@ -105217,7 +105368,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89793.0
+    coord 89793
     coord 64680.0
     coord 451.0
   ]
@@ -105227,7 +105378,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 89748.0
+    coord 89748
     coord 58218.0
     coord 442.0
   ]
@@ -105237,7 +105388,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 89638.0
+    coord 89638
     coord 57851.0
     coord 438.0
   ]
@@ -105247,7 +105398,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89319.0
+    coord 89319
     coord 57782.0
     coord 465.0
   ]
@@ -105257,7 +105408,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 89518.0
+    coord 89518
     coord 57208.0
     coord 431.0
   ]
@@ -105267,7 +105418,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89765.0
+    coord 89765
     coord 55458.0
     coord 359.0
   ]
@@ -105277,7 +105428,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93392.0
+    coord 93392
     coord 95203.0
     coord 1034.0
   ]
@@ -105287,7 +105438,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 92588.0
+    coord 92588
     coord 93277.0
     coord 996.0
   ]
@@ -105298,7 +105449,7 @@ graph [
     tags "true"
     tags "ascending_branch"
     tags "false"
-    coord 92465.0
+    coord 92465
     coord 91915.0
     coord 1000.0
   ]
@@ -105318,7 +105469,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 92587.0
+    coord 92587
     coord 78744.0
     coord 1074.0
   ]
@@ -105328,7 +105479,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 92385.0
+    coord 92385
     coord 71481.0
     coord 969.0
   ]
@@ -105338,7 +105489,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 92801.0
+    coord 92801
     coord 67625.0
     coord 896.0
   ]
@@ -105358,7 +105509,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 92417.0
+    coord 92417
     coord 79661.0
     coord 1097.0
   ]
@@ -105368,7 +105519,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 93005.0
+    coord 93005
     coord 76110.0
     coord 1026.0
   ]
@@ -105378,7 +105529,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 92987.0
+    coord 92987
     coord 73672.0
     coord 962.0
   ]
@@ -105388,7 +105539,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 92999.0
+    coord 92999
     coord 73968.0
     coord 965.0
   ]
@@ -105398,7 +105549,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 92663.0
+    coord 92663
     coord 73076.0
     coord 959.0
   ]
@@ -105408,7 +105559,7 @@ graph [
     key 6
     tags "true"
     tags "ascending_branch"
-    coord 92581.0
+    coord 92581
     coord 68147.0
     coord 936.0
   ]
@@ -105418,7 +105569,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92331.0
+    coord 92331
     coord 82225.0
     coord 1099.0
   ]
@@ -105428,7 +105579,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 92887.0
+    coord 92887
     coord 67881.0
     coord 894.0
   ]
@@ -105438,7 +105589,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92254.0
+    coord 92254
     coord 82087.0
     coord 1101.0
   ]
@@ -105448,7 +105599,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92422.0
+    coord 92422
     coord 79438.0
     coord 1106.0
   ]
@@ -105458,7 +105609,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 92727.0
+    coord 92727
     coord 77349.0
     coord 1074.0
   ]
@@ -105498,7 +105649,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 92561.0
+    coord 92561
     coord 69528.0
     coord 939.0
   ]
@@ -105518,7 +105669,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92909.0
+    coord 92909
     coord 76535.0
     coord 1057.0
   ]
@@ -105528,7 +105679,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92913.0
+    coord 92913
     coord 75446.0
     coord 1024.0
   ]
@@ -105558,7 +105709,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 92747.0
+    coord 92747
     coord 65221.0
     coord 850.0
   ]
@@ -105578,7 +105729,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92617.0
+    coord 92617
     coord 68441.0
     coord 936.0
   ]
@@ -105588,7 +105739,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92786.0
+    coord 92786
     coord 67824.0
     coord 907.0
   ]
@@ -105598,7 +105749,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 92856.0
+    coord 92856
     coord 67411.0
     coord 848.0
   ]
@@ -105608,7 +105759,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91068.0
+    coord 91068
     coord 96387.0
     coord 1019.0
   ]
@@ -105618,7 +105769,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89417.0
+    coord 89417
     coord 93756.0
     coord 907.0
   ]
@@ -105628,7 +105779,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 88807.0
+    coord 88807
     coord 93116.0
     coord 923.0
   ]
@@ -105638,7 +105789,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 88861.0
+    coord 88861
     coord 93036.0
     coord 921.0
   ]
@@ -105648,7 +105799,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 88520.0
+    coord 88520
     coord 92353.0
     coord 926.0
   ]
@@ -105658,7 +105809,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 87651.0
+    coord 87651
     coord 86370.0
     coord 892.0
   ]
@@ -105668,7 +105819,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 87813.0
+    coord 87813
     coord 86378.0
     coord 883.0
   ]
@@ -105678,7 +105829,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 88715.0
+    coord 88715
     coord 92982.0
     coord 938.0
   ]
@@ -105688,7 +105839,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87906.0
+    coord 87906
     coord 90813.0
     coord 884.0
   ]
@@ -105698,7 +105849,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87810.0
+    coord 87810
     coord 90352.0
     coord 898.0
   ]
@@ -105708,7 +105859,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87136.0
+    coord 87136
     coord 83675.0
     coord 846.0
   ]
@@ -105718,7 +105869,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 87247.0
+    coord 87247
     coord 81670.0
     coord 900.0
   ]
@@ -105728,7 +105879,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 87074.0
+    coord 87074
     coord 80900.0
     coord 933.0
   ]
@@ -105738,7 +105889,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87908.0
+    coord 87908
     coord 90179.0
     coord 890.0
   ]
@@ -105748,7 +105899,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87374.0
+    coord 87374
     coord 84871.0
     coord 882.0
   ]
@@ -105758,7 +105909,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 87317.0
+    coord 87317
     coord 83828.0
     coord 850.0
   ]
@@ -105768,7 +105919,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 86593.0
+    coord 86593
     coord 77450.0
     coord 1002.0
   ]
@@ -105778,7 +105929,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 86664.0
+    coord 86664
     coord 75905.0
     coord 1020.0
   ]
@@ -105788,7 +105939,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 86894.0
+    coord 86894
     coord 75086.0
     coord 1004.0
   ]
@@ -105798,7 +105949,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87858.0
+    coord 87858
     coord 89264.0
     coord 889.0
   ]
@@ -105808,7 +105959,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 87859.0
+    coord 87859
     coord 86810.0
     coord 907.0
   ]
@@ -105818,7 +105969,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 87772.0
+    coord 87772
     coord 86944.0
     coord 894.0
   ]
@@ -105828,7 +105979,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 86758.0
+    coord 86758
     coord 80012.0
     coord 963.0
   ]
@@ -105838,7 +105989,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86551.0
+    coord 86551
     coord 79353.0
     coord 979.0
   ]
@@ -105848,7 +105999,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86565.0
+    coord 86565
     coord 76810.0
     coord 992.0
   ]
@@ -105858,7 +106009,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 86969.0
+    coord 86969
     coord 74691.0
     coord 959.0
   ]
@@ -105868,7 +106019,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 112114.0
+    coord 112114
     coord 99650.0
     coord 679.0
   ]
@@ -105878,7 +106029,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 111623.0
+    coord 111623
     coord 96329.0
     coord 637.0
   ]
@@ -105888,7 +106039,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 109777.0
+    coord 109777
     coord 91362.0
     coord 625.0
   ]
@@ -105898,7 +106049,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 109895.0
+    coord 109895
     coord 91369.0
     coord 613.0
   ]
@@ -105908,7 +106059,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 109696.0
+    coord 109696
     coord 90807.0
     coord 655.0
   ]
@@ -105918,7 +106069,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 109762.0
+    coord 109762
     coord 90182.0
     coord 677.0
   ]
@@ -105928,7 +106079,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 109655.0
+    coord 109655
     coord 90083.0
     coord 684.0
   ]
@@ -105938,7 +106089,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 109859.0
+    coord 109859
     coord 90217.0
     coord 694.0
   ]
@@ -105948,7 +106099,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 109662.0
+    coord 109662
     coord 89918.0
     coord 704.0
   ]
@@ -105958,7 +106109,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 98752.0
+    coord 98752
     coord 95204.0
     coord 1042.0
   ]
@@ -105968,7 +106119,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100025.0
+    coord 100025
     coord 91444.0
     coord 1022.0
   ]
@@ -105978,7 +106129,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 99887.0
+    coord 99887
     coord 86033.0
     coord 998.0
   ]
@@ -105988,7 +106139,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 100103.0
+    coord 100103
     coord 86110.0
     coord 1003.0
   ]
@@ -105998,7 +106149,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 99922.0
+    coord 99922
     coord 86211.0
     coord 1011.0
   ]
@@ -106008,7 +106159,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99818.0
+    coord 99818
     coord 88722.0
     coord 990.0
   ]
@@ -106018,7 +106169,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 99857.0
+    coord 99857
     coord 88639.0
     coord 978.0
   ]
@@ -106028,7 +106179,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 99846.0
+    coord 99846
     coord 85438.0
     coord 1031.0
   ]
@@ -106038,7 +106189,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 99873.0
+    coord 99873
     coord 84685.0
     coord 1041.0
   ]
@@ -106048,7 +106199,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 99841.0
+    coord 99841
     coord 84656.0
     coord 1021.0
   ]
@@ -106058,7 +106209,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 100179.0
+    coord 100179
     coord 83842.0
     coord 1025.0
   ]
@@ -106068,7 +106219,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 100087.0
+    coord 100087
     coord 83583.0
     coord 1030.0
   ]
@@ -106078,7 +106229,7 @@ graph [
     key 5
     tags "true"
     tags "ascending_branch"
-    coord 100215.0
+    coord 100215
     coord 83922.0
     coord 1005.0
   ]
@@ -106088,7 +106239,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 113553.0
+    coord 113553
     coord 108126.0
     coord 225.0
   ]
@@ -106098,7 +106249,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 104416.0
+    coord 104416
     coord 102050.0
     coord 248.0
   ]
@@ -106108,7 +106259,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 102230.0
+    coord 102230
     coord 99149.0
     coord 280.0
   ]
@@ -106118,7 +106269,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 101171.0
+    coord 101171
     coord 98423.0
     coord 320.0
   ]
@@ -106128,7 +106279,7 @@ graph [
     key 4
     tags "true"
     tags "ascending_branch"
-    coord 96400.0
+    coord 96400
     coord 96374.0
     coord 383.0
   ]
@@ -106138,7 +106289,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 100582.0
+    coord 100582
     coord 98082.0
     coord 338.0
   ]
@@ -106148,7 +106299,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 94679.0
+    coord 94679
     coord 95249.0
     coord 363.0
   ]
@@ -106158,7 +106309,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 93449.0
+    coord 93449
     coord 95204.0
     coord 364.0
   ]
@@ -106168,7 +106319,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 91681.0
+    coord 91681
     coord 92476.0
     coord 323.0
   ]
@@ -106178,7 +106329,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 91558.0
+    coord 91558
     coord 92141.0
     coord 354.0
   ]
@@ -106188,7 +106339,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 91321.0
+    coord 91321
     coord 91625.0
     coord 375.0
   ]
@@ -106198,7 +106349,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 91209.0
+    coord 91209
     coord 90424.0
     coord 374.0
   ]
@@ -106208,7 +106359,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90130.0
+    coord 90130
     coord 84526.0
     coord 306.0
   ]
@@ -106218,7 +106369,7 @@ graph [
     key 2
     tags "true"
     tags "ascending_branch"
-    coord 89573.0
+    coord 89573
     coord 76854.0
     coord 375.0
   ]
@@ -106228,7 +106379,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 88733.0
+    coord 88733
     coord 76044.0
     coord 364.0
   ]
@@ -106238,7 +106389,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90432.0
+    coord 90432
     coord 86947.0
     coord 278.0
   ]
@@ -106248,7 +106399,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90456.0
+    coord 90456
     coord 87291.0
     coord 262.0
   ]
@@ -106268,7 +106419,7 @@ graph [
     key 3
     tags "true"
     tags "ascending_branch"
-    coord 90867.0
+    coord 90867
     coord 80139.0
     coord 306.0
   ]
@@ -106278,7 +106429,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 90092.0
+    coord 90092
     coord 78348.0
     coord 343.0
   ]
@@ -106288,7 +106439,7 @@ graph [
     key 1
     tags "true"
     tags "ascending_branch"
-    coord 90145.0
+    coord 90145
     coord 78145.0
     coord 343.0
   ]
@@ -106298,7 +106449,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89422.0
+    coord 89422
     coord 77072.0
     coord 384.0
   ]
@@ -106308,7 +106459,7 @@ graph [
     key 0
     tags "true"
     tags "ascending_branch"
-    coord 89405.0
+    coord 89405
     coord 75981.0
     coord 372.0
   ]
@@ -106329,7 +106480,7 @@ graph [
     tags "true"
     tags "ascending_branch"
     coord 99568.984375
-    coord 98576.0
+    coord 98576
     coord 633.5000610351562
   ]
   edge [
@@ -106339,7 +106490,7 @@ graph [
     tags "true"
     tags "ascending_branch"
     coord 99451.1015625
-    coord 102035.0
+    coord 102035
     coord 620.5000610351562
   ]
   edge [
@@ -106518,7 +106669,7 @@ graph [
     key 7
     tags "_networkx_list_start"
     tags "true"
-    coord 132030.0
+    coord 132030
     coord 69562.7734375
     coord 316.5000305
   ]
@@ -106619,7 +106770,7 @@ graph [
     tags "_networkx_list_start"
     tags "true"
     coord 129783.0859375
-    coord 87922.0
+    coord 87922
     coord 1125.500122
   ]
   edge [
@@ -106628,7 +106779,7 @@ graph [
     key 5
     tags "_networkx_list_start"
     tags "true"
-    coord 135176.0
+    coord 135176
     coord 86081.2578125
     coord 1078.500122
   ]
@@ -107179,7 +107330,7 @@ graph [
     tags "_networkx_list_start"
     tags "true"
     coord 132179.625
-    coord 76659.0
+    coord 76659
     coord 514.500061
   ]
   edge [
@@ -107219,7 +107370,7 @@ graph [
     tags "_networkx_list_start"
     tags "true"
     coord 128064.7890625
-    coord 78061.0
+    coord 78061
     coord 314.500061
   ]
   edge [
@@ -107549,7 +107700,7 @@ graph [
     tags "true"
     tags "pc_collateral"
     coord 149280.53125
-    coord 94844.0
+    coord 94844
     coord 620.5000610351562
   ]
   edge [
@@ -107759,7 +107910,7 @@ graph [
     tags "true"
     tags "pc_collateral"
     coord 157666.234375
-    coord 92195.0
+    coord 92195
     coord 735.5000610351562
   ]
   edge [
@@ -107769,7 +107920,7 @@ graph [
     tags "true"
     tags "pc_collateral"
     coord 152273.8125
-    coord 93760.0
+    coord 93760
     coord 108.50000762939453
   ]
   edge [
@@ -107888,7 +108039,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 161325.0
+    coord 161325
     coord 68459.0
     coord 1090.0
   ]
@@ -107898,7 +108049,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 160895.0
+    coord 160895
     coord 65380.0
     coord 1079.0
   ]
@@ -107908,7 +108059,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 160420.0
+    coord 160420
     coord 63831.0
     coord 1035.0
   ]
@@ -107918,7 +108069,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 116049.0
+    coord 116049
     coord 64258.0
     coord 218.0
   ]
@@ -107928,7 +108079,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 115228.0
+    coord 115228
     coord 63607.0
     coord 247.0
   ]
@@ -107938,7 +108089,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 138105.0
+    coord 138105
     coord 55354.0
     coord 842.0
   ]
@@ -107948,7 +108099,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 134727.0
+    coord 134727
     coord 52889.0
     coord 967.0
   ]
@@ -107958,7 +108109,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 133682.0
+    coord 133682
     coord 52576.0
     coord 1030.0
   ]
@@ -107968,7 +108119,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 132114.0
+    coord 132114
     coord 50559.0
     coord 1130.0
   ]
@@ -107978,7 +108129,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 132030.0
+    coord 132030
     coord 50432.0
     coord 1130.0
   ]
@@ -107988,7 +108139,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 131630.0
+    coord 131630
     coord 50193.0
     coord 1119.0
   ]
@@ -107998,7 +108149,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 130757.0
+    coord 130757
     coord 49270.0
     coord 1123.0
   ]
@@ -108008,7 +108159,7 @@ graph [
     key 4
     tags "_networkx_list_start"
     tags "true"
-    coord 130929.0
+    coord 130929
     coord 49215.0
     coord 1117.0
   ]
@@ -108018,7 +108169,7 @@ graph [
     key 5
     tags "_networkx_list_start"
     tags "true"
-    coord 130855.0
+    coord 130855
     coord 49175.0
     coord 1107.0
   ]
@@ -108028,7 +108179,7 @@ graph [
     key 6
     tags "_networkx_list_start"
     tags "true"
-    coord 128937.0
+    coord 128937
     coord 49324.0
     coord 996.0
   ]
@@ -108038,7 +108189,7 @@ graph [
     key 7
     tags "_networkx_list_start"
     tags "true"
-    coord 128920.0
+    coord 128920
     coord 49562.0
     coord 986.0
   ]
@@ -108048,7 +108199,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 131424.0
+    coord 131424
     coord 50205.0
     coord 1131.0
   ]
@@ -108058,7 +108209,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 131320.0
+    coord 131320
     coord 49955.0
     coord 1143.0
   ]
@@ -108068,7 +108219,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 130833.0
+    coord 130833
     coord 49487.0
     coord 1129.0
   ]
@@ -108078,7 +108229,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 128223.0
+    coord 128223
     coord 49420.0
     coord 928.0
   ]
@@ -108088,7 +108239,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 127933.0
+    coord 127933
     coord 49916.0
     coord 904.0
   ]
@@ -108098,7 +108249,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 119815.0
+    coord 119815
     coord 49984.0
     coord 792.0
   ]
@@ -108108,7 +108259,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 119285.0
+    coord 119285
     coord 49541.0
     coord 792.0
   ]
@@ -108118,7 +108269,7 @@ graph [
     key 4
     tags "_networkx_list_start"
     tags "true"
-    coord 117812.0
+    coord 117812
     coord 49450.0
     coord 757.0
   ]
@@ -108128,7 +108279,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 126366.0
+    coord 126366
     coord 50535.0
     coord 819.0
   ]
@@ -108138,7 +108289,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 125605.0
+    coord 125605
     coord 50680.0
     coord 814.0
   ]
@@ -108148,7 +108299,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 125297.0
+    coord 125297
     coord 50448.0
     coord 813.0
   ]
@@ -108158,7 +108309,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 123687.0
+    coord 123687
     coord 49801.0
     coord 800.0
   ]
@@ -108168,7 +108319,7 @@ graph [
     key 4
     tags "_networkx_list_start"
     tags "true"
-    coord 122361.0
+    coord 122361
     coord 49344.0
     coord 734.0
   ]
@@ -108178,7 +108329,7 @@ graph [
     key 5
     tags "_networkx_list_start"
     tags "true"
-    coord 118183.0
+    coord 118183
     coord 49584.0
     coord 788.0
   ]
@@ -108188,7 +108339,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 122950.0
+    coord 122950
     coord 49641.0
     coord 775.0
   ]
@@ -108198,7 +108349,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 122154.0
+    coord 122154
     coord 49260.0
     coord 738.0
   ]
@@ -108208,7 +108359,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 117392.0
+    coord 117392
     coord 49560.0
     coord 755.0
   ]
@@ -108218,7 +108369,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 119325.0
+    coord 119325
     coord 49768.0
     coord 782.0
   ]
@@ -108228,7 +108379,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 115943.0
+    coord 115943
     coord 47339.0
     coord 708.0
   ]
@@ -108238,7 +108389,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 115978.0
+    coord 115978
     coord 47020.0
     coord 701.0
   ]
@@ -108248,7 +108399,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 116018.0
+    coord 116018
     coord 47089.0
     coord 706.0
   ]
@@ -108258,7 +108409,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 115570.0
+    coord 115570
     coord 46008.0
     coord 600.0
   ]
@@ -108268,7 +108419,7 @@ graph [
     key 4
     tags "_networkx_list_start"
     tags "true"
-    coord 115634.0
+    coord 115634
     coord 45873.0
     coord 585.0
   ]
@@ -108278,7 +108429,7 @@ graph [
     key 5
     tags "_networkx_list_start"
     tags "true"
-    coord 115362.0
+    coord 115362
     coord 46934.0
     coord 613.0
   ]
@@ -108288,7 +108439,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 115682.0
+    coord 115682
     coord 45054.0
     coord 419.0
   ]
@@ -108298,7 +108449,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 115888.0
+    coord 115888
     coord 45355.0
     coord 307.0
   ]
@@ -108308,7 +108459,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 116189.0
+    coord 116189
     coord 46219.0
     coord 142.0
   ]
@@ -108318,7 +108469,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 116161.0
+    coord 116161
     coord 46348.0
     coord 136.0
   ]
@@ -108328,7 +108479,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 115257.0
+    coord 115257
     coord 47010.0
     coord 618.0
   ]
@@ -108338,7 +108489,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 151510.0
+    coord 151510
     coord 68758.0
     coord 213.0
   ]
@@ -108348,7 +108499,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 151249.0
+    coord 151249
     coord 67863.0
     coord 218.0
   ]
@@ -108358,7 +108509,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 151176.0
+    coord 151176
     coord 67556.0
     coord 218.0
   ]
@@ -108368,7 +108519,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 147842.0
+    coord 147842
     coord 57557.0
     coord 170.0
   ]
@@ -108378,7 +108529,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 147582.0
+    coord 147582
     coord 56882.0
     coord 176.0
   ]
@@ -108388,7 +108539,7 @@ graph [
     key 4
     tags "_networkx_list_start"
     tags "true"
-    coord 147499.0
+    coord 147499
     coord 56297.0
     coord 174.0
   ]
@@ -108398,7 +108549,7 @@ graph [
     key 5
     tags "_networkx_list_start"
     tags "true"
-    coord 147301.0
+    coord 147301
     coord 55515.0
     coord 177.0
   ]
@@ -108408,7 +108559,7 @@ graph [
     key 6
     tags "_networkx_list_start"
     tags "true"
-    coord 146380.0
+    coord 146380
     coord 54062.0
     coord 96.0
   ]
@@ -108418,7 +108569,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 150554.0
+    coord 150554
     coord 66647.0
     coord 162.0
   ]
@@ -108428,7 +108579,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 149848.0
+    coord 149848
     coord 64625.0
     coord 124.0
   ]
@@ -108438,7 +108589,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 148882.0
+    coord 148882
     coord 60695.0
     coord 131.0
   ]
@@ -108448,7 +108599,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 146842.0
+    coord 146842
     coord 54500.0
     coord 151.0
   ]
@@ -108458,7 +108609,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 147559.0
+    coord 147559
     coord 56302.0
     coord 165.0
   ]
@@ -108468,7 +108619,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 148993.0
+    coord 148993
     coord 61710.0
     coord 99.0
   ]
@@ -108478,7 +108629,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 52486.0
+    coord 52486
     coord 74107.0
     coord 542.0
   ]
@@ -108488,7 +108639,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 51558.0
+    coord 51558
     coord 74466.0
     coord 484.0
   ]
@@ -108498,7 +108649,7 @@ graph [
     key 2
     tags "_networkx_list_start"
     tags "true"
-    coord 53084.0
+    coord 53084
     coord 74239.0
     coord 560.0
   ]
@@ -108508,7 +108659,7 @@ graph [
     key 3
     tags "_networkx_list_start"
     tags "true"
-    coord 53661.0
+    coord 53661
     coord 74484.0
     coord 575.0
   ]
@@ -108518,7 +108669,7 @@ graph [
     key 4
     tags "_networkx_list_start"
     tags "true"
-    coord 53833.0
+    coord 53833
     coord 74600.0
     coord 575.0
   ]
@@ -108528,7 +108679,7 @@ graph [
     key 5
     tags "_networkx_list_start"
     tags "true"
-    coord 55167.0
+    coord 55167
     coord 75682.0
     coord 573.0
   ]
@@ -108538,7 +108689,7 @@ graph [
     key 6
     tags "_networkx_list_start"
     tags "true"
-    coord 55141.0
+    coord 55141
     coord 76299.0
     coord 559.0
   ]
@@ -108548,7 +108699,7 @@ graph [
     key 7
     tags "_networkx_list_start"
     tags "true"
-    coord 55141.0
+    coord 55141
     coord 77329.0
     coord 534.0
   ]
@@ -108558,7 +108709,7 @@ graph [
     key 8
     tags "_networkx_list_start"
     tags "true"
-    coord 55023.0
+    coord 55023
     coord 77533.0
     coord 510.0
   ]
@@ -108568,7 +108719,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 51895.0
+    coord 51895
     coord 74976.0
     coord 363.0
   ]
@@ -108578,7 +108729,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 52700.0
+    coord 52700
     coord 76210.0
     coord 176.0
   ]
@@ -108588,7 +108739,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 98250.0
+    coord 98250
     coord 66695.0
     coord 444.0
   ]
@@ -108598,7 +108749,7 @@ graph [
     key 1
     tags "_networkx_list_start"
     tags "true"
-    coord 98429.0
+    coord 98429
     coord 66298.0
     coord 446.0
   ]
@@ -108608,7 +108759,7 @@ graph [
     key 0
     tags "_networkx_list_start"
     tags "true"
-    coord 84971.0
+    coord 84971
     coord 45506.0
     coord 1048.0
   ]

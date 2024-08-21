@@ -28,11 +28,18 @@ G = default_G
 # fix random seed. 
 random.seed(30072024)
 
+def has_no_soma(cell):
+    try:
+        G.nodes[cell]['soma_coord']
+        return False
+    except KeyError:
+        return True
+
 mli2s = [cell for cell in G.nodes if cell_type(cell, G = G) == 'MLI2' and node_within_bounds(cell)]
 mli1s = [cell for cell in G.nodes if cell_type(cell, G = G) == 'MLI1' and node_within_bounds(cell)]
 
 # randomly select 20 of each type of MLI to use. 
-SAMPLE_SIZE = 20
+SAMPLE_SIZE = 10
 
 mli2s = random.sample(mli2s, SAMPLE_SIZE)
 mli1s = random.sample(mli1s, SAMPLE_SIZE)
@@ -69,7 +76,22 @@ for mli1 in mli1s:
 contacts_arrays.append(contacts_numbers)
 unique_num_arrays.append(unique_numbers)
 
-plt.boxplot(contacts_arrays + unique_num_arrays)
-plt.yticks(range(0, 25, 2))
-plt.show()
-plt.savefig('c:\\Users\\regehr\\Downloads\\CF Contacts per MLI Boxplots')
+def scatterplot():
+    mli1_contact_coords = [(2.9 + random.random() * 0.2, count + random.random() * 0.05) for count in contacts_arrays[1]]
+    mli1_unique_coords = [(3.9 + random.random() * 0.2, count + random.random() * 0.05) for count in unique_num_arrays[1]]
+    mli2_contact_coords = [(0.9 + random.random() * 0.2, count + random.random() * 0.05) for count in contacts_arrays[0]]
+    mli2_unique_coords = [(1.9 + random.random() * 0.2, count + random.random() * 0.05) for count in unique_num_arrays[0]]
+    dots = mli1_contact_coords + mli1_unique_coords + mli2_contact_coords + mli2_unique_coords
+    xs, ys = [dot[0] for dot in dots], [dot[1] for dot in dots]
+    plt.scatter(xs, ys)
+    plt.yticks(range(0, 10, 1))
+    plt.show()
+    # plt.savefig('c:\\Users\\regehr\\Downloads\\CF Contacts per MLI Scatter')
+
+def boxplots():
+    plt.boxplot(contacts_arrays + unique_num_arrays)
+    plt.yticks(range(0, 10, 1))
+    plt.show()
+    # plt.savefig('c:\\Users\\regehr\\Downloads\\CF Contacts per MLI Boxplots')
+
+scatterplot()
