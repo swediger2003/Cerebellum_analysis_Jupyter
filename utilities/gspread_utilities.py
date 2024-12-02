@@ -105,7 +105,7 @@ def destringify(string: str):
     if is_float_string(string):
         string = float(string)
         return string
-    if is_list_string(string):
+    if is_float_list_string(string):
         string = string_to_list(string)
         return string
     if is_boolean_string(string):
@@ -240,14 +240,14 @@ def guess_cell_type(cell_name):
     # go through a variety of cell types and see if the cell name contains markers used as shorthand for the cell. 
     # for example, a cell that contains the letters "pc" is likely a purkinje cell. 
     type_markers = {
+        'fragment': 'fragment', 
+        'pcl' : 'interneuron', 
         'pc' : 'pc', 
         'grc' : 'grc', 
         'pf' : 'grc', 
         'mli' : 'interneuron', 
         'interneuron' : 'interneuron', 
-        'pli' : 'pli', 
-        'pcl' : 'interneuron', 
-        'fragment': 'fragment'
+        'pli' : 'pli'
     }
 
     for marker, guessed_type in type_markers.items():
@@ -270,8 +270,9 @@ def remove_trailing_spaces_from_table(table):
 CRITICAL_NODE_ATTRIBUTES = ['cell_type']
 CRITICAL_EDGE_ATTRIBUTES = ['coord']
 
-#given a table containing data for edges and a table containing data for nodes, validate that the graph fulfills all necessary conditions for future assumptions. 
+# given a table containing data for edges and a table containing data for nodes, validate that the graph fulfills all necessary conditions for future assumptions. 
 # -- all cells must have a cell type. 
+# Additionally returns a validated version of the given graph, making any necessary changes for it to be valid. 
 def validate_graph_table(edge_table, node_table):
 
     edge_table = remove_trailing_spaces_from_table(edge_table)
@@ -351,7 +352,7 @@ def validate_graph_table(edge_table, node_table):
                 print(f'{problem["name"]}:{guessed_type}\n')
             # now go and edit the thing. 
             new_graph.nodes[problem['name']][problem['attr']] = problem['input']
-            node_table[problem['row']] = node_to_row(problem['name'], G=new_graph)
+            node_table[problem['row']] = node_to_row((problem['name'], new_graph.nodes(data = True)[problem['name']]))
 
     if incomplete_edges != []:
         for problem in incomplete_edges:
@@ -496,9 +497,15 @@ def is_float_string(string: str):
     return len(string) > 0 and all([is_numeric_string(char) or char in ['.', ' '] for char in string])
 
 # True if value is a list of floats separated by commas. 
-def is_list_string(string: str):
+def is_float_list_string(string: str):
     string = string.strip('()[]')
     return ',' in string and all([is_float_string(item) for item in string.split(',')])
+
+def is_float_list_list_string(string: str):
+    string = string.strip('()[]')
+    string = string.split('),(')
+    # at this point string is a list of float lists, if the string was a float
+    return all([is_float_list_string(item) for item in string])
 
 def col_to_annotations(sheet_object):
     values = sheet_object.get_all_values()
@@ -531,7 +538,7 @@ def concatenate_tables(*tables):
         final_table += (table)
     return final_table
 
-def decimal_to_base_n(integer, mod):
+def decimal_to_base_n(integer: int, mod: int):
     result = []
     digits = floor((ln(integer) / ln(mod)))
     exp = digits
@@ -543,7 +550,7 @@ def decimal_to_base_n(integer, mod):
 
 # turns a pair of integers (coordinate) into a STRING like A1 or C9. 
 # Google Sheets is effectively base 26, so just convert a number to base 26. 
-def coord_to_gdocs_coord(coord):
+def coord_to_gdocs_coord(coord: list[int]):
     x, y = coord
     x += 1
     x = decimal_to_base_n(x, 26)
@@ -560,6 +567,7 @@ def coord_pair_to_gdocs_coord_pair(coord1, coord2):
 
     return coord1 + ':' + coord2
 
+# exists to turn a list of manual annotations into graph format. 
 def move_annotations_to_graph_edges():
     DOCUMENT_OBJECT = cf_synapse_doc
     ANNOTATION_SHEET_NAME = "Synapse Annotation Inputs"
@@ -572,7 +580,7 @@ def move_annotations_to_graph_edges():
     # the amount of synapses already logged
     existing_rows = len(collected_data.get_all_values())
 
-    # we could just concatenate the existing stuff with the new stuff and rewrite, but i am kind of nervous about losing all of that. 
+    # we could just concatenate the existing stuff with the new stuff and rewrite, but i am kind of nervous about losing data. 
 
     # add the coord table just below existing ones. 
     new_start_y = existing_rows + 1
