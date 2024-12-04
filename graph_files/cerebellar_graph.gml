@@ -2863,7 +2863,7 @@ graph [
   node [
     id 378
     label "pc_dendrite_fragment_23"
-    cell_type "fragment"
+    cell_type "pc"
   ]
   node [
     id 379
@@ -2920,7 +2920,7 @@ graph [
   node [
     id 387
     label "pc_dendrite_fragment_24"
-    cell_type "fragment"
+    cell_type "pc"
   ]
   node [
     id 388

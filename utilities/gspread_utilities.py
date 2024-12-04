@@ -240,9 +240,9 @@ def guess_cell_type(cell_name):
     # go through a variety of cell types and see if the cell name contains markers used as shorthand for the cell. 
     # for example, a cell that contains the letters "pc" is likely a purkinje cell. 
     type_markers = {
+        'pc' : 'pc', 
         'fragment': 'fragment', 
         'pcl' : 'interneuron', 
-        'pc' : 'pc', 
         'grc' : 'grc', 
         'pf' : 'grc', 
         'mli' : 'interneuron', 
