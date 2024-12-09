@@ -409,6 +409,8 @@ def merge_node_tables(old_table, new_table):
 # given a row and a 'key:value' string, return a row that either has its old key:value edited or has a new key:value added, if none existed. 
 def merge_edge_rows(original_row: list[str], modified_row: list[str]) -> list[str]:
     for cell in modified_row[3:]:
+        assert(type(cell) == str)
+        cell = cell.lower()
         change_row_with_attribute(original_row, cell)
     return original_row
 
