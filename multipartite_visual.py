@@ -6,7 +6,7 @@ import os
 # https://matplotlib.org/stable/index.html
 import matplotlib.pyplot as plt
 
-# below is possibly the worst function ever made. 
+# below is a poorly designed function from someone with little python experience, apparently. 
 def draw_disinhibition_graph(pc, G = G, include_non_predecessor_mli1s = True, include_cf_only_mli1s = False, include_cf_mli1_edges = False, target_pc = None, save = False, generate_legend = False, use_ephaptic = False):
     #set for graph
     fig, ax = plt.subplots()
@@ -24,7 +24,7 @@ def draw_disinhibition_graph(pc, G = G, include_non_predecessor_mli1s = True, in
             plt.savefig(os.path.join(downloads_path, 'Legend.png'), format = 'png')
         return
     
-    # unless signified, do not count ephaptic signaling in the graph. 
+    # unless specified, do not count ephaptic signaling in the graph. 
     if not use_ephaptic:
         remove = [edge for edge in G.edges(keys = True, data = True) if 'ephaptic' in edge[3]['tags']]
         for edge in remove:
@@ -301,4 +301,4 @@ def draw_inhibition_graph(pc, G = G, target_pc = None, save = False, squish = Fa
 
 if __name__ == '__main__':
     for pc in pc_list:
-        draw_disinhibition_graph(pc, G, target_pc=pc, use_ephaptic=True, save = True)
+        draw_disinhibition_graph(pc, G, target_pc=pc, use_ephaptic=True, save = False)
